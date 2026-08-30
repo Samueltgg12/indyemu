@@ -45,6 +45,7 @@ private:
     void handleRegimmType(u32 instr, u32 current_pc);
     void handleCop0Type(u32 instr, u32 current_pc);
     void handleSpecial2(u32 instr, u32 current_pc);
+    void handleSpecial3(u32 instr, u32 current_pc);
 
     void setReg(u32 index, u32 value);
     u32 getReg(u32 index) const;

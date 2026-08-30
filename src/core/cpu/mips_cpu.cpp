@@ -117,6 +117,9 @@ void MipsCpu::executeInstruction(u32 instr, u32 current_pc) {
         case 0x1C:
             handleSpecial2(instr, current_pc);
             break;
+        case 0x1F:
+            handleSpecial3(instr, current_pc);
+            break;
         default:
             illegalInstruction(instr);
             break;
@@ -258,6 +261,32 @@ void MipsCpu::handleIType(u32 instr, u32 current_pc) {
                 regs_.next_pc = current_pc + 4 + (simm << 2);
             }
             break;
+        case 0x06: // blez
+            if (static_cast<i32>(getReg(rs)) <= 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            }
+            break;
+        case 0x07: // bgtz
+            if (static_cast<i32>(getReg(rs)) > 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            }
+            break;
+        case 0x14: // beql
+            if (getReg(rs) == getReg(rt)) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            } else {
+                regs_.pc = regs_.next_pc;
+                regs_.next_pc = regs_.pc + 4;
+            }
+            break;
+        case 0x15: // bnel
+            if (getReg(rs) != getReg(rt)) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            } else {
+                regs_.pc = regs_.next_pc;
+                regs_.next_pc = regs_.pc + 4;
+            }
+            break;
         case 0x08: // addi
             setReg(rt, getReg(rs) + static_cast<u32>(simm));
             break;
@@ -288,6 +317,15 @@ void MipsCpu::handleIType(u32 instr, u32 current_pc) {
         case 0x21: // lh
             setReg(rt, static_cast<u32>(static_cast<i32>(static_cast<i16>(memory_.read16(getReg(rs) + static_cast<u32>(simm))))));
             break;
+        case 0x22: // lwl
+            {
+                const u32 addr = getReg(rs) + static_cast<u32>(simm);
+                const u32 aligned = addr & ~3u;
+                const u32 word = memory_.read32(aligned);
+                const u32 mask = (0xFFFFFFFFu >> ((addr & 3u) * 8u));
+                setReg(rt, (getReg(rt) & ~mask) | (word << ((addr & 3u) * 8u)));
+            }
+            break;
         case 0x23: // lw
             setReg(rt, memory_.read32(getReg(rs) + static_cast<u32>(simm)));
             break;
@@ -297,14 +335,64 @@ void MipsCpu::handleIType(u32 instr, u32 current_pc) {
         case 0x25: // lhu
             setReg(rt, memory_.read16(getReg(rs) + static_cast<u32>(simm)));
             break;
+        case 0x26: // lwr
+            {
+                const u32 addr = getReg(rs) + static_cast<u32>(simm);
+                const u32 aligned = addr & ~3u;
+                const u32 word = memory_.read32(aligned);
+                const u32 shift = (addr & 3u) * 8u;
+                setReg(rt, (getReg(rt) & (0xFFFFFFFFu << (32u - shift))) | (word >> (24u - shift)));
+            }
+            break;
         case 0x28: // sb
             memory_.write8(getReg(rs) + static_cast<u32>(simm), static_cast<u8>(getReg(rt) & 0xFFu));
             break;
         case 0x29: // sh
             memory_.write16(getReg(rs) + static_cast<u32>(simm), static_cast<u16>(getReg(rt) & 0xFFFFu));
             break;
+        case 0x2A: // swl
+            {
+                const u32 addr = getReg(rs) + static_cast<u32>(simm);
+                const u32 aligned = addr & ~3u;
+                const u32 word = memory_.read32(aligned);
+                const u32 shift = (addr & 3u) * 8u;
+                memory_.write32(aligned, (word & (0xFFFFFFFFu << (shift + 8u))) | ((getReg(rt) >> (24u - shift)) & 0xFFu));
+            }
+            break;
         case 0x2B: // sw
             memory_.write32(getReg(rs) + static_cast<u32>(simm), getReg(rt));
+            break;
+        case 0x2E: // swr
+            {
+                const u32 addr = getReg(rs) + static_cast<u32>(simm);
+                const u32 aligned = addr & ~3u;
+                const u32 word = memory_.read32(aligned);
+                const u32 shift = (addr & 3u) * 8u;
+                memory_.write32(aligned, (word & (0xFFFFFFFFu >> (32u - shift))) | ((getReg(rt) << (24u - shift)) & 0xFFFFFFFFu));
+            }
+            break;
+        case 0x2F: // cache / pref: no-op in early PROM boot and warm startup paths
+            break;
+        case 0x30: // ll
+            setReg(rt, memory_.read32(getReg(rs) + static_cast<u32>(simm)));
+            break;
+        case 0x31: // lwc1 / no-op stub
+            break;
+        case 0x32: // lwc2 / no-op stub
+            break;
+        case 0x33: // ldc1 / no-op stub
+            break;
+        case 0x34: // lwc3 / no-op stub
+            break;
+        case 0x35: // ldc2 / no-op stub
+            break;
+        case 0x36: // swc1 / no-op stub
+            break;
+        case 0x37: // swc2 / no-op stub
+            break;
+        case 0x38: // sc
+            memory_.write32(getReg(rs) + static_cast<u32>(simm), getReg(rt));
+            setReg(rt, 1u);
             break;
         default:
             illegalInstruction(instr);
@@ -465,6 +553,58 @@ void MipsCpu::handleSpecial2(u32 instr, u32 current_pc) {
                     value <<= 1;
                 }
                 setReg(rd, count);
+            }
+            break;
+        default:
+            illegalInstruction(instr);
+            break;
+    }
+}
+
+void MipsCpu::handleSpecial3(u32 instr, u32 current_pc) {
+    const u32 funct = instr & 0x3Fu;
+    const u32 rs = (instr >> 21) & 0x1F;
+    const u32 rt = (instr >> 16) & 0x1F;
+    const u32 rd = (instr >> 11) & 0x1F;
+    const u32 sa = (instr >> 6) & 0x1F;
+
+    switch (funct) {
+        case 0x00: // ext
+            {
+                const u32 pos = (instr >> 11) & 0x1Fu;
+                const u32 size = ((instr >> 6) & 0x1Fu) + 1u;
+                const u32 mask = (size >= 32u) ? 0xFFFFFFFFu : ((1u << size) - 1u);
+                setReg(rt, (getReg(rs) >> pos) & mask);
+            }
+            break;
+        case 0x04: // ins
+            {
+                const u32 pos = (instr >> 11) & 0x1Fu;
+                const u32 size = ((instr >> 6) & 0x1Fu) + 1u;
+                const u32 mask = (size >= 32u) ? 0xFFFFFFFFu : ((1u << size) - 1u);
+                const u32 src = getReg(rt);
+                const u32 dest = getReg(rs);
+                const u32 value = (src & mask) << pos;
+                setReg(rs, (dest & ~(mask << pos)) | value);
+            }
+            break;
+        case 0x20:
+            switch (sa) {
+                case 0x02: // wsbh
+                    {
+                        const u32 value = getReg(rt);
+                        setReg(rd, ((value & 0x00FF00FFu) << 8) | ((value & 0xFF00FF00u) >> 8));
+                    }
+                    break;
+                case 0x10: // seb
+                    setReg(rd, static_cast<u32>(static_cast<i32>(static_cast<i8>(getReg(rt) & 0xFFu))));
+                    break;
+                case 0x18: // seh
+                    setReg(rd, static_cast<u32>(static_cast<i32>(static_cast<i16>(getReg(rt) & 0xFFFFu))));
+                    break;
+                default:
+                    illegalInstruction(instr);
+                    break;
             }
             break;
         default:
