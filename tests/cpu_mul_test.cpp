@@ -13,7 +13,7 @@ int main() {
     const std::array<unsigned char, 12> prom = {
         0x34, 0x01, 0x00, 0x03,  // ori $1, $zero, 3
         0x34, 0x02, 0x00, 0x04,  // ori $2, $zero, 4
-        0x7c, 0x02, 0x00, 0x02,  // mul $3, $1, $2 (opcode 0x1c, funct 0x02)
+        0x70, 0x22, 0x18, 0x02,  // mul $3, $1, $2 (SPECIAL2, funct 0x02)
     };
     out.write(reinterpret_cast<const char*>(prom.data()), prom.size());
     out.close();

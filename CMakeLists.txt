@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(IndyEmu LANGUAGES CXX)
 
+enable_testing()
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -106,6 +108,14 @@ add_executable(hardware_shell_test
 )
 
 target_include_directories(hardware_shell_test PRIVATE src)
+
+add_test(NAME memory_endianness_test COMMAND memory_endianness_test)
+add_test(NAME cpu_jtype_test COMMAND cpu_jtype_test)
+add_test(NAME cpu_branch_test COMMAND cpu_branch_test)
+add_test(NAME cpu_mul_test COMMAND cpu_mul_test)
+add_test(NAME register_io_map_test COMMAND register_io_map_test)
+add_test(NAME cpu_cop1_test COMMAND cpu_cop1_test)
+add_test(NAME cop0_test COMMAND cop0_test)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
