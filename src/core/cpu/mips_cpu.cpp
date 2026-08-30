@@ -168,6 +168,10 @@ void MipsCpu::handleRType(u32 instr, u32 current_pc) {
         case 0x0C: // syscall
             std::cout << "System call encountered (instruction 0x" << std::hex << instr << ")\n";
             break;
+        case 0x0F: // sync
+            // Real MIPS III/IV PROM and kernel code uses SYNC as a memory ordering barrier.
+            // Treat it as a no-op for the interpreter stage while preserving the architectural ordering point.
+            break;
         case 0x10: // mfhi
             setReg(rd, regs_.hi);
             break;

@@ -98,6 +98,17 @@ add_executable(cop0_test
 
 target_include_directories(cop0_test PRIVATE src)
 
+add_executable(cpu_r4400_test
+    tests/cpu_r4400_test.cpp
+    src/core/memory.cpp
+    src/core/cpu/mips_cpu.cpp
+    src/io/register_map.cpp
+)
+
+target_include_directories(cpu_r4400_test PRIVATE src)
+
+add_test(NAME cpu_r4400_test COMMAND cpu_r4400_test)
+
 add_executable(hardware_shell_test
     tests/hardware_shell_test.cpp
     src/io/register_map.cpp
