@@ -22,6 +22,7 @@ public:
     void reset();
     void run(std::size_t steps);
     void dumpState() const;
+    void setTraceEnabled(bool enabled) { cpu_.setTraceEnabled(enabled); }
 
     const MachineConfig& config() const { return config_; }
     Memory& memory() { return memory_; }

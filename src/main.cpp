@@ -26,6 +26,21 @@ int main(int argc, char** argv) {
     std::cout << "IndyEmu v0.1\n";
     std::cout << "SGI Indy bootstrap emulator for MIPS R4400-class system emulation\n\n";
 
+    bool trace = false;
+    std::size_t steps = 20;
+    std::string prom_path;
+
+    for (int i = 1; i < argc; ++i) {
+        const std::string arg = argv[i];
+        if (arg == "--trace") {
+            trace = true;
+        } else if (arg == "--steps" && i + 1 < argc) {
+            steps = static_cast<std::size_t>(std::stoul(argv[++i]));
+        } else if (i == 1 && arg != "--trace" && arg != "--steps") {
+            prom_path = arg;
+        }
+    }
+
     indyemu::ensureConfigLayout();
     indyemu::writeDefaultProfile("default");
 
@@ -35,11 +50,9 @@ int main(int argc, char** argv) {
     config.prom_size_bytes = 512u * 1024u;
 
     indyemu::IndySystem system(config);
+    system.setTraceEnabled(trace);
 
-    std::string prom_path;
-    if (argc > 1) {
-        prom_path = argv[1];
-    } else {
+    if (prom_path.empty()) {
         prom_path = resolvePromPath({});
     }
 
@@ -54,7 +67,7 @@ int main(int argc, char** argv) {
         std::cout << "No PROM image specified. Running with a blank RAM/PROM model.\n";
     }
 
-    system.run(20);
+    system.run(steps);
     system.dumpState();
     return 0;
 }

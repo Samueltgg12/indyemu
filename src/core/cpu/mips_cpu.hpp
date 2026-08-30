@@ -30,6 +30,8 @@ public:
     void reset();
     bool step();
     void dumpState() const;
+    void setTraceEnabled(bool enabled) { trace_enabled_ = enabled; }
+    bool traceEnabled() const { return trace_enabled_; }
 
     Registers& registers() { return regs_; }
     const Registers& registers() const { return regs_; }
@@ -37,6 +39,7 @@ public:
 private:
     Memory& memory_;
     Registers regs_{};
+    bool trace_enabled_ = false;
 
     u32 fetchInstruction() const;
     void executeInstruction(u32 instr, u32 current_pc);

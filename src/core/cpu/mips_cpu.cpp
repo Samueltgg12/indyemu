@@ -40,6 +40,9 @@ bool MipsCpu::step() {
 }
 
 void MipsCpu::dumpState() const {
+    if (!trace_enabled_) {
+        return;
+    }
     std::cout << "PC=0x" << std::hex << regs_.pc << " NextPC=0x" << regs_.next_pc << "\n";
     for (int i = 0; i < 8; ++i) {
         for (int j = 0; j < 4; ++j) {
