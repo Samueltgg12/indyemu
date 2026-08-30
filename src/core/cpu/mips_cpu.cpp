@@ -114,6 +114,12 @@ void MipsCpu::executeInstruction(u32 instr, u32 current_pc) {
         case 0x10:
             handleCop0Type(instr, current_pc);
             break;
+        case 0x11:
+            handleCop1Type(instr, current_pc);
+            break;
+        case 0x13:
+            // COP3 paths are not used by the early Indy PROM flow; treat as a safe no-op to keep the boot ROM moving.
+            break;
         case 0x1C:
             handleSpecial2(instr, current_pc);
             break;
@@ -430,6 +436,37 @@ void MipsCpu::handleRegimmType(u32 instr, u32 current_pc) {
             break;
         default:
             illegalInstruction(instr);
+            break;
+    }
+}
+
+void MipsCpu::handleCop1Type(u32 instr, u32 current_pc) {
+    const u32 fmt = (instr >> 21) & 0x1Fu;
+    const u32 rt = (instr >> 16) & 0x1Fu;
+    const i32 simm = static_cast<i32>(signExtend16(instr & 0xFFFFu));
+
+    switch (fmt) {
+        case 0x00: // MFC1 / BCF1-like moves
+            break;
+        case 0x04: // MTC1
+            break;
+        case 0x08: // BC1
+            {
+                const bool taken = (rt & 0x01u) != 0u ? regs_.fpu_condition : !regs_.fpu_condition;
+                if (taken) {
+                    regs_.next_pc = current_pc + 4 + (simm << 2);
+                }
+            }
+            break;
+        case 0x10:
+        case 0x11:
+        case 0x14:
+        case 0x15:
+        case 0x16:
+        case 0x17:
+            // Generic COP1 arithmetic / comparison instructions are ignored for the PROM boot path.
+            break;
+        default:
             break;
     }
 }

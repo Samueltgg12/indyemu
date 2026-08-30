@@ -1,6 +1,7 @@
 #pragma once
 
 #include "core/common.hpp"
+#include "io/register_map.hpp"
 
 #include <array>
 #include <cstddef>
@@ -35,11 +36,13 @@ public:
 private:
     std::unique_ptr<u8[]> ram_;
     std::unique_ptr<u8[]> prom_;
+    RegisterMap registers_{};
     bool prom_loaded_ = false;
 
     static u32 translateAddress(u32 address);
     bool isPromAddress(u32 address) const;
     bool isRamAddress(u32 address) const;
+    bool isIoRegisterAddress(u32 address) const;
 };
 
 }  // namespace indyemu

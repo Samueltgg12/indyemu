@@ -18,6 +18,7 @@ public:
     struct Registers {
         std::array<u32, 32> gpr{};
         std::array<u32, 32> cop0{};
+        bool fpu_condition = false;
         u32 hi = 0;
         u32 lo = 0;
         u32 pc = kInitialPc;
@@ -30,6 +31,7 @@ public:
     bool step();
     void dumpState() const;
 
+    Registers& registers() { return regs_; }
     const Registers& registers() const { return regs_; }
 
 private:
@@ -44,6 +46,7 @@ private:
     void handleIType(u32 instr, u32 current_pc);
     void handleRegimmType(u32 instr, u32 current_pc);
     void handleCop0Type(u32 instr, u32 current_pc);
+    void handleCop1Type(u32 instr, u32 current_pc);
     void handleSpecial2(u32 instr, u32 current_pc);
     void handleSpecial3(u32 instr, u32 current_pc);
 
