@@ -48,6 +48,14 @@ add_executable(cpu_branch_test
 
 target_include_directories(cpu_branch_test PRIVATE src)
 
+add_executable(cpu_mul_test
+    tests/cpu_mul_test.cpp
+    src/core/memory.cpp
+    src/core/cpu/mips_cpu.cpp
+)
+
+target_include_directories(cpu_mul_test PRIVATE src)
+
 add_executable(config_paths_test
     tests/config_paths_test.cpp
 )

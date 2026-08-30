@@ -42,6 +42,7 @@ private:
     void handleRType(u32 instr, u32 current_pc);
     void handleJType(u32 instr, u32 current_pc);
     void handleIType(u32 instr, u32 current_pc);
+    void handleRegimmType(u32 instr, u32 current_pc);
     void handleCop0Type(u32 instr, u32 current_pc);
     void handleSpecial2(u32 instr, u32 current_pc);
 

@@ -64,7 +64,7 @@ void MipsCpu::executeInstruction(u32 instr, u32 current_pc) {
             handleRType(instr, current_pc);
             break;
         case 0x01:
-            handleCop0Type(instr, current_pc);
+            handleRegimmType(instr, current_pc);
             break;
         case 0x02:
         case 0x03:
@@ -312,6 +312,40 @@ void MipsCpu::handleIType(u32 instr, u32 current_pc) {
     }
 }
 
+void MipsCpu::handleRegimmType(u32 instr, u32 current_pc) {
+    const u32 rs = (instr >> 21) & 0x1Fu;
+    const u32 rt = (instr >> 16) & 0x1Fu;
+    const i32 simm = static_cast<i32>(signExtend16(instr & 0xFFFFu));
+
+    switch (rt) {
+        case 0x00: // bltz
+            if (static_cast<i32>(getReg(rs)) < 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            }
+            break;
+        case 0x01: // bgez
+            if (static_cast<i32>(getReg(rs)) >= 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            }
+            break;
+        case 0x10: // bltzal
+            setReg(31, current_pc + 8);
+            if (static_cast<i32>(getReg(rs)) < 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            }
+            break;
+        case 0x11: // bgezal
+            setReg(31, current_pc + 8);
+            if (static_cast<i32>(getReg(rs)) >= 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            }
+            break;
+        default:
+            illegalInstruction(instr);
+            break;
+    }
+}
+
 void MipsCpu::handleCop0Type(u32 instr, u32 current_pc) {
     const u32 rs = (instr >> 21) & 0x1Fu;
     const u32 rt = (instr >> 16) & 0x1Fu;
@@ -332,6 +366,22 @@ void MipsCpu::handleCop0Type(u32 instr, u32 current_pc) {
                 if (branch_taken) {
                     regs_.next_pc = current_pc + 4 + (offset << 2);
                 }
+            }
+            break;
+        case 0x10: // COP0 special control ops (RFE/ERET-style stubs)
+            if (sel == 0x02u) {
+                // RFE:
+                // The early Indy PROM uses a simplified flow; leave the status bits as-is.
+                break;
+            }
+            if (sel == 0x00u) {
+                break;
+            }
+            if (sel != 0u) {
+                // Some COP0 special cases use sel; treat them as register moves for now.
+                setReg(rt, regs_.cop0[rd]);
+            } else {
+                illegalInstruction(instr);
             }
             break;
         default:
@@ -365,9 +415,50 @@ void MipsCpu::handleSpecial2(u32 instr, u32 current_pc) {
                 regs_.hi = static_cast<u32>((result >> 32) & 0xFFFFFFFFULL);
             }
             break;
-        case 0x03: // clz
+        case 0x01: // maddu
+            {
+                const u64 lhs = (static_cast<u64>(regs_.hi) << 32) | regs_.lo;
+                const u64 rhs = static_cast<u64>(getReg(rs)) * static_cast<u64>(getReg(rt));
+                const u64 result = lhs + rhs;
+                regs_.lo = static_cast<u32>(result & 0xFFFFFFFFULL);
+                regs_.hi = static_cast<u32>((result >> 32) & 0xFFFFFFFFULL);
+            }
+            break;
+        case 0x02: // mul
+            setReg(rd, static_cast<u32>(static_cast<i64>(static_cast<i32>(getReg(rs))) * static_cast<i64>(static_cast<i32>(getReg(rt)))));
+            break;
+        case 0x04: // msub
+            {
+                const u64 lhs = (static_cast<u64>(regs_.hi) << 32) | regs_.lo;
+                const u64 rhs = static_cast<u64>(static_cast<i64>(static_cast<i32>(getReg(rs))) * static_cast<i64>(static_cast<i32>(getReg(rt))));
+                const u64 result = lhs - rhs;
+                regs_.lo = static_cast<u32>(result & 0xFFFFFFFFULL);
+                regs_.hi = static_cast<u32>((result >> 32) & 0xFFFFFFFFULL);
+            }
+            break;
+        case 0x05: // msubu
+            {
+                const u64 lhs = (static_cast<u64>(regs_.hi) << 32) | regs_.lo;
+                const u64 rhs = static_cast<u64>(getReg(rs)) * static_cast<u64>(getReg(rt));
+                const u64 result = lhs - rhs;
+                regs_.lo = static_cast<u32>(result & 0xFFFFFFFFULL);
+                regs_.hi = static_cast<u32>((result >> 32) & 0xFFFFFFFFULL);
+            }
+            break;
+        case 0x20: // clz
             {
                 u32 value = getReg(rs);
+                u32 count = 0;
+                while (value && (value & 0x80000000u) == 0) {
+                    ++count;
+                    value <<= 1;
+                }
+                setReg(rd, count);
+            }
+            break;
+        case 0x21: // clo
+            {
+                u32 value = ~getReg(rs);
                 u32 count = 0;
                 while (value && (value & 0x80000000u) == 0) {
                     ++count;
