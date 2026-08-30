@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">IndyEmu Logo</title>
+  <desc id="desc">A retro SGI Indy-inspired logo featuring an indigo circle and monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a1f3a"/>
+      <stop offset="100%" stop-color="#394d7a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8fbaf8"/>
+      <stop offset="100%" stop-color="#dfeafc"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#b8c9e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="32" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="172" fill="none" stroke="#c8d7f3" stroke-width="20" opacity="0.9"/>
+  <circle cx="256" cy="256" r="132" fill="none" stroke="url(#accent)" stroke-width="10" opacity="0.9"/>
+  <path d="M200 132h112v244h-112z" fill="url(#stem)" opacity="0.96"/>
+  <path d="M196 158h120v40h-120zm0 80h120v40h-120zm0 80h120v40h-120z" fill="#1d2a47" opacity="0.3"/>
+  <path d="M170 376h172v38H170z" fill="#d8e8ff" opacity="0.9"/>
+  <path d="M155 190c35-38 71-58 101-58 65 0 117 52 117 118 0 10-1 18-3 26-18-25-46-40-79-40-42 0-80 25-97 75-2 7-4 15-6 23-15-16-28-35-38-57-9-19-15-42-16-67-1-10 0-19 1-20z" fill="url(#accent)" opacity="0.8"/>
+</svg>

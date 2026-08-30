@@ -1,0 +1,45 @@
+IndyEmu
+
+IndyEmu is a staged SGI Indy emulator project focused on the classic Indigo/IRIX workstation platform, the MIPS R4400-era boot path, and a hardware-faithful strategy rooted in the real SGI PROM, memory map, and device model.
+
+The project is intentionally organized around the actual machine flow:
+
+- PROM bootstrap first
+- CPU and memory model next
+- graphics and framebuffer after that
+- later storage, networking, and IRIX compatibility
+
+This is a research and development emulator, not a shipping SGI clone. The goal is to accurately model the architecture enough to reach the boot ROM and eventually the system software path.
+
+Project goals:
+- emulate the SGI Indy hardware profile with 128 MB RAM and a PROM-backed boot path
+- start with the embedded PROM and basic MIPS execution
+- support the IndigoMagic / retro workstation visual style in the GUI shell
+- model the machine in stages: CPU, MMIO, PROM, graphics, audio, storage, networking
+- keep the architecture interpreter-first, with a JIT as a later optimization layer
+
+Current status:
+The emulator is already booting into the SGI Indy PROM path and reaching real PROM instructions. The current work is focused on extending the MIPS interpreter to support the actual PROM instruction stream before moving further into IO register modeling and hardware fidelity.
+
+Build:
+cmake -S . -B build
+cmake --build build
+./build/indyemu
+./build/indyemu_gui
+
+CLI behavior:
+The command-line binary defaults to a minimal SGI Indy-style startup profile:
+- no attached storage by default
+- 128 MB RAM
+- embedded PROM loaded from the configured prom_embedded.bin
+- executable startup config created under the operating-system-specific config root
+
+Default config layout:
+- Linux: ./config/indyemu
+- Windows: ./indyemu
+- macOS: ./indyemu
+
+License:
+BSD 3-Clause License.
+
+See LICENSE for the full text.

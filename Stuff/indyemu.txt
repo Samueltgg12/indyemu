@@ -1,0 +1,63 @@
+I and Copilot present this Gem
+
+INDYEMU - THE VIBECODED INDY EMULATOR
+
+Indy Emu is a C++ Emulator made entirely with AI, currenly in progress. cpu and other things are still in construction
+
+Status Report:
+Indy - currenly being made - unsure of status
+
+Indyemu is built entirely with AI
+
+If you find any issues/bugs:You can make commits and fix everything by yourself or a another AI.
+
+
+
+Q&A:
+Q:What is it?
+
+A:An C++ SGI Indy (MIPS R4400)emulator inspired by IRIS. emulates enough things to boot into a Indy PROM.
+
+Q:But Why?
+
+A:I wanted to see how vibecoding could go far and learn git/github repos and C++.
+
+Q:Have skill in C/C++?
+
+A:Still entering the programming world. I wanted to make a speedy low-level middle-ground emulator(:
+
+Q:What AIs did you use?
+
+A:Copilot and Visual Studio Code Agents. They wrote everything of this (This entire readme.md is made by a human .)
+
+Q:Can i contribute?
+
+A:Yes, bug reports, commits, pull requests, merge requests and everything is welcome.
+
+Q:Regrets?
+
+A:No '_'
+
+
+
+
+Current status:
+Still in work
+
+
+Getting started:
+Compiling/building from source is the same as any C++/Qt App
+|:
+
+
+Input:
+Click the window to grab input. Right Ctrl releases the grab. Mouse and keyboard is standard PS/2 emulation through the IO.
+
+Docs and rules:
+You should see one when the AI implants them, they are all milestones and documentation.
+
+License:
+BSD 3-Clause
+
+Contribution policy:
+No problems with LLM/AI-generated code. All of the code is made with LLMs. PRs should be small and reasonable to review/make. One issue/fix per PR, preferably in one commit, since LLM Spaghetti don't help with clarity. Keep all small and manageable(:

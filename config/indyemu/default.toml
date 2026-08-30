@@ -1,0 +1,39 @@
+title = "default"
+
+[platform]
+name = "SGI Indy"
+model = "Indy / IRIS workstation"
+cpu = "MIPS R4400-class"
+boot_device = "PROM"
+
+[machine]
+ram_bytes = 134217728
+prom_image = "prom_embedded.bin"
+graphics_model = "24-bit XL framebuffer"
+sound_model = "Indy audio pipeline"
+has_storage = false
+has_network = true
+has_sound = true
+
+[memory]
+ram_base = 0x80000000
+prom_base = 0x1FC00000
+io_base = 0x1F000000
+
+[graphics]
+width = 1024
+height = 768
+bits_per_pixel = 24
+
+[storage]
+raw_disk_dir = "disks"
+boot_disk = "disks/boot.raw"
+install_media = ""
+
+[network]
+mac = "08:00:69:12:34:56"
+enabled = true
+
+[prom]
+embedded = "prom_embedded.bin"
+reset_vector = "0xBFC00000"
