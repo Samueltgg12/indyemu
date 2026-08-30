@@ -32,6 +32,34 @@ void Memory::reset() {
     registers_ = RegisterMap{};
 }
 
+Memory::Region Memory::regionForAddress(u32 address) const {
+    const u32 translated = translateAddress(address);
+    if (isPromAddress(translated)) {
+        return Region::kProm;
+    }
+    if (isRamAddress(translated)) {
+        return Region::kRam;
+    }
+    if (isIoRegisterAddress(translated)) {
+        return Region::kIo;
+    }
+    return Region::kUnknown;
+}
+
+const char* Memory::regionName(u32 address) const {
+    switch (regionForAddress(address)) {
+        case Region::kRam:
+            return "RAM";
+        case Region::kProm:
+            return "PROM";
+        case Region::kIo:
+            return "I/O";
+        case Region::kUnknown:
+        default:
+            return "unknown";
+    }
+}
+
 bool Memory::loadProm(const std::string& path) {
     std::ifstream file(path, std::ios::binary);
     if (!file) {

@@ -426,6 +426,22 @@ void MipsCpu::handleRegimmType(u32 instr, u32 current_pc) {
                 regs_.next_pc = current_pc + 4 + (simm << 2);
             }
             break;
+        case 0x02: // bltzl
+            if (static_cast<i32>(getReg(rs)) < 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            } else {
+                regs_.pc = regs_.next_pc;
+                regs_.next_pc = regs_.pc + 4;
+            }
+            break;
+        case 0x03: // bgezl
+            if (static_cast<i32>(getReg(rs)) >= 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            } else {
+                regs_.pc = regs_.next_pc;
+                regs_.next_pc = regs_.pc + 4;
+            }
+            break;
         case 0x10: // bltzal
             setReg(31, current_pc + 8);
             if (static_cast<i32>(getReg(rs)) < 0) {
@@ -436,6 +452,24 @@ void MipsCpu::handleRegimmType(u32 instr, u32 current_pc) {
             setReg(31, current_pc + 8);
             if (static_cast<i32>(getReg(rs)) >= 0) {
                 regs_.next_pc = current_pc + 4 + (simm << 2);
+            }
+            break;
+        case 0x12: // bltzall
+            setReg(31, current_pc + 8);
+            if (static_cast<i32>(getReg(rs)) < 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            } else {
+                regs_.pc = regs_.next_pc;
+                regs_.next_pc = regs_.pc + 4;
+            }
+            break;
+        case 0x13: // bgezall
+            setReg(31, current_pc + 8);
+            if (static_cast<i32>(getReg(rs)) >= 0) {
+                regs_.next_pc = current_pc + 4 + (simm << 2);
+            } else {
+                regs_.pc = regs_.next_pc;
+                regs_.next_pc = regs_.pc + 4;
             }
             break;
         default:

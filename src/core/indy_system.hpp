@@ -24,6 +24,10 @@ public:
     void dumpState() const;
 
     const MachineConfig& config() const { return config_; }
+    Memory& memory() { return memory_; }
+    const Memory& memory() const { return memory_; }
+    MipsCpu& cpu() { return cpu_; }
+    const MipsCpu& cpu() const { return cpu_; }
 
 private:
     MachineConfig config_;

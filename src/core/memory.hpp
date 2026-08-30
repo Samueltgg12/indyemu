@@ -14,6 +14,13 @@ namespace indyemu {
 
 class Memory {
 public:
+    enum class Region {
+        kUnknown,
+        kRam,
+        kProm,
+        kIo,
+    };
+
     static constexpr std::size_t kRamSize = 64 * 1024 * 1024;
     static constexpr std::size_t kPromSize = 2 * 1024 * 1024;
 
@@ -23,6 +30,8 @@ public:
     bool loadProm(const std::string& path);
     void reset();
 
+    Region regionForAddress(u32 address) const;
+    const char* regionName(u32 address) const;
     u8 read8(u32 address) const;
     u16 read16(u32 address) const;
     u32 read32(u32 address) const;
