@@ -1,6 +1,6 @@
 # IndyEmu
 
-![IndyEmu logo](assets/indyemu-logo.png)
+![IndyEmu logo](Stuff/indyemu-logo.png)
 
 IndyEmu is a C++ SGI Indy emulator project focused on the MIPS R4400-era platform, the SGI Indy PROM path, and the staged hardware model needed to reach a real workstation boot flow.
 
