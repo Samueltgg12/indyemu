@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Color Map Large Square" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 70L36.00 22L76.00 2L76.00 50z"/>
+	</g>
+	<g id="Small Red Square" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 58L36.00 46L46.00 41L46.00 53z"/>
+	</g>
+	<g id="Lines - Horizontal" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 58L76.00 38"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 46L76.00 26"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 34L76.00 14"/>
+	</g>
+	<g id="Lines - Vertical" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.00 65L46.00 17"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M56.00 60L56.00 12"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M66.00 55L66.00 7"/>
+	</g>
+	<g id="Brush Tip" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M45.80 50.1L46.20 46.9L46.80 43.8L48.20 41.3L49.80 39.3L52.40 37.6L55.10 36.8L55.30 38.5L57.00 40L58.20 40.6L57.70 42.6L56.70 44.3L55.00 45.8L52.90 46.9L51.00 47.6L48.80 48.2L47.50 49z"/>
+	</g>
+	<g id="Metal Part of Handle" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M58.20 40.6L57.00 40L55.30 38.5L55.10 36.8L60.70 31.6L61.30 33.5L62.60 34.6L64.20 35.2z"/>
+	</g>
+	<g id="Brush Handle" style="fill-rule:none;clip-rule:nonzero;fill:#888c38;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M64.20 35.2L62.60 34.6L61.30 33.5L60.70 31.6L94.50 1.40000000000001L95.90 1L97.30 1.40000000000001L98.00 3L97.10 4.40000000000001z"/>
+	</g>
+</g>
+</svg>

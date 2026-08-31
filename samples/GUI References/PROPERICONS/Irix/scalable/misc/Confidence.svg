@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Check Box" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M16.00 62L15.20 59L15.00 57.5L15.00 42L30.00 34.5L30.00 50L30.50 51.5L31.50 54.25z"/>
+	</g>
+	<g id="Check Outline" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.40 62.6L21.80 59.1L21.00 56.9L20.10 54.8L18.90 53.2L15.80 50.7L19.90 45.3L21.30 47L22.80 49.4L25.20 44.6L27.70 41.4L32.00 37.8L35.30 35.5L35.30 37.8L33.20 39.5L30.00 42.9L27.90 45.8L25.90 49.8L25.10 53L25.30 55.8z"/>
+	</g>
+	<g id="Check Right Poly" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.80 49.4L25.20 44.6L27.70 41.4L32.00 37.8L35.30 35.5L35.30 37.8L33.20 39.5L30.00 42.9L27.90 45.8L25.90 49.8L25.10 53L25.30 55.8L22.40 62.6z"/>
+	</g>
+	<g id="Check Left Poly" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.40 62.6L21.80 59.1L21.00 56.9L20.10 54.8L18.90 53.2L15.80 50.7L19.90 45.3L21.30 47L22.80 49.4z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50pt"
+   height="50pt"
+   viewBox="0 0 50 50"
+   xml:space="preserve"
+   version="1.1"
+   id="svg68"
+   sodipodi:docname="app-nvidia.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata74"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs72" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1022"
+   inkscape:window-height="1013"
+   id="namedview70"
+   showgrid="false"
+   inkscape:zoom="8.73"
+   inkscape:cx="37.381465"
+   inkscape:cy="32.139303"
+   inkscape:window-x="860"
+   inkscape:window-y="379"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg68" />
+<g
+   transform="scale(0.5)"
+   id="g66">
+	<g
+   id="Icon Shadow - Closed"
+   style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path
+   d="M50.00 100L10.00 80L50.00 60L90.00 80z"
+   id="path60" />
+	</g>
+	<g
+   id="Icon - Closed"
+   style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path
+   d="M50.00 90L18.00 74L15.66 72.57L14.00 71L12.00 68.97L10.74 66.51L10.00 64L10.00 60L50.00 40L50.00 44L51.00 47L52.34 49.25L53.54 50.73L55.00 52L58.00 54L90.00 70z"
+   id="path63" />
+	</g>
+</g>
+<g
+   id="g825"
+   transform="matrix(0.99969813,0.0245691,-0.02693764,1.0960719,0.52254626,-5.0744902)"><path
+     inkscape:connector-curvature="0"
+     id="path14"
+     d="M 20.446736,23.53952 C 41.9244,15.63574 42.783507,19.329898 42.783507,19.329898 l 0.515464,7.90378 -22.680413,13.230241 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /><g
+     transform="matrix(0.11250977,-0.05406437,0.00133161,0.08498462,-0.56241075,25.233881)"
+     id="形状_2"><g
+       id="g4"><path
+         inkscape:connector-curvature="0"
+         d="m 196.558,146.096 c 36.239,0 57.737,28.194 57.737,28.194 l -29.45,24.831 C 211.6,177.05 207.172,167.32 185.147,164.659 v 62.727 c 4.994,1.676 10.535,2.675 16.725,2.675 42.982,0 83.071,-55.681 83.071,-55.681 0,0 -37.117,-50.39 -93.693,-48.612 -2.067,0.065 -4.096,0.172 -6.104,0.315 v 20.686 c 3.701,-0.396 7.469,-0.673 11.412,-0.673 z M 91.382,177.025 c 0,0 31.289,-46.17 93.765,-50.942 v -16.748 c -69.198,5.553 -129.123,64.159 -129.123,64.159 0,0 33.937,98.12 129.123,107.103 V 262.792 C 115.299,254.004 91.382,177.025 91.382,177.025 Z m 93.765,-98.588 v 30.898 c 2.03,-0.161 4.063,-0.289 6.104,-0.364 78.675,-2.65 129.934,64.523 129.934,64.523 0,0 -58.877,71.593 -120.211,71.593 -5.62,0 -10.882,-0.52 -15.827,-1.395 v 19.1 c 4.228,0.537 8.608,0.854 13.18,0.854 57.08,0 98.359,-29.147 138.329,-63.648 6.622,5.307 33.755,18.215 39.336,23.873 -38.01,31.814 -126.576,57.457 -176.787,57.457 -4.838,0 -9.493,-0.292 -14.058,-0.73 v 26.841 H 402.093 V 78.437 Z M 145.713,182.64 c 0,0 17.262,-20.642 39.352,-17.989 0.028,0 0.049,0.009 0.083,0.009 v -17.891 c -42.099,4.551 -67.444,32.634 -67.444,32.634 0,0 14.652,54.878 67.444,64.29 v -16.307 c -29.764,-10 -39.435,-44.746 -39.435,-44.746 z"
+         style="clip-rule:evenodd;fill:#90c31f;fill-rule:evenodd"
+         id="path2" /></g></g></g></svg>

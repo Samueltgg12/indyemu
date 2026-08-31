@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M99.00 97.2L87.60 92.2L11.80 92.2L0.80 97.2z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M27.60 89.4L12.00 79.6L7.20 66.8L18.20 67.4L21.20 73.2L31.20 78.8L61.20 83.17L94.40 83.39L94.40 94.59L62.60 94.6z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M26.00 46.2L60.20 39.8L85.60 40.39L62.60 51.4L28.20 57.8L20.60 62L18.20 67.4L7.20 66.8L11.80 54.6z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M92.20 26.39L84.40 13.39L62.59 5.40000000000001L59.80 16.6L76.00 22.19L79.20 27.19L76.00 32.79L60.20 39.8L85.60 40.39z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M31.92 14.87L17.92 15.11L19.50 3.18000000000001L30.99 3.2L62.59 5.40000000000001L59.80 16.6z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M19.50 3.18000000000001L30.99 3.2L62.59 5.40000000000001L84.40 13.39L92.20 26.39L85.60 40.39L62.60 51.4L28.20 57.8L28.20 57.8L20.60 62L18.20 67.4L21.20 73.2L31.20 78.8L62.80 83.4L94.40 83.39L94.40 94.59L62.60 94.6L27.60 89.4L12.00 79.6L7.20 66.8L11.80 54.6L26.00 46.2L60.20 39.8L76.00 32.79L79.20 27.19L76.00 22.19L59.80 16.6L31.92 14.87L17.92 15.11"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M15.44 15.45L0.37 15.45L0.37 22.99L15.44 22.99L15.44 38.05L22.97 38.05L22.97 22.99L38.04 22.99L38.04 15.45L22.97 15.45L22.97 0.390000000000001L15.44 0.390000000000001z"/>
+	</g>
+</g>
+</svg>

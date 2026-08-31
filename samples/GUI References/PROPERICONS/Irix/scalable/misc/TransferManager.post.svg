@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Broken into 2 Polys" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M61.00 45L67.00 29L54.00 12L70.00 20L80.00 26L98.00 34L85.50 38L76.00 40.5z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M91.00 60L76.00 40.5L67.00 29L70.00 20L76.00 2L80.00 26L85.50 38z"/>
+	</g>
+	<g id="Star Points" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M74.00 5L74.00 1L78.00 3L78.00 7z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M94.00 30L98.00 32L98.00 36L94.00 34z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M89.00 55L93.00 57L93.00 61L89.00 59z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M59.00 40L63.00 42L63.00 46L59.00 44z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M54.00 14L54.00 10L58.00 12L58.00 16z"/>
+	</g>
+	<g id="Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M91.00 60L89.00 59L89.00 57L76.00 40.5L63.00 44L63.00 46L61.00 45L59.00 44L59.00 40L62.00 41.5L67.00 29L57.00 15.5L54.00 14L54.00 12L54.00 10L58.00 12L58.00 14L70.00 20L75.00 5.40000000000001L74.00 5L74.00 1L76.00 2L78.00 3L78.00 7L77.00 6.5L80.00 26L94.00 32L94.00 30L98.00 32L98.00 34L98.00 36L95.00 34.5L85.50 38L90.00 55.5L93.00 57L93.00 61z"/>
+	</g>
+	<g id="Arrow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#a8a8a8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.24 75.35L30.00 63.03L49.33 51.06L78.25 63.65z"/>
+	</g>
+	<g id="Path_9" style="fill-rule:nonzero;clip-rule:nonzero;fill:#a8a8a8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.85 79.44L86.04 59.62L92.35 82.5z"/>
+	</g>
+	<g id="Arrow Outline" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.85 79.44L55.24 75.35L30.00 63.03L49.33 51.06L78.25 63.65L86.04 59.62L92.35 82.5z"/>
+	</g>
+	<g id="Tape Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.00 68.55L30.10 66.6L30.10 43.85L60.00 28.9L63.90 30.85L34.00 45.8z"/>
+	</g>
+	<g id="Line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.00 45.8L30.10 43.85"/>
+	</g>
+	<g id="Tape Front" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.00 68.55L34.00 45.8L63.90 30.85L63.90 53.6z"/>
+	</g>
+</g>
+</svg>

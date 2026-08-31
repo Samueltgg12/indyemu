@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M26.39 80.36L28.46 77.09L28.69 74.87L65.71 79.29L64.72 83.35L63.49 86.79L61.43 90.54L58.98 93.52L56.84 95.82L55.00 97.5z"/>
+	</g>
+	<g id="Front Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 87.5L26.39 70.36L26.39 26.07L55.00 43.13L55.00 87.5z"/>
+	</g>
+	<g id="Curved Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 87.5L55.00 43.05L65.71 21.56L65.71 69.29L64.72 73.35L63.49 76.79L61.43 80.54L58.98 83.52L56.84 85.82z"/>
+	</g>
+	<g id="Top Rim" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.08 43.05L26.54 26.07L28.46 23.09L28.69 20.87L65.33 17.5L65.71 21.63L65.56 24.16L64.95 27.52L63.49 32.19L61.35 36.47L59.06 39.53z"/>
+	</g>
+	<g id="Top Rim Inner Lines" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.08 38.67L31.58 25.93L33.02 24.69L33.19 23.03L60.67 20.5L60.96 23.6L60.39 28.02L59.30 31.52L57.69 34.73z"/>
+	</g>
+</g>
+</svg>

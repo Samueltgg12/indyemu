@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="C" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M63.00 47.5L62.90 47.5L61.80 50.7L60.00 53.1L56.50 55.3L54.00 55.8L51.40 55.5L48.90 53.1L47.50 48.9L47.30 44.8L47.50 41L48.90 35.7L50.90 32.4L53.90 29.7L56.70 28.8L59.00 28.9L61.20 30L63.00 33.1"/>
+	</g>
+	<g id="C Extra Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.90 53.1L49.50 48.9L49.50 44.8L49.50 41L50.50 35.7"/>
+	</g>
+	<g id="Plus Marks" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 42.5L62.00 39"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.00 45L59.00 36"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M65.00 38L72.00 34.5"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.00 41.5L68.00 32"/>
+	</g>
+</g>
+</svg>

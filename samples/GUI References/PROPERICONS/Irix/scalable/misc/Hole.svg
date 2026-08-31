@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Hole Through the Workspace" style="fill-rule:none;clip-rule:nonzero;fill:#7070c0;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M43.61 85L37.59 84.04L31.57 81.15L26.14 76.57L22.77 71.27L20.48 65.96L20.12 59.58L20.60 53.92L21.45 48.62L23.13 42.95L25.18 38.01L28.19 33.19L31.33 28.98L34.82 25L38.67 21.15L43.85 18.01L49.88 15.36L56.14 15.12L62.53 16.21L68.19 18.86L73.97 23.56L77.47 28.74L79.64 34.16L79.88 40.9L79.52 47.17L78.43 52.71L76.51 58.01L74.82 62.11L71.81 67.77L68.79 71.63L65.06 75.72L61.96 79.58L53.66 83.07L49.52 84.88z"/>
+	</g>
+	<g id="Inside of Hole" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.86 18.01L50.53 16.21L56.19 16.86L61.97 20.56L65.47 24.74L67.64 34.16L67.88 42.9L67.52 46.17L66.43 52.71L64.51 58.01L62.82 62.11L59.81 67.77L56.79 71.63L53.06 74.42L48.52 77.48L43.66 79.57L37.59 81.04L31.57 81.15L37.59 84.04L43.61 85L49.52 84.88L55.66 83.07L60.96 79.58L65.06 75.72L68.79 71.63L71.81 67.77L74.82 62.11L76.51 58.01L78.43 52.71L79.52 47.17L79.88 40.9L79.64 34.16L77.47 28.74L73.97 23.56L68.19 18.86L62.53 16.21L56.14 15.12L49.88 15.36z"/>
+	</g>
+	<g id="Accent Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M66.43 52.71L76.51 57.75"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.82 62.11L71.81 66.61"/>
+	</g>
+</g>
+</svg>

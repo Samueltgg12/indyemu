@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Left Capsule Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M31.20 60.14L21.26 46.3L18.68 41.68L17.46 37.47L17.62 32.6L19.79 27.43L23.17 23.92L27.13 21.88L32.47 21.44L36.69 23.12L40.23 26.5L50.77 41.52L52.93 46.24L53.32 51.39L51.13 56.56L47.63 60.34L43.13 62.44L38.59 62.96L34.64 62.03z"/>
+	</g>
+	<g id="Right Capsule Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.36 42.69L64.15 23.44L67.83 19.53L72.54 17.55L77.09 17.37L81.22 19.08L84.56 22.31L86.73 25.9L87.66 31.09L86.67 35.87L82.56 47.94L80.67 52.71L76.98 56.28L71.32 57.71L66.70 57.08L63.48 55.65L59.98 52.46L57.35 47.69z"/>
+	</g>
+	<g id="Left Capsule HIghlight" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M29.44 43.73L22.20 33L25.20 25.4L22.00 28.2L19.00 33.8L19.60 40.2L26.60 50L27.00 46z"/>
+	</g>
+	<g id="Right Capsule Highlight" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M61.86 34L65.88 23.68L69.20 20.8L75.60 19.6L71.40 22L68.00 30.8L64.41 32.74z"/>
+	</g>
+	<g id="Left Capsule Opening" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.39 38.69L47.33 39.63L50.77 41.52L52.93 46.24L53.32 51.39L51.13 56.56L47.63 60.34L43.13 62.44L38.59 62.96L34.64 62.03L31.20 60.14L29.05 55.42L28.67 50.27L30.85 45.11L34.36 41.31L38.86 39.23z"/>
+	</g>
+	<g id="Right Capsule Opening" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.36 42.69L60.21 37.84L63.70 34.61L68.13 33L72.09 33.27L76.30 34.97L80.01 37.98L82.03 42.36L82.56 47.94L80.67 52.71L76.98 56.28L71.32 57.71L66.70 57.08L63.48 55.65L59.98 52.46L57.35 47.69z"/>
+	</g>
+	<g id="Anvil Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.13 64.77L65.68 53.69L67.40 61.32L67.40 61.32L68.55 66.41L55.00 77.5L53.85 72.4L53.85 72.41z"/>
+	</g>
+	<g id="Anvil Top" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.12 64.78L43.62 62.69L57.17 51.61L65.66 53.71z"/>
+	</g>
+	<g id="Anvil Front" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 77.5L46.47 75.42L43.64 62.68L52.13 64.77z"/>
+	</g>
+	<g id="Anvil Tail" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M58.37 51.91L63.92 47.45L70.81 49.18L72.06 54.97L66.94 59.24L65.68 53.69z"/>
+	</g>
+	<g id="Anvil Edge Line on SIde" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M53.85 72.4L57.28 69.63"/>
+	</g>
+	<g id="Anvil Edge Line on SIde" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.86 65L67.39 61.31"/>
+	</g>
+	<g id="Anvil Edge Line on Front" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.34 70.29L53.85 72.4"/>
+	</g>
+	<g id="Anvil Head" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M40.62 69.35L41.51 67.42L42.30 66.17L43.54 64.56L44.44 63.82L51.80 65.64L52.13 67.17L51.91 68.55L51.13 69.8L50.28 70.42L49.21 70.77L47.17 71.23L44.00 71.41L41.59 71.15L40.49 70.41z"/>
+	</g>
+	<g id="Path_14" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M33.28 48.36L43.12 43.44"/>
+	</g>
+</g>
+</svg>

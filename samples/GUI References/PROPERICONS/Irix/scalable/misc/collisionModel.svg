@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:none;clip-rule:nonzero;fill:#d0d2d0;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M61.69 0.590000000000003L61.69 67.94L15.06 91.25L15.06 13.54z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:#a4a8a4;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M65.35 29.01L70.50 27.43L73.10 25.32L76.33 20.31L76.19 13.91L73.24 9.16L67.90 6.05L62.32 6.13L56.86 8.95999999999999L54.08 14.31L53.90 20.57L57.47 25.72L60.90 27.67z"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:#a4a8a4;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M60.36 29.78L51.99 33.91L46.98 41.11L46.94 47.37L54.21 94.16L60.00 97.76L71.76 97.78L76.87 94.28L83.72 47.43L83.75 41.32L79.14 33.75L71.14 29.53L70.50 27.43L60.90 27.67z"/>
+	</g>
+	<g id="Path_10" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M56.24 53.2L46.94 47.37L46.98 41.11L56.61 46.3L74.47 45.84L83.75 41.32L83.72 47.43L74.60 52.75z"/>
+	</g>
+	<g id="Path_11" style="fill-rule:nonzero;clip-rule:nonzero;fill:#a4a8a4;stroke:none;stroke-miterlimit:4;">
+		<path d="M66.03 21.46L70.50 27.43L66.46 32.87L60.90 27.67z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M52.69 11.3L23.98 20.19"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M52.31 19.63L24.35 29.81"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M46.02 30.56L24.35 38.89"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M48.50 38.93L23.98 48.15"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M36.57 53.33L24.17 57.96"/>
+	</g>
+	<g id="Path_10" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M48.51 57.48L23.61 67.78"/>
+	</g>
+</g>
+</svg>

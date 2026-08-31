@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M50.00 90L19.00 71.5L62.00 71.5z"/>
+	</g>
+	<g id="Back Flap of Folder" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.00 61.5L19.00 61.5L19.00 6L62.00 6z"/>
+	</g>
+	<g id="Back Flap of Folder" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.00 14L67.00 16L67.00 31L62.00 32z"/>
+	</g>
+	<g id="Back Flap of Folder" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.00 61.5L19.00 61.5L19.00 6L62.00 6L62.00 14L67.00 16L67.00 31L62.00 32z"/>
+	</g>
+	<g id="Front Flap of Folder" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.00 80L19.00 61.5L47.00 47.5L50.00 51z"/>
+	</g>
+	<g id="Front Flap of Folder" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.00 80L19.00 61.5L19.00 6L50.00 25L50.00 33L47.00 33L47.00 47.5L50.00 51z"/>
+	</g>
+</g>
+</svg>

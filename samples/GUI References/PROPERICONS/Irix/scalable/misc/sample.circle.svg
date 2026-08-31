@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Circle" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.00 30L55.36 30L64.64 35.36L70.00 44.64L70.00 50L70.00 55.36L64.64 64.64L55.36 70L50.00 70L44.64 70L35.36 64.64L30.00 55.36L30.00 50L30.00 44.64L35.36 35.36L44.64 30z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:nonzero;clip-rule:nonzero;fill:#b4e0b4;stroke:none;stroke-miterlimit:4;">
+		<path d="M17.82 19.02L55.08 37.66L46.45 42.06L11.32 23.98z"/>
+	</g>
+	<g id="Icon Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M7.20 79.75L55.11 54.96L96.40 75.6z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M11.32 23.98L11.32 71.3L46.40 90.2L46.45 42.06z"/>
+	</g>
+	<g id="Right Safe Leg" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M86.28 69.28L86.06 67.47L84.89 66.08L82.98 65.76L92.34 61.08L92.34 66.72z"/>
+	</g>
+	<g id="Main Body of Safe" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.08 37.66L17.82 19.02L55.08 0.390000000000001L92.34 19.02L92.34 61.08L82.98 65.76L62.11 76.2L55.08 79.71L46.96 42.33z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.08 37.66L17.82 19.02"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.08 37.66L92.34 19.02"/>
+	</g>
+	<g id="Middle Safe Leg" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.12 82.58L49.12 80.88L48.06 78.33L45.82 75.08L55.08 79.71L62.11 76.2L60.72 78.11L59.77 80.24L59.66 82.8L55.08 85.57z"/>
+	</g>
+	<g id="Safe Outlines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.08 85.57L55.08 64.27"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.08 42.98L55.08 37.66"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M17.82 19.02L55.08 0.390000000000001L92.34 19.02L92.34 61.08L92.34 66.72L86.28 69.28L86.06 67.47L84.89 66.08L82.98 65.76L82.98 65.76L62.11 76.2L60.72 78.11L59.77 80.24L59.66 82.8L55.08 85.57L49.12 82.58L49.12 80.88L48.06 78.33L46.65 76.28"/>
+	</g>
+	<g id="Door Handle - Closed" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.21 50.96L62.32 49.69L63.81 48.73L66.05 50.33L66.05 59.48L65.62 60.97L64.02 61.5L63.07 60.01L63.07 52.03L62.21 51.18"/>
+	</g>
+	<g id="Combination Lock" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M79.57 50.64L77.76 52.77L75.74 53.73L73.18 53.41L70.84 51.28L69.99 48.62L70.73 45.43L72.65 43.19L75.31 42.02L78.29 42.66L80.31 45.32L80.63 47.98L79.57 50.54"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M79.57 50.64L77.65 52.14L75.42 51.92L74.03 50.11L73.93 47.98L75.31 45.64L78.18 45.32L79.78 47.13L79.57 50.01"/>
+	</g>
+	<g id="Door Frame Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M60.41 68.53L60.41 42.66L85.96 29.88L85.96 55.75z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.96 42.33L54.59 38.19"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.96 42.33L11.32 23.98"/>
+	</g>
+	<g id="Clock Numbers" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M29.14 73.14L29.14 70.66L27.61 69.83L27.61 72.31z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M33.71 73.14L32.95 69.83"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.82 69.01L38.29 66.52"/>
+	</g>
+	<g id="Path_7" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M41.34 63.22L41.34 61.56L39.05 60.73L39.05 62.39z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M40.73 53.37L38.29 53.95"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M35.54 43.78L34.32 46.01"/>
+	</g>
+	<g id="Path_10" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M29.90 40.06L28.37 39.23L28.37 42.54L29.90 43.37z"/>
+	</g>
+	<g id="Path_11" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M23.57 39.56L24.48 42.37"/>
+	</g>
+	<g id="Path_12" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M18.46 43.12L20.21 45.19"/>
+	</g>
+	<g id="Path_13" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M19.22 51.64L19.22 49.98L17.69 49.16L17.69 50.81z"/>
+	</g>
+	<g id="Path_14" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M17.54 58.67L20.21 58.25"/>
+	</g>
+	<g id="Path_15" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.27 68.51L23.41 66.44"/>
+	</g>
+	<g id="Small Hand" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M25.89 59.01L39.74 63.11L26.91 52.8z"/>
+	</g>
+	<g id="Big Hand" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M30.00 60L28.05 38.29L25.77 58.75z"/>
+	</g>
+	<g id="Path_31" style="fill-rule:nonzero;clip-rule:nonzero;fill:#70c470;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M46.96 42.33L46.40 90.2L55.08 85.57L54.59 38.19z"/>
+	</g>
+	<g id="Clock Body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.40 90.2L55.08 85.57L55.08 37.66L17.82 19.02L11.32 23.98L11.32 71.3z"/>
+	</g>
+	<g id="Outlines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.40 90.2L46.45 42.06"/>
+	</g>
+</g>
+</svg>

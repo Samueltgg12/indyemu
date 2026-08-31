@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M42.92 48.73L41.29 54.5L45.34 59.2L52.18 58.77L79.93 34.91L79.93 31.25L75.88 26.84L71.83 26.84z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:#00007c;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M63.28 50.75L64.99 65.73L57.65 79.47L44.27 85.82L27.49 82.53L16.54 71.16L14.16 55.78L22.06 42.94L35.85 35.89L52.36 39.11z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M49.02 55.93L49.72 61.55L46.94 66.76L41.87 69.12L35.49 67.94L31.39 63.63L30.49 57.8L33.48 52.94L38.68 50.31L44.93 51.49z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M56.73 67.72L51.90 67.71L48.28 72.09L49.04 76.86L83.55 98.98L88.24 98.7L91.05 93.67L89.59 88.03z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:#7c0000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M82.06 94.03L84.66 88.64L89.59 88.03L91.05 93.67L88.24 98.7L83.55 98.98z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:nonzero;clip-rule:nonzero;fill:#7c0000;stroke:none;stroke-miterlimit:4;">
+		<path d="M48.28 72.09L82.06 94.03L83.55 98.98L49.04 76.86z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M41.41 43.11L37.35 43.11L33.59 40.82L33.50 3.09999999999999L37.00 0.780000000000001L37.00 0.780000000000001L40.84 0.780000000000001L44.61 3.09999999999999L45.02 41.05z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M37.00 0.780000000000001L40.84 0.780000000000001L44.61 3.09999999999999L40.84 4.79000000000001L36.26 4.59999999999999L33.50 3.09999999999999z"/>
+	</g>
+</g>
+</svg>

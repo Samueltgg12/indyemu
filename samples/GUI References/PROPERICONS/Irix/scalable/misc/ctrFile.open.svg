@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Right Capsule Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M90.00 85L100.00 65L97.67 58.95L90.00 55L80.00 55L70.00 60L56.39 80.55z"/>
+	</g>
+	<g id="Left Capsule Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M4.90 80.12L29.90 92.62L54.90 80.12L22.67 63.38L11.40 59.44L2.89 63.91z"/>
+	</g>
+	<g id="Left Capsule Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.05 79.06L13.86 68.89L7.99 65.03L3.98 60.82L1.18 55L0.57 47.59L2.38 41.37L5.79 36.56L11.80 32.75L17.81 32.15L24.03 33.96L45.65 45.16L51.09 49.39L54.69 55.2L55.30 62.62L53.49 69.23L49.48 74.45L44.47 77.85L39.26 79.18z"/>
+	</g>
+	<g id="Trajectory 3" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.65 45.16L40.44 45.04L35.23 46.36L30.22 49.77L26.21 54.98L24.41 61.6L25.01 69.01L28.62 74.83L34.05 79.06"/>
+	</g>
+	<g id="Right Capsule Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.50 52.38L70.86 28.84L76.60 24.59L83.20 23.1L89.18 23.92L94.18 27.12L97.78 32.12L99.78 37.32L99.78 44.32L97.38 50.32L89.20 65.12L85.60 70.92L79.96 74.72L72.23 75.26L66.33 73.37L62.47 70.74L58.65 65.77L56.32 58.92z"/>
+	</g>
+	<g id="Trajectory 5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.50 52.38L62.35 46.72L67.67 43.31L73.84 42.25L78.94 43.52L84.05 46.72L88.18 51.52L89.80 57.72L89.20 65.12L85.60 70.92"/>
+	</g>
+	<g id="Left Capsule HIghlight" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M30.00 45L15.00 37.5L10.00 40L9.16 42.89L23.62 50.33L26.18 47.14z"/>
+	</g>
+	<g id="Right Capsule Highlight" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.09 40.76L75.75 28.21L79.58 26.29L83.20 27.57L75.75 39.69L71.71 39.69z"/>
+	</g>
+	<g id="Left Capsule Opening" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M35.23 46.36L40.44 45.04L45.65 45.16L51.09 49.39L54.69 55.2L55.30 62.62L53.49 69.23L49.48 74.45L44.47 77.85L39.26 79.18L34.05 79.06L28.62 74.83L25.01 69.01L24.41 61.6L26.21 54.98L30.22 49.77z"/>
+	</g>
+	<g id="Left Tablet Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.41 89.06L31.92 75.01L30.64 70.55L30.90 65.1L32.66 61.36L35.17 59.38L39.79 58.42L44.26 59.69L58.52 75.01L57.67 81.82z"/>
+	</g>
+	<g id="Left Tablet Face Edges" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M58.52 75.01L43.12 82.72L31.62 68.88L30.90 65.1"/>
+	</g>
+	<g id="Right Capsule Opening" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.50 52.38L62.35 46.72L67.67 43.31L73.84 42.25L78.94 43.52L84.05 46.72L88.18 51.52L89.80 57.72L89.20 65.12L85.60 70.92L79.96 74.72L72.23 75.26L66.33 73.37L62.47 70.74L58.65 65.77L56.32 58.92z"/>
+	</g>
+	<g id="Right Tablet Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M54.66 64.93L67.77 52.25L71.33 49.06L75.65 47.94L79.58 48.69L82.21 50.75L83.52 55.06L83.96 59.83L83.72 65.69L70.55 79.41L55.87 72.17z"/>
+	</g>
+	<g id="Right Tablet Face Edges" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M54.66 64.93L69.80 71.97L82.55 59.81L83.52 55.25"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M40.00 100L2.48 81.34L59.49 52.58L97.50 71.25z"/>
+	</g>
+	<g id="bottom paper on stack" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.43 45.29L29.43 25.29L59.43 10.29L99.43 30.29z"/>
+	</g>
+	<g id="middle paper in stack" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.43 40.29L29.43 20.29L59.43 5.29000000000001L99.43 25.29z"/>
+	</g>
+	<g id="top paper in stack" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.43 35.29L29.43 15.29L59.84 0.140000000000001L99.55 20.22z"/>
+	</g>
+	<g id="line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#0000f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M71.00 12.9L71.00 12.9L81.00 17.9L66.00 25.4L56.00 20.4z"/>
+	</g>
+	<g id="Path_15" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.86 14.68L47.86 14.68L49.72 14.64L51.46 15.19L51.64 16.85L49.99 17.86L48.34 17.86L46.63 17.2L46.60 15.56z"/>
+	</g>
+	<g id="Path_16" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#0000f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.01 16.41L56.01 8.61L65.81 8.61"/>
+	</g>
+	<g id="plotter body" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M2.50 71.25L2.50 58.75L60.00 30L97.50 48.75L97.50 61.25L40.00 90.11z"/>
+	</g>
+	<g id="edge line on plotter body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M20.00 65L40.00 75L40.00 90"/>
+	</g>
+	<g id="paper" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M14.75 57.62L59.75 35.02L84.75 47.62L39.75 70.13z"/>
+	</g>
+	<g id="edge line on plotter body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.21 72.4L90.21 49.9"/>
+	</g>
+	<g id="blue line on paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#0000f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M48.94 57.65L44.94 62.66L35.00 62.5L34.94 52.66L19.94 60.16"/>
+	</g>
+	<g id="side of bar on plotter" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.96 37.39L70.00 55L70.00 60L35.00 42.5z"/>
+	</g>
+	<g id="end of bar on plotter" style="fill-rule:none;clip-rule:nonzero;fill:#505450;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M70.00 60L70.00 55L75.00 52.5L75.00 57.5z"/>
+	</g>
+	<g id="top of bar on plotter" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.96 37.39L70.00 55L75.00 52.5L39.96 34.89z"/>
+	</g>
+	<g id="pen" style="fill-rule:none;clip-rule:nonzero;fill:#00fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M51.64 16.66L51.64 51.16L49.45 57.25L46.64 52.11L46.64 17.11z"/>
+	</g>
+	<g id="pen top" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.86 14.68L47.86 14.68L49.72 14.64L51.46 15.19L51.64 16.85L49.99 17.86L48.34 17.86L46.63 17.2L46.60 15.56z"/>
+	</g>
+	<g id="line on pen" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M51.52 51.5L49.96 52.42L48.07 52.53L46.75 52.13"/>
+	</g>
+</g>
+</svg>

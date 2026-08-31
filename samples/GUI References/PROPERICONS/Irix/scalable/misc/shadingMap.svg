@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:#007ef8;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M95.14 63.39L94.41 37.41L82.34 18.22L60.56 5.72L37.90 6.11L15.82 17.76L4.65 39.57L4.03 64.99L18.67 85.8L39.60 95.06L62.65 94.43L82.12 83.82z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#1c46c0;stroke:none;stroke-miterlimit:4;">
+		<path d="M20.00 84.79L40.24 93.46L62.17 92.74L81.20 83.1L54.70 80.21L35.66 72.98L22.65 58.28L18.31 40.45L17.59 19.01L6.03 40.21L5.79 64.79z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:nonzero;clip-rule:nonzero;fill:#38b6dc;stroke:none;stroke-miterlimit:4;">
+		<path d="M82.18 39.55L81.93 30.33L77.64 23.52L69.92 19.1L61.88 19.23L54.05 23.37L50.08 31.1L49.86 40.12L55.06 47.51L62.48 50.79L70.65 50.56L77.57 46.8z"/>
+	</g>
+</g>
+</svg>

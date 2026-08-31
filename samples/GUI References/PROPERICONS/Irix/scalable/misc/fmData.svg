@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Icon Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M33.00 100L23.00 95L70.00 71.5L80.00 76.5z"/>
+	</g>
+	<g id="Polygon 1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M26.00 88.3L26.00 79.7L42.00 71.8L55.00 65.2L55.00 61.2L73.00 52.2L73.00 64.8z"/>
+	</g>
+	<g id="Polygon 2" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M26.00 79.7L26.00 54.9L40.00 47.9L45.00 45.4L45.00 65L44.00 67L43.00 67.8L42.00 67.8L42.00 71.8z"/>
+	</g>
+	<g id="Polygon 3" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M26.00 54.9L26.00 24L42.00 16L53.30 16.5L50.00 18L47.00 21L45.50 24.4L45.00 28.9L45.00 39.4L40.00 41.9L40.00 47.9z"/>
+	</g>
+	<g id="Polygon 4" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 16L73.00 0.5L73.00 25.9L62.10 23.9L61.00 20.3L57.50 17.3L53.30 16.5z"/>
+	</g>
+	<g id="Polygon 5" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M73.00 25.9L73.00 31.4L59.00 38.4L59.00 32.4L58.00 27.5L60.30 27L62.10 23.9z"/>
+	</g>
+	<g id="Polygon 6" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.00 32.4L51.00 36.4L51.00 28.6L51.20 24.6L52.00 22.1L55.90 22.9L54.90 23.6L54.90 24.9L55.00 26L55.90 27L58.00 27.5z"/>
+	</g>
+	<g id="Polygon 7" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.00 22.1L54.10 20.6L56.00 21.3L55.90 22.9z"/>
+	</g>
+	<g id="Polygon 8" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M73.00 31.4L73.00 52.2L55.00 61.2L52.50 62.8L52.00 62.8L51.00 61.9L51.00 42.4z"/>
+	</g>
+	<g id="Outline of Rectangle" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M26.00 88.3L26.00 24L73.00 0.5L73.00 64.8z"/>
+	</g>
+	<g id="Large f Outlines" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 71.8L42.00 67.8L43.00 67.8L44.00 67L45.00 65L45.00 45.4L40.00 47.9L40.00 41.9L45.00 39.4L45.00 28.9L45.50 24.4L47.00 21L50.00 18L53.30 16.5L57.50 17.3L61.00 20.3L62.10 23.9L60.30 27L58.00 27.5L55.90 27L55.00 26L54.90 24.9L54.90 23.6L55.90 22.9L56.00 21.3L54.10 20.6L52.00 22.1L51.20 24.6L51.00 28.6L51.00 36.4L59.00 32.4L59.00 38.4L51.00 42.4L51.00 61.9L52.00 62.8L52.50 62.8L55.00 61.2L55.00 65.2z"/>
+	</g>
+</g>
+</svg>

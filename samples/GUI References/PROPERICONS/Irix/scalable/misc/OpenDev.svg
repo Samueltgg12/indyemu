@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M10.00 80L50.00 60L90.00 80L50.00 100z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M10.00 70L50.00 50L90.00 70L50.00 90z"/>
+	</g>
+	<g id="Monitor Stand" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.00 77.5L30.59 70.42L30.59 67.09L33.46 65.43L67.38 55.44L67.38 58.01L71.92 59.98L71.96 64.02z"/>
+	</g>
+	<g id="Monitor Back" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M26.35 53.77L21.96 47.26L20.59 44.23L20.29 40.14L20.29 26.52L20.14 24.25L21.80 21.97L43.00 11.38L45.27 10.92L46.94 10.92L55.42 11.07z"/>
+	</g>
+	<g id="Monitor Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.03 67.4L43.30 68.15L40.73 68.46L38.16 67.7L29.22 63.16L27.71 61.79L26.80 60.13L26.35 58.31L26.35 31.06L26.80 27.88L28.47 25.46L30.74 23.94L56.78 10.17L59.05 9.56L61.02 9.41L62.68 10.17L72.98 15.77L74.49 17.74L74.64 20.46L74.80 23.49L74.80 46.2L74.49 49.23L73.74 51.04L72.37 52.41L71.16 53.62z"/>
+	</g>
+	<g id="Screen" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.51 59.83L44.51 38.63L44.82 35.9L46.18 34.24L68.59 22.43L70.71 22.13L71.31 23.79L71.31 46.2L71.16 48.32L69.95 49.68L46.33 62.1L44.97 61.79z"/>
+	</g>
+</g>
+</svg>

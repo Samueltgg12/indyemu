@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="m" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.00 49.5L49.00 36"/>
+	</g>
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.00 41L50.00 38L51.00 36.5L54.00 36.5L55.00 38L55.00 46.5"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 38L57.00 34.5L58.50 33L60.00 33L61.00 34.3L61.00 43.5"/>
+	</g>
+	<g id="e" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.00 36.5L70.00 39.5L67.00 41L65.00 39.5L64.00 37.5L64.00 35.5L65.00 31.5L66.00 29.5L68.00 28.5L70.00 28L72.00 31.5L64.00 35.5"/>
+	</g>
+</g>
+</svg>

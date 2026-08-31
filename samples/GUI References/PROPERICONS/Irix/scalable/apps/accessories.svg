@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50pt"
+   height="50pt"
+   viewBox="0 0 50 50"
+   xml:space="preserve"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="accessories.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata
+   id="metadata162"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs160"><inkscape:perspective
+     sodipodi:type="inkscape:persp3d"
+     inkscape:vp_x="0 : 31.25 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_z="62.5 : 31.25 : 1"
+     inkscape:persp3d-origin="31.25 : 20.833333 : 1"
+     id="perspective164" /><inkscape:perspective
+     id="perspective2552"
+     inkscape:persp3d-origin="31.25 : 20.833333 : 1"
+     inkscape:vp_z="62.5 : 31.25 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_x="0 : 31.25 : 1"
+     sodipodi:type="inkscape:persp3d" /></defs><sodipodi:namedview
+   inkscape:window-height="684"
+   inkscape:window-width="640"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   showgrid="false"
+   inkscape:zoom="7.392"
+   inkscape:cx="31.25"
+   inkscape:cy="32.731028"
+   inkscape:window-x="150"
+   inkscape:window-y="242"
+   inkscape:current-layer="svg2" />
+<g
+   id="g2539"
+   transform="matrix(0.5,0,0,0.5,-0.3246755,8.1710004e-2)">
+	<g
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4"
+   id="Icon Shadow - Closed">
+		<path
+   id="path2542"
+   d="M 50,100 L 10,80 L 50,60 L 90,80 L 50,100 z" />
+	</g>
+	<g
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-miterlimit:4"
+   id="Icon - Closed">
+		<path
+   id="path2545"
+   d="M 50,90 L 18,74 L 15.66,72.57 L 14,71 L 12,68.97 L 10.74,66.51 L 10,64 L 10,60 L 50,40 L 50,44 L 51,47 L 52.34,49.25 L 53.54,50.73 L 55,52 L 58,54 L 90,70 L 50,90 z" />
+	</g>
+</g><g
+   transform="matrix(0.5604801,0,0,0.6234221,-4.5582579,-7.835745)"
+   id="g4">
+	<g
+   id="Ribbon Cable Behind Host Box"
+   style="fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 48.6,31.7 L 42.8,35.1 L 42.3,26.6 L 44.7,24.1 L 45.8,24 L 46.7,24.4 L 48.6,25.9 L 48.6,31.7 z"
+   id="path7" />
+	</g>
+	<g
+   id="Top of Host Box"
+   style="fill:#7c007c;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 71,32.5 L 47,19.5 L 58,14 L 82,27 L 71,32.5 z"
+   id="path10" />
+	</g>
+	<g
+   id="Front of Host Box"
+   style="fill:#7c007c;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 71,32.5 L 82,27 L 82,65 L 71,70.5 L 71,32.5 z"
+   id="path13" />
+	</g>
+	<g
+   id="Side of Host Box"
+   style="fill:#7c007c;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 71,32.5 L 71,70.5 L 47,58 L 47,19.5 L 71,32.5 z"
+   id="path16" />
+	</g>
+	<g
+   id="Door Lines"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 82,29 L 73,34"
+   id="path19" />
+	</g>
+	<g
+   id="Path_5"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 82,37 L 73,42"
+   id="path22" />
+	</g>
+	<g
+   id="Bottom Ribbon Cable"
+   style="fill:#7c7e7c;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 40,72 L 25,64.5 L 24,63 L 25,61.5 L 47,50.5 L 47,57 L 60,63.5 L 40,72 z"
+   id="path25" />
+	</g>
+	<g
+   id="Lines on Bottom Ribbon Cable"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 45,69.5 L 32,63"
+   id="path28" />
+	</g>
+	<g
+   id="Path_8"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 50,67 L 37,60.5"
+   id="path31" />
+	</g>
+	<g
+   id="Path_9"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 55,64.5 L 42,58"
+   id="path34" />
+	</g>
+	<g
+   id="Middle Ribbon Cable"
+   style="fill:#7c7e7c;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 40,58 L 25,50.5 L 24,49 L 25,47.5 L 47,36.5 L 47,43 L 60,49.5 L 40,58 z"
+   id="path37" />
+	</g>
+	<g
+   id="Lines on Middle Ribbon Cable"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 45,55.5 L 32,49"
+   id="path40" />
+	</g>
+	<g
+   id="Path_12"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 50,53 L 37,46.5"
+   id="path43" />
+	</g>
+	<g
+   id="Path_13"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 55,50.5 L 42,44"
+   id="path46" />
+	</g>
+	<g
+   id="Top Ribbon Cable"
+   style="fill:#7c7e7c;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 40,44 L 24,36.5 L 25,35 L 24,33.5 L 47,22.5 L 47,29 L 60,35.5 L 40,44 z"
+   id="path49" />
+	</g>
+	<g
+   id="Lines on Top Ribbon Cable"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 45,41.5 L 32,35"
+   id="path52" />
+	</g>
+	<g
+   id="Path_16"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 50,39 L 37,32.5"
+   id="path55" />
+	</g>
+	<g
+   id="Path_17"
+   style="fill:none;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 55,36.5 L 42,30"
+   id="path58" />
+	</g>
+	<g
+   id="Bottom Connector Side"
+   style="fill:#f8fc7c;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 48.1,77.8 L 43.6,75.5 L 42.8,75 L 42.3,74.4 L 40.6,70.9 L 40.2,69.7 L 40.4,68.5 L 41.2,67.5 L 42,67.1 L 56.6,59.5 L 58.5,59.3 L 63.9,62.1 L 48.1,77.8 z"
+   id="path61" />
+	</g>
+	<g
+   id="Middle Connector Side"
+   style="fill:#f8fc7c;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 48,64.1 L 43.3,61.8 L 42.3,60.9 L 41.8,60 L 40.3,56.7 L 40.1,55.8 L 40.2,54.8 L 40.8,54 L 41.7,53.5 L 56.6,45.8 L 58.5,45.4 L 63.8,48.4 L 48,64.1 z"
+   id="path64" />
+	</g>
+	<g
+   id="Top Connector Side"
+   style="fill:#f8fc7c;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 47.8,50.6 L 43.6,48.5 L 42.6,47.8 L 42.1,47 L 40.6,43.4 L 40.1,42.2 L 40.3,41.1 L 40.9,40.4 L 41.9,39.7 L 56.7,32 L 57.6,31.9 L 58.3,32 L 59,32.3 L 63.9,34.8 L 47.8,50.6 z"
+   id="path67" />
+	</g>
+	<g
+   id="Bottom Connector Face"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 48.2,77.7 L 47.3,77.3 L 46.9,76.6 L 45.7,73.9 L 45.2,73.1 L 45.3,72 L 45.7,71.1 L 46.3,70.4 L 47.1,69.9 L 61.6,62.4 L 63,62 L 64,62.1 L 64.6,62.9 L 64.9,64 L 64.7,65 L 63.6,68.6 L 63.1,69.9 L 62.5,70.7 L 61.8,71.3 L 60.8,71.9 L 50.1,77.4 L 48.9,77.9 L 48.2,77.7 z"
+   id="path70" />
+	</g>
+	<g
+   id="Middle Connector Face"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 48,64 L 47.2,63.7 L 46.7,62.9 L 45.6,60.4 L 45.2,59.5 L 45.2,58.5 L 45.6,57.6 L 46.1,56.8 L 47,56.3 L 61.7,48.7 L 62.8,48.4 L 63.8,48.4 L 64.6,49 L 64.8,50 L 64.9,51.2 L 63.6,54.7 L 63.1,55.9 L 62.5,56.9 L 61.8,57.4 L 60.9,58.3 L 50.2,63.8 L 48.9,64.1 L 48,64 z"
+   id="path73" />
+	</g>
+	<g
+   id="Top Connector Face"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-miterlimit:4">
+		<path
+   d="M 47.7,50.6 L 47.1,50.1 L 46.7,49.4 L 45.7,47 L 45.2,45.9 L 45.3,44.9 L 45.7,43.8 L 46.4,43 L 47.1,42.6 L 61.6,35.1 L 62.7,34.7 L 63.9,34.8 L 64.6,35.5 L 64.9,36.6 L 64.8,37.8 L 63.7,41.1 L 63.2,42.5 L 62.6,43.2 L 61.8,44 L 60.8,44.5 L 50.2,50.1 L 48.8,50.5 L 47.7,50.6 z"
+   id="path76" />
+	</g>
+	<g
+   id="Top Connector Holes"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 47.5,45 L 48,44.5 L 48.5,45 L 48,45.5 L 47.5,45 z"
+   id="path79" />
+	</g>
+	<g
+   id="Path_25"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 51,43 L 51.5,43.5 L 52,43 L 51.5,42.5 L 51,43 z"
+   id="path82" />
+	</g>
+	<g
+   id="Path_26"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 54.5,41.2 L 55,40.7 L 55.5,41.2 L 55,41.7 L 54.5,41.2 z"
+   id="path85" />
+	</g>
+	<g
+   id="Path_27"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 58,39.5 L 58.5,39 L 59,39.5 L 58.5,40 L 58,39.5 z"
+   id="path88" />
+	</g>
+	<g
+   id="Path_28"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 61.5,37.5 L 62,37 L 62.5,37.5 L 62,38 L 61.5,37.5 z"
+   id="path91" />
+	</g>
+	<g
+   id="Path_29"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 60,41.5 L 60.5,41 L 61,41.5 L 60.5,42 L 60,41.5 z"
+   id="path94" />
+	</g>
+	<g
+   id="Path_30"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 56.5,43.5 L 57,43 L 57.5,43.5 L 57,44 L 56.5,43.5 z"
+   id="path97" />
+	</g>
+	<g
+   id="Path_31"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 53,45.5 L 53.5,45 L 54,45.5 L 53.5,46 L 53,45.5 z"
+   id="path100" />
+	</g>
+	<g
+   id="Path_32"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 49,47.5 L 49.5,47 L 50,47.5 L 49.5,48 L 49,47.5 z"
+   id="path103" />
+	</g>
+	<g
+   id="Middle Connector Holes"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 47.5,58.5 L 48,58 L 48.5,58.5 L 48,59 L 47.5,58.5 z"
+   id="path106" />
+	</g>
+	<g
+   id="Path_34"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 51,56.7 L 51.5,56.2 L 52,56.7 L 51.5,57.2 L 51,56.7 z"
+   id="path109" />
+	</g>
+	<g
+   id="Path_35"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 54.5,54.8 L 55,54.3 L 55.5,54.8 L 55,55.3 L 54.5,54.8 z"
+   id="path112" />
+	</g>
+	<g
+   id="Path_36"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 58,53 L 58.5,52.5 L 59,53 L 58.5,53.5 L 58,53 z"
+   id="path115" />
+	</g>
+	<g
+   id="Path_37"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 61.5,51.2 L 62,50.7 L 62.5,51.2 L 62,51.7 L 61.5,51.2 z"
+   id="path118" />
+	</g>
+	<g
+   id="Path_38"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 59.8,55.3 L 60.3,54.8 L 60.8,55.3 L 60.3,55.8 L 59.8,55.3 z"
+   id="path121" />
+	</g>
+	<g
+   id="Path_39"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 56.3,57.2 L 56.8,56.7 L 57.3,57.2 L 56.8,57.7 L 56.3,57.2 z"
+   id="path124" />
+	</g>
+	<g
+   id="Path_40"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 52.8,59 L 53.3,58.5 L 53.8,59 L 53.3,59.5 L 52.8,59 z"
+   id="path127" />
+	</g>
+	<g
+   id="Path_41"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 49.2,61 L 49.7,60.5 L 50.2,61 L 49.7,61.5 L 49.2,61 z"
+   id="path130" />
+	</g>
+	<g
+   id="Bottom Connector Holes"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 47.3,72.3 L 47.8,71.8 L 48.3,72.3 L 47.8,72.8 L 47.3,72.3 z"
+   id="path133" />
+	</g>
+	<g
+   id="Path_43"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 51,70.5 L 51.5,70 L 52,70.5 L 51.5,71 L 51,70.5 z"
+   id="path136" />
+	</g>
+	<g
+   id="Path_44"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 54.5,68.8 L 55,68.3 L 55.5,68.8 L 55,69.3 L 54.5,68.8 z"
+   id="path139" />
+	</g>
+	<g
+   id="Path_45"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 58,66.7 L 58.5,66.2 L 59,66.7 L 58.5,67.2 L 58,66.7 z"
+   id="path142" />
+	</g>
+	<g
+   id="Path_46"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 61.5,65 L 62,64.5 L 62.5,65 L 62,65.5 L 61.5,65 z"
+   id="path145" />
+	</g>
+	<g
+   id="Path_47"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 59.8,69.2 L 60.3,68.7 L 60.8,69.2 L 60.3,69.7 L 59.8,69.2 z"
+   id="path148" />
+	</g>
+	<g
+   id="Path_48"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 56.5,71 L 57,70.5 L 57.5,71 L 57,71.5 L 56.5,71 z"
+   id="path151" />
+	</g>
+	<g
+   id="Path_49"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 53,72.7 L 53.5,72.2 L 54,72.7 L 53.5,73.2 L 53,72.7 z"
+   id="path154" />
+	</g>
+	<g
+   id="Path_50"
+   style="fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4">
+		<path
+   d="M 49.2,74.7 L 49.7,74.2 L 50.2,74.7 L 49.7,75.2 L 49.2,74.7 z"
+   id="path157" />
+	</g>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Icon Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M38.83 99.78L22.00 90.88L60.55 71.22L77.82 79.8z"/>
+	</g>
+	<g id="Paper Sheet 1" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.00 80.13L22.00 20.5L60.01 1.06999999999999L60.01 60.8z"/>
+	</g>
+	<g id="Paper Sheet 2" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M30.69 84.47L30.69 25.17L68.70 5.41L68.70 65.03z"/>
+	</g>
+	<g id="Third Sheet of Paper -- Closed" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.59 88.49L39.59 29.52L77.39 10.08L77.39 69.16z"/>
+	</g>
+</g>
+</svg>

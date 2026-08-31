@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Icon - Open" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M22.20 82L20.04 80.72L18.20 79L16.30 76.73L15.10 74.8L14.20 72L14.20 68L14.20 28L54.20 8L54.20 48L54.20 52L55.08 55.16L56.24 57.3L57.68 58.86L59.20 60L62.20 62z"/>
+	</g>
+	<g id="Icon - Open" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M27.40 86.4L25.24 85.12L23.40 83.4L21.50 81.13L20.30 79.2L19.40 76.4L19.40 72.4L19.40 32.4L59.40 12.4L59.40 52.4L59.40 56.4L60.28 59.56L61.44 61.7L62.88 63.26L64.40 64.4L67.40 66.4z"/>
+	</g>
+	<g id="Icon Shadow - Open" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M34.20 97L26.20 93L66.20 73L74.20 77z"/>
+	</g>
+	<g id="Icon - Open" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M33.40 89.4L31.24 88.12L29.40 86.4L27.50 84.13L26.30 82.2L25.40 79.4L25.40 75.4L25.40 35.4L65.40 15.4L65.40 55.4L65.40 59.4L66.28 62.56L67.44 64.7L68.88 66.26L70.40 67.4L73.40 69.4z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M79.30 47.53L65.40 59.4L56.00 65L55.60 61L62.87 58.12z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M76.17 38.84L94.68 27.36L100.26 27.07L100.34 36.36L100.04 43.4L85.81 51.76L69.07 52.65z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M100.26 27.07L80.38 39.69L69.07 52.65L84.29 45.75L100.34 36.36L100.26 27.07L100.34 36.36z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M100.04 43.4L100.34 36.36L84.29 45.75L69.07 52.65L85.81 51.76z"/>
+	</g>
+	<g id="Path_9" style="fill-rule:nonzero;clip-rule:nonzero;fill:#7c0000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M94.68 27.36L100.00 24.2L100.26 27.07L100.26 27.07z"/>
+	</g>
+	<g id="Path_10" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M87.23 22.54L90.49 14.98L93.78 26.96L92.18 35.98L87.06 38.14L80.08 35.22L73.35 24.39L80.25 25.4z"/>
+	</g>
+	<g id="Path_11" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M73.35 24.39L75.78 17.05L83.03 12.97L90.49 14.98L87.23 22.54L80.25 25.4z"/>
+	</g>
+	<g id="Path_12" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M87.06 38.14L80.25 25.4L73.35 24.39L80.08 35.22z"/>
+	</g>
+	<g id="Path_13" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M90.49 14.98L87.23 22.54L92.18 35.98L93.78 26.96z"/>
+	</g>
+	<g id="Path_14" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M75.83 24.75L77.95 20.48L83.13 17.8L88.60 19.36L87.23 22.54L80.25 25.4z"/>
+	</g>
+	<g id="Path_15" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M83.03 12.97L90.49 14.98L88.60 19.36L83.13 17.8z"/>
+	</g>
+	<g id="Path_16" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M77.95 20.48L75.83 24.75L73.35 24.39L75.78 17.05z"/>
+	</g>
+	<g id="Path_16" style="fill-rule:none;clip-rule:nonzero;fill:#dc3838;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M48.00 36.4L54.20 41L44.40 45.4L38.40 78.2L32.20 74.4L38.80 41.2z"/>
+	</g>
+	<g id="Path_17" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M51.80 48.8L50.40 57.2L55.35 67.8L62.30 63.22L63.10 56.02L57.41 60.43z"/>
+	</g>
+	<g id="Path_18" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M85.81 51.76L84.29 45.75L80.38 39.69L76.17 38.84"/>
+	</g>
+</g>
+</svg>

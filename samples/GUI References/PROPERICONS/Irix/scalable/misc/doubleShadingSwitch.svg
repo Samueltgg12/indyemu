@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_5" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M66.00 28L36.00 -2L36.00 7L66.00 37z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M96.00 28L96.00 37L66.00 37L66.00 28z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M6.00 -2L6.00 7L36.00 7L36.00 -2z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M6.00 88L6.00 97L36.00 97L36.00 88z"/>
+	</g>
+	<g id="Path_9" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M6.00 64L6.00 73L36.00 73L36.00 64z"/>
+	</g>
+	<g id="Path_10" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M66.00 52L36.00 22L36.00 31L66.00 61z"/>
+	</g>
+	<g id="Path_11" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M96.00 52L96.00 61L66.00 61L66.00 52z"/>
+	</g>
+	<g id="Path_12" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00fcf8;stroke:none;stroke-miterlimit:4;">
+		<path d="M6.00 22L6.00 31L36.00 31L36.00 22z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M6.00 22L6.00 31L36.00 31L66.00 61L96.00 61L96.00 52L66.00 52L36.00 22z"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M6.00 7L6.00 -2L36.00 -2L66.00 28L96.00 28L96.00 37L66.00 37L36.00 7z"/>
+	</g>
+	<g id="Path_10" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M6.00 64L6.00 73L36.00 73L36.00 64z"/>
+	</g>
+	<g id="Path_11" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M6.00 88L6.00 97L36.00 97L36.00 88z"/>
+	</g>
+	<g id="Path_12" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 31L36.00 22"/>
+	</g>
+	<g id="Path_13" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 -2L36.00 7"/>
+	</g>
+</g>
+</svg>

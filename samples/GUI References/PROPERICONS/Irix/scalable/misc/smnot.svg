@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#f80000;stroke-miterlimit:4;">
+		<path d="M8.61 1.20999999999999L1.02 8.81L1.02 24L8.60 31.6L23.80 31.6L31.40 24L31.40 8.81L23.80 1.22z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M11.54 7.08L6.81 11.83L6.81 11.83L6.81 21.29L11.53 26.01L21.00 26.01L25.74 21.29L25.74 11.83L21.00 7.08z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#f80000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M6.41 3.41L3.01 6.81L25.80 29.6L29.30 26.1z"/>
+	</g>
+</g>
+</svg>

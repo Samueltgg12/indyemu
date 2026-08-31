@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="check" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;">
+		<path d="M76.70 85.58L78.34 83.62L81.64 80.19L84.69 77.65L88.59 74.67L99.15 67.22L96.58 74.11L89.17 80.71L85.02 84.47L81.30 90.12L77.81 95.84z"/>
+	</g>
+	<g id="check" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;">
+		<path d="M68.07 80.6L73.00 82.65L75.47 84.28L81.16 90.35L81.58 94.79L75.83 99.62L74.09 94.5L72.55 92L69.76 90.51L67.03 89.86L64.04 89.6L60.00 90z"/>
+	</g>
+	<g id="check outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M81.58 94.79L75.80 99.6L74.06 94.49L72.52 91.99L69.73 90.49L67.00 89.84L64.01 89.58L60.00 90L68.07 80.6L73.00 82.65L75.47 84.28L76.70 85.58"/>
+	</g>
+	<g id="check outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M76.38 85.77L78.87 83.18L81.64 80.19L84.56 77.76L87.65 75.38L99.15 67.22L96.58 74.11L89.17 80.71L85.02 84.47L81.30 90.12L81.58 94.79"/>
+	</g>
+</g>
+</svg>

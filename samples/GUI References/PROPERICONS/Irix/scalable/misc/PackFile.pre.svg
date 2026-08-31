@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Icon Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M45.00 100L29.00 92L54.00 79.5L70.00 87.5z"/>
+	</g>
+	<g id="Back Sheet" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M29.00 82L31.00 46.25L29.00 12.5L54.00 0L52.00 35.75L54.00 69.5z"/>
+	</g>
+	<g id="Middle Sheet" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M37.00 85.7L39.00 50.1L37.00 16.5L62.00 4L60.00 39.6L62.00 73.2z"/>
+	</g>
+</g>
+</svg>

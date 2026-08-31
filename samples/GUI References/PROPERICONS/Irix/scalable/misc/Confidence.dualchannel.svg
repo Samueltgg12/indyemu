@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Monitor Stand" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M66.54 56.6L58.21 52.52L58.21 50.61L59.86 49.66L79.31 43.93L79.31 45.4L81.91 46.53L81.91 48.44z"/>
+	</g>
+	<g id="Monitor Back" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.78 42.97L53.26 39.24L52.48 37.5L52.30 35.16L52.30 27.34L52.22 26.04L53.17 24.74L65.33 18.66L66.63 18.4L67.58 18.4L72.45 18.49z"/>
+	</g>
+	<g id="Monitor Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M67.06 50.79L65.50 51.22L64.03 51.39L62.55 50.96L57.43 48.35L56.56 47.57L56.04 46.62L55.78 45.58L55.78 29.95L56.04 28.13L56.99 26.74L58.30 25.87L73.23 17.97L74.53 17.62L75.66 17.53L76.61 17.97L82.52 21.18L83.39 22.31L83.47 23.87L83.56 25.61L83.56 38.63L83.39 40.37L82.95 41.41L82.17 42.19L81.48 42.88z"/>
+	</g>
+	<g id="Screen" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M66.20 46.44L66.20 34.29L66.37 32.73L67.15 31.77L80.00 25L81.22 24.83L81.56 25.78L81.56 38.63L81.48 39.85L80.78 40.63L67.24 47.75L66.46 47.57z"/>
+	</g>
+	<g id="Monitor Stand" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.27 74.39L23.75 70.22L23.75 68.27L25.44 67.29L45.30 61.44L45.30 62.94L47.97 64.1L47.97 66.05z"/>
+	</g>
+	<g id="Monitor Back" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M21.27 60.46L18.70 56.65L17.90 54.87L17.72 52.48L17.72 44.5L17.63 43.17L18.61 41.83L31.02 35.63L32.36 35.36L33.33 35.36L38.30 35.45z"/>
+	</g>
+	<g id="Monitor Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.80 68.44L31.20 68.89L29.69 69.06L28.19 68.62L22.95 65.96L22.07 65.16L21.53 64.19L21.27 63.12L21.27 47.16L21.53 45.29L22.51 43.87L23.84 42.99L39.10 34.92L40.43 34.56L41.58 34.47L42.55 34.92L48.59 38.2L49.47 39.35L49.56 40.95L49.65 42.72L49.65 56.03L49.47 57.8L49.03 58.86L48.23 59.66L47.52 60.37z"/>
+	</g>
+	<g id="Screen" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M31.91 64.01L31.91 51.59L32.09 49.99L32.89 49.02L46.01 42.1L47.26 41.92L47.61 42.9L47.61 56.03L47.52 57.27L46.81 58.07L32.98 65.34L32.18 65.16z"/>
+	</g>
+</g>
+</svg>

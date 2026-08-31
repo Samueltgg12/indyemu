@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M35.00 40L27.50 26.25L25.00 27.5L17.50 16.25L15.00 17.5L5.00 5L12.50 21.25L15.00 20L20.00 32.5L22.50 31.25L27.50 43.75z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M30.00 57.5L20.00 60L17.50 56.25L10.00 57.5L7.50 56.25L0.00 65L7.50 51.25L10.00 52.5L17.50 51.25L20.00 52.5L27.50 48.75z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M60.00 40L67.50 33.75L65.00 30L72.50 23.75L70.00 20L77.50 11.25L62.50 18.75L65.00 22.5L57.50 26.25L60.00 30L52.50 36.25z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M47.50 28.75L45.00 17.5L50.00 15L37.50 1.25L42.50 13.75L40.00 17.5L40.00 30z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M32.50 73.75L27.50 78.75L30.00 92.5L32.50 81.25L37.50 76.25L40.00 60L32.50 58.75z"/>
+	</g>
+</g>
+</svg>

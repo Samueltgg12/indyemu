@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Color Map Large Square" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 70L36.00 22L76.00 2L76.00 50z"/>
+	</g>
+	<g id="Small Square" style="fill-rule:none;clip-rule:nonzero;fill:#70c470;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M56.00 36L56.00 24L66.00 19L66.00 31z"/>
+	</g>
+	<g id="Small Square" style="fill-rule:none;clip-rule:nonzero;fill:#888c38;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 58L36.00 46L46.00 41L46.00 53z"/>
+	</g>
+	<g id="Small Square" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M66.00 55L66.00 43L76.00 38L76.00 50z"/>
+	</g>
+	<g id="Small Square on Platform" style="fill-rule:none;clip-rule:nonzero;fill:#7070c0;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M61.00 79L51.00 74L61.00 69L71.00 74z"/>
+	</g>
+	<g id="Small Square on Platform" style="fill-rule:none;clip-rule:nonzero;fill:#f800f8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.00 78L40.00 73L50.00 68L60.00 73z"/>
+	</g>
+	<g id="Small Square Hanging in Air" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.00 66L74.00 57L86.00 55L80.00 64z"/>
+	</g>
+	<g id="Lines - Horizontal" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 58L76.00 38"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 46L76.00 26"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 34L76.00 14"/>
+	</g>
+	<g id="Lines - Vertical" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.00 65L46.00 17"/>
+	</g>
+	<g id="Path_11" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M56.00 60L56.00 12"/>
+	</g>
+	<g id="Path_12" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M66.00 55L66.00 7"/>
+	</g>
+</g>
+</svg>

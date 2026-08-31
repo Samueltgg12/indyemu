@@ -1,0 +1,136 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Button Box Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.40 74.6L56.70 58.6L56.90 33.8L59.40 36.9L69.40 70z"/>
+	</g>
+	<g id="Button Box Top" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.40 36.9L56.80 33.8L87.70 23.8L90.30 26.9z"/>
+	</g>
+	<g id="Button Box Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.40 70L59.40 36.9L90.30 27L100.40 60.1z"/>
+	</g>
+	<g id="Button Box Front" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.30 74.6L69.40 70L100.40 60.1L100.40 64.6z"/>
+	</g>
+	<g id="Area Under Buttons" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M76.90 60.1L75.50 55.1L70.00 56.8L66.40 45.2L71.90 43.5L70.20 38.1L81.80 34.5L83.40 39.7L88.80 37.8L92.30 49.6L86.70 51.4L88.30 56.4z"/>
+	</g>
+	<g id="Button 1" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.90 42.7L71.80 38.8L76.20 37.3L77.30 41.3z"/>
+	</g>
+	<g id="Button 2" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M78.50 41L77.40 36.9L81.60 35.5L82.90 39.7z"/>
+	</g>
+	<g id="Button 3" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.60 49.8L68.30 45.3L72.30 44L73.60 48.5z"/>
+	</g>
+	<g id="Button 4" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M74.70 48.2L73.30 43.9L77.60 42.3L78.90 46.8z"/>
+	</g>
+	<g id="Button 5" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M80.20 46.3L78.90 42L83.20 40.6L84.50 44.9z"/>
+	</g>
+	<g id="Button 6" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M85.60 44.6L84.30 40.3L88.90 38.7L90.20 43.1z"/>
+	</g>
+	<g id="Button 7" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M71.30 55.2L69.90 50.8L73.80 49.5L75.20 54z"/>
+	</g>
+	<g id="Button 8" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M76.30 53.6L74.90 49.1L79.20 47.8L80.70 52.3z"/>
+	</g>
+	<g id="Button 9" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M82.10 52L80.40 47.3L84.80 46L86.30 50.6z"/>
+	</g>
+	<g id="Button 10" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M87.30 50L86.10 45.6L90.60 44.1L91.80 48.5z"/>
+	</g>
+	<g id="Button 11" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M77.80 58.7L76.60 54.7L80.90 53.4L82.30 57.2z"/>
+	</g>
+	<g id="Button 12" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M83.50 56.8L82.30 53L86.60 51.6L87.60 55.6z"/>
+	</g>
+	<g id="Dial Box" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.90 80L34.90 46.3L34.70 45.5L34.70 44.6L34.90 43.9L35.60 41.7L36.00 41.1L36.60 40.5L37.30 40.3L38.10 40L53.90 34.7L54.50 34.6L55.00 34.6L55.50 35L55.80 35.5L57.10 40.1L57.20 40.7L56.80 42.5L58.30 47.9L59.20 47.6L59.60 47.8L59.90 49.1L60.10 49.4L59.50 51.2L61.20 56.7L61.90 56.6L62.20 56.6L62.70 57.8L62.80 58.3L62.10 59.8L63.80 65.5L64.80 65.4L65.00 65.7L66.40 70.3L66.50 71L66.50 71.7L66.40 72.4L65.80 74.6L65.40 75.3L64.80 75.7L64.10 76.1L47.90 81.2L47.00 81.3L46.10 81.1L45.40 80.7z"/>
+	</g>
+	<g id="Dial Box Edge Line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.40 80.7L46.20 80.3L46.20 79.8L46.60 78.4L47.10 77.7L47.60 77.3L48.20 77L65.30 71.5L65.80 71.6L66.00 71.9"/>
+	</g>
+	<g id="Dial Niche" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.60 73.4L42.30 65.7L42.70 64.6L43.00 64.3L43.60 64.1L45.90 63.4L48.00 70.7L45.70 71.3L45.20 71.6L45.00 72.1z"/>
+	</g>
+	<g id="Dial Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.90 70.6L45.70 71.4L45.20 71.6L44.90 72L43.70 71.3L43.00 70.2L42.50 69L42.30 67.7L42.40 66.6L42.80 65.7L44.10 64.3z"/>
+	</g>
+	<g id="Dial Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.90 70.6L46.50 70.9L45.30 70.7L44.20 70.2L43.40 69L42.90 67.9L42.90 66.6L43.40 65.3L44.10 64.3L45.00 63.7L46.00 63.4L47.30 63.3L48.60 63.5L49.40 64L50.20 65.1L50.50 66.2L50.60 67.4L50.20 68.6L49.70 69.6L48.70 70.2z"/>
+	</g>
+	<g id="Dial Knob" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.20 67.4L46.30 67.5L45.80 66.9L46.00 66.1L46.70 65.7L47.30 65.8L47.80 66.2L47.70 66.9z"/>
+	</g>
+	<g id="Dial Niche Line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M60.10 58.3L62.60 57.6"/>
+	</g>
+	<g id="Dial Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M64.80 62.7L64.60 64.7L64.30 65.3L63.70 65.7L62.10 66.1z"/>
+	</g>
+	<g id="Dial Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.00 66.1L60.90 66.4L59.80 66.3L58.60 65.8L57.70 64.9L57.20 63.5L57.10 62.3L57.30 61.1L57.80 59.8L58.80 58.9L60.10 58.3L61.60 58.3L62.70 58.5L63.70 59.1L64.40 60.1L64.80 61.4L64.80 62.6L64.30 64L63.60 64.9L62.90 65.5z"/>
+	</g>
+	<g id="Dial Knob" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M61.40 62.9L60.70 62.9L60.10 62.2L60.20 61.2L61.00 60.8L61.80 60.9L62.20 61.5L62.10 62.4z"/>
+	</g>
+	<g id="Dial Niche" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 64.6L39.70 56.9L40.10 55.8L40.40 55.5L41.00 55.3L43.30 54.6L45.40 61.9L43.10 62.5L42.60 62.8L42.40 63.3z"/>
+	</g>
+	<g id="Dial Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.30 61.8L43.10 62.6L42.60 62.8L42.30 63.2L41.10 62.5L40.40 61.4L39.90 60.2L39.70 58.9L39.80 57.8L40.20 56.9L41.50 55.5z"/>
+	</g>
+	<g id="Dial Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.30 61.8L43.90 62.1L42.70 61.9L41.60 61.4L40.80 60.2L40.30 59.1L40.30 57.8L40.80 56.5L41.50 55.5L42.40 54.9L43.40 54.6L44.70 54.5L46.00 54.7L46.80 55.2L47.60 56.3L47.90 57.4L48.00 58.6L47.60 59.8L47.10 60.8L46.10 61.4z"/>
+	</g>
+	<g id="Dial Knob" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.60 58.6L43.70 58.7L43.20 58.1L43.40 57.3L44.10 56.9L44.70 57L45.20 57.4L45.10 58.1z"/>
+	</g>
+	<g id="Dial Niche Line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.50 49.5L60.00 48.8"/>
+	</g>
+	<g id="Dial Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.20 53.9L62.00 55.9L61.70 56.5L61.10 56.9L59.50 57.3z"/>
+	</g>
+	<g id="Dial Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.40 57.3L58.30 57.6L57.20 57.5L56.00 57L55.10 56.1L54.60 54.7L54.50 53.5L54.70 52.3L55.20 51L56.20 50.1L57.50 49.5L59.00 49.5L60.10 49.7L61.10 50.3L61.80 51.3L62.20 52.6L62.20 53.8L61.70 55.2L61.00 56.1L60.30 56.7z"/>
+	</g>
+	<g id="Dial Knob" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M58.80 54.1L58.10 54.1L57.50 53.4L57.60 52.4L58.40 52L59.20 52.1L59.60 52.7L59.50 53.6z"/>
+	</g>
+	<g id="Dial Niche" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.30 55.7L37.00 48L37.40 46.9L37.70 46.6L38.30 46.4L40.60 45.7L42.70 53L40.40 53.6L39.90 53.9L39.70 54.4z"/>
+	</g>
+	<g id="Dial Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.60 52.9L40.40 53.7L39.90 53.9L39.60 54.3L38.40 53.6L37.70 52.5L37.20 51.3L37.00 50L37.10 48.9L37.50 48L38.80 46.6z"/>
+	</g>
+	<g id="Dial Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.60 52.9L41.20 53.2L40.00 53L38.90 52.5L38.10 51.3L37.60 50.2L37.60 48.9L38.10 47.6L38.80 46.6L39.70 46L40.70 45.7L42.00 45.6L43.30 45.8L44.10 46.3L44.90 47.4L45.20 48.5L45.30 49.7L44.90 50.9L44.40 51.9L43.40 52.5z"/>
+	</g>
+	<g id="Dial Knob" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M41.90 49.7L41.00 49.8L40.50 49.2L40.70 48.4L41.40 48L42.00 48.1L42.50 48.5L42.40 49.2z"/>
+	</g>
+	<g id="Dial Niche Line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M54.80 40.6L57.30 39.9"/>
+	</g>
+	<g id="Dial Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.50 45L59.30 47L59.00 47.6L58.40 48L56.80 48.4z"/>
+	</g>
+	<g id="Dial Face" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M56.70 48.4L55.60 48.7L54.50 48.6L53.30 48.1L52.40 47.2L51.90 45.8L51.80 44.6L52.00 43.4L52.50 42.1L53.50 41.2L54.80 40.6L56.30 40.6L57.40 40.8L58.40 41.4L59.10 42.4L59.50 43.7L59.50 44.9L59.00 46.3L58.30 47.2L57.60 47.8z"/>
+	</g>
+	<g id="Dial Knob" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M56.10 45.2L55.40 45.2L54.80 44.5L54.90 43.5L55.70 43.1L56.50 43.2L56.90 43.8L56.80 44.7z"/>
+	</g>
+</g>
+</svg>

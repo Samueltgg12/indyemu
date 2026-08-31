@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Curled Up Piece of Second Page" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M65.42 5.43000000000001L29.10 23.65L32.29 45.15L33.01 50.2L34.45 54.62L36.51 58.94L39.39 62.24L44.64 64.29L49.47 64.09L48.44 57.3L45.25 56.37L43.19 54.93L40.93 52.15L39.59 48.34L39.18 45.87L39.18 28.69L65.11 15.83z"/>
+	</g>
+	<g id="Other Piece of Second Page" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M48.44 57.3L52.04 56.27L53.79 54L54.62 51.95L54.82 49.78L54.62 47.73L54.10 45.98L53.07 44.23L52.40 41.86L54.51 43.2L56.16 44.95L57.50 47.21L58.32 49.37L58.63 53.49L57.91 56.99L55.54 61.21L53.07 62.96L51.74 63.57L49.47 64.09z"/>
+	</g>
+	<g id="Outline of Curled Up Piece of Second Page and First Page" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M65.42 5.43000000000001L29.10 23.65L32.29 45.15L33.01 50.2L34.45 54.62L36.51 58.94L39.39 62.24L44.64 64.29L49.47 64.09"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.40 41.86L53.07 44.23L54.10 45.98L54.62 47.73L54.82 49.78L54.62 51.95L53.79 54L52.04 56.27L48.44 57.3L45.25 56.37L43.19 54.93L40.93 52.15L39.59 48.34L39.18 45.87L39.18 28.69L65.11 15.83L65.42 5.43000000000001"/>
+	</g>
+	<g id="Front Part of Curl" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.47 64.09L51.74 63.57L53.07 62.96L55.54 61.21L57.91 56.99L58.63 53.49L58.32 49.37L57.50 47.21L56.16 44.95L54.51 43.2L52.40 41.86L81.47 46L83.74 46.7L85.59 49.58L85.69 52.15L84.77 54L83.33 55.65L81.16 56.99z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Tape Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M33.00 95L26.00 91L67.00 69L74.00 73z"/>
+	</g>
+	<g id="Tape Side" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M33.00 85L31.80 84.2L31.90 83.7L27.60 81.5L27.10 81.8L26.00 81L26.00 62L26.30 61.1L27.10 60.6L27.10 55.2L26.50 54.9L26.00 54L26.00 50L68.00 28L68.70 28.6L68.80 29.3L72.70 31.4L73.20 31.1L74.00 32L33.00 53z"/>
+	</g>
+	<g id="outline" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M33.00 85L31.80 84.2L31.90 83.7L27.60 81.5L27.10 81.8L26.00 81L26.00 62L26.30 61.1L27.10 60.6L27.10 55.2L26.50 54.9L26.00 54L26.00 50L68.00 28L68.70 28.6L68.80 29.3L72.70 31.4L73.20 31.1L74.00 32L33.00 53z"/>
+	</g>
+	<g id="Tape Front" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M33.00 85L33.00 53L74.00 32L74.00 63z"/>
+	</g>
+	<g id="Side Edge Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M27.00 81.7L27.10 62.3L27.30 61.5L27.90 61.3L27.90 55.2L27.40 55.1L27.10 54.6L27.10 50.1L68.70 28.6"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M31.90 83.7L31.90 52.4L72.80 31.4"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M31.90 52.4L27.80 50.3"/>
+	</g>
+	<g id="Tape Hatch" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.30 36.1L62.20 30.9L68.90 34.5L68.30 38.6L60.80 42.7L59.10 39.6z"/>
+	</g>
+	<g id="Hatch Line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.90 34.6L60.50 39"/>
+	</g>
+	<g id="Sprocket Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.40 55L39.10 56.2L38.20 57.2L37.10 57.4L36.20 56.9L35.90 55.8L36.20 54.5L37.00 53.4L37.80 52.8"/>
+	</g>
+	<g id="Path_10" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.20 49.8L50.10 50.9L49.80 52L49.30 53L48.20 53.9L46.80 54.2L45.40 53.6L45.10 52.2L44.80 50.7L45.30 49L46.20 48.1L47.10 47.5"/>
+	</g>
+	<g id="Path_11" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.10 60.7L72.20 61.6L71.80 62.7L71.10 63.7L69.90 64.3L68.60 63.9L68.10 62.7L68.20 61.1L68.70 60L69.70 59.2"/>
+	</g>
+	<g id="Label" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 72L36.00 61L71.00 44L71.00 54z"/>
+	</g>
+</g>
+</svg>

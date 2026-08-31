@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Front panel" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M15.00 55L80.00 22.5L80.00 55L15.00 87.5z"/>
+	</g>
+	<g id="front slot" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.50 56.25L72.50 31.25L72.50 48.75L22.50 73.75z"/>
+	</g>
+	<g id="front panel" style="fill-rule:none;clip-rule:nonzero;fill:#a4a8a4;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M37.48 56.17L57.48 46.17L57.48 51.17L37.48 61.17z"/>
+	</g>
+	<g id="front button" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M64.98 57.17L72.91 53.18L72.91 56.1L65.00 60z"/>
+	</g>
+	<g id="shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M12.00 93.52L76.84 61.1L89.81 67.6z"/>
+	</g>
+</g>
+</svg>

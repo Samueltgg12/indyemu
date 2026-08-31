@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;">
+		<path d="M74.01 17.43L76.60 30.8L62.54 23.22z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;">
+		<path d="M63.60 43.6L72.00 28.2L67.10 25.67L59.21 38.9z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f80000;stroke:none;stroke-miterlimit:4;">
+		<path d="M22.35 1.18000000000001L63.53 43.27L61.03 48.27L17.84 5.94z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M100.00 100L100.11 46.75L91.30 44.14L80.57 43.64L70.11 44.5L59.66 48.86L49.43 55.91L43.52 64.55L39.01 75.8L37.61 88.41z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M32.20 61.8L0.36 30.73L4.64 25.97L36.17 57.76L41.09 51.88L41.88 67.12L27.75 67.6L30.00 65z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M17.88 5.91L22.37 1.22L59.18 38.92L66.96 25.75L62.39 23.17L74.10 17.34L76.49 30.83L71.88 28.29L60.97 48.17z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M100.02 46.9L91.21 44.29L80.48 43.79L70.02 44.65L59.57 49.01L49.34 56.06z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:#007ef8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M100.11 57.9L95.21 55.29L88.37 53.65L80.57 53.41L72.44 53.93L63.98 56.82L56.92 62.12L52.16 69.32L49.07 77.45L47.84 86.82L48.63 95.31L49.80 99.98L100.00 100z"/>
+	</g>
+</g>
+</svg>

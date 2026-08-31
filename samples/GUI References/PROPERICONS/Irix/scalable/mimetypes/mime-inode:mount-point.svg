@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50pt"
+   height="50pt"
+   viewBox="0 0 50 50"
+   xml:space="preserve"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="mime-inode:mount-point.svg"
+   sodipodi:docbase="/home/emasson/.icons/Iris/scalable/mimetypes"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata
+   id="metadata30"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs28"><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="0 : 31.25 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="62.5 : 31.25 : 1"
+   inkscape:persp3d-origin="31.25 : 20.833333 : 1"
+   id="perspective20" />
+	
+	
+	
+	
+	
+	
+	
+</defs><sodipodi:namedview
+   inkscape:window-height="927"
+   inkscape:window-width="1142"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   inkscape:zoom="5.472"
+   inkscape:cx="59.530392"
+   inkscape:cy="31.25"
+   inkscape:window-x="29"
+   inkscape:window-y="192"
+   inkscape:current-layer="svg2"
+   showgrid="false" />
+<g
+   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4"
+   id="Folder Back Polygon 2 -- Tab on Top"
+   transform="matrix(0.5289041,0,0,0.5288709,-3.122112,-3.4574459)">
+		<path
+   id="path7"
+   d="M 26.83,31.77 L 28.42,27 L 43.66,18.24 L 45.25,22.33 L 26.83,31.77 z" />
+	</g><g
+   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4"
+   id="Folder Back Polygon 1"
+   transform="matrix(0.5289041,0,0,0.5288709,-3.122112,-3.4574459)">
+		<path
+   id="path10"
+   d="M 21.14,86.13 L 17.27,84.19 L 17.27,36.78 L 26.83,31.77 L 45.25,22.33 L 73.22,8.35 L 73.22,55.99 L 76.97,58.15 L 21.14,86.13 z" />
+	</g><g
+   style="fill:#d3bc5f;fill-opacity:1;stroke:#000000;stroke-width:0.94538063000000006;stroke-miterlimit:4"
+   id="Folder Back Outline"
+   transform="matrix(0.5289041,0,0,0.5288709,-3.122112,-3.4574459)">
+		<path
+   id="path13"
+   d="M 21.14,86.13 L 17.27,84.19 L 17.27,36.78 L 26.83,31.77 L 28.42,27 L 28.42,27 L 43.66,18.24 L 45.25,22.33 L 73.22,8.35 L 73.22,55.99"
+   style="fill:#d3bc5f;fill-opacity:1;stroke-width:0.94538063000000006" />
+	</g><g
+   style="fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4"
+   id="Shadow Always Same Closed or Open"
+   transform="matrix(0.5289041,0,0,0.5288709,-3.122112,-3.4574459)">
+		<path
+   id="path16"
+   d="M 26.37,100 L 15,94.31 L 71.86,65.89 L 83.23,71.57 L 26.37,100 z"
+   style="fill:#808080;fill-opacity:1" />
+	</g><g
+   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4"
+   id="Folder Front Opened"
+   transform="matrix(0.5289041,0,0,0.5288709,-3.122112,-3.4574459)">
+		<path
+   id="path19"
+   d="M 21.14,86.13 L 42.06,43.48 L 49.57,39.39 L 49.57,44.74 L 64.81,37.12 L 68.9,30.07 L 97.9,15.51 L 76.97,58.15 L 21.14,86.13 z" />
+	</g><g
+   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-miterlimit:4"
+   id="Folder Front Opened -- Small Tab Indent"
+   transform="matrix(0.5289041,0,0,0.5288709,-3.122112,-3.4574459)">
+		<path
+   id="path22"
+   d="M 39.33,49.28 L 42.18,43.26 L 49.57,39.39 L 49.57,44.74 L 39.33,49.28 z" />
+	</g><g
+   style="fill:#fdfdad;fill-opacity:1;stroke:#000000;stroke-width:0.94538063;stroke-miterlimit:4"
+   id="Folder Front Opened Outline"
+   transform="matrix(0.5289041,0,0,0.5288709,-3.122112,-3.4574459)">
+		<path
+   id="path25"
+   d="M 21.14,86.13 L 41.95,43.48 L 49.57,39.39 L 49.57,44.74 L 64.81,37.12 L 68.9,30.07 L 97.9,15.51 L 76.97,58.15 L 21.14,86.13 z"
+   style="fill:#fdfdad;fill-opacity:1;stroke-width:0.94538063" />
+	</g>
+</svg>

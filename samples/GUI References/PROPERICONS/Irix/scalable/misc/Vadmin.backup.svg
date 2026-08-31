@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Tape Side" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 79L40.80 78.2L40.90 77.7L36.60 75.5L36.10 75.8L35.00 75L35.00 56L35.30 55.1L36.10 54.6L36.10 49.2L35.50 48.9L35.00 48L35.00 44L77.00 22L77.70 22.6L77.80 23.3L81.70 25.4L82.20 25.1L83.00 26L42.00 47z"/>
+	</g>
+	<g id="Tape Front" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 79L42.00 47L83.00 26.5L83.00 58.5z"/>
+	</g>
+	<g id="Side Edge Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.00 75.7L36.10 56.3L36.30 55.5L36.90 55.3L36.90 49.2L36.40 49.1L36.10 48.6L36.10 44.1L77.70 22.6"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M40.90 77.7L40.90 46.4L81.80 25.4"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M40.90 46.4L36.80 44.3"/>
+	</g>
+	<g id="Tape Hatch" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M61.30 30.1L71.20 24.9L77.90 28.5L77.30 32.6L69.80 36.7L68.10 33.6z"/>
+	</g>
+	<g id="Hatch Line" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M77.90 28.6L69.50 33"/>
+	</g>
+	<g id="Sprocket Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M48.40 49L48.10 50.2L47.20 51.2L46.10 51.4L45.20 50.9L44.90 49.8L45.20 48.5L46.00 47.4L46.80 46.8"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.20 43.8L59.10 44.9L58.80 46L58.30 47L57.20 47.9L55.80 48.2L54.40 47.6L54.10 46.2L53.80 44.7L54.30 43L55.20 42.1L56.10 41.5"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M81.10 54.7L81.20 55.6L80.80 56.7L80.10 57.7L78.90 58.3L77.60 57.9L77.10 56.7L77.20 55.1L77.70 54L78.70 53.2"/>
+	</g>
+	<g id="Label" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.00 66L45.00 55L80.00 37.5L80.00 48.5z"/>
+	</g>
+	<g id="Lower Arrow Head" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M51.00 27L51.00 17L52.00 13.9L52.80 12.8L53.80 11.8L55.30 11.1L58.70 10.6L67.20 13.4L67.20 18.8z"/>
+	</g>
+	<g id="Path_12" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.00 34L43.00 31L67.20 18.8L75.20 14.9z"/>
+	</g>
+	<g id="Lower Arrow Head Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.00 34L43.00 31L51.00 27L51.00 17L52.00 13.9L52.80 12.8L53.80 11.8L55.30 11.1L58.70 10.6L67.20 13.4L67.20 18.8L75.20 14.9z"/>
+	</g>
+	<g id="Arrow Shaft" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M76.50 20.7L59.50 11.6L58.50 11.1L57.30 11L56.30 11L55.00 11.05L69.90 3.59999999999999L70.90 3.09999999999999L72.00 2.90000000000001L73.10 2.8L74.40 3L75.60 3.59999999999999L92.50 11.7z"/>
+	</g>
+	<g id="Upper Arrow Head" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M100.00 8.7L100.00 24.7L68.50 24.7L76.50 20.7L92.50 11.7z"/>
+	</g>
+	<g id="Arrow Shaft and Head Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M76.50 20.7L59.50 11.6L58.50 11.1L57.30 11L56.30 11L55.00 11.05L69.90 3.59999999999999L70.90 3.09999999999999L72.00 2.90000000000001L73.10 2.8L74.40 3L75.60 3.59999999999999L92.50 11.7L100.00 8.7L100.00 24.7L68.50 24.7z"/>
+	</g>
+</g>
+</svg>

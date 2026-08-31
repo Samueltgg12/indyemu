@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M42.00 96L41.00 98L40.00 99L37.00 100L35.00 99L23.50 93.25L21.00 92L20.00 90L22.00 88L24.50 87.2L27.00 88L62.50 70.25L79.00 78z"/>
+	</g>
+	<g id="Back Cover" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M20.00 36L20.00 20L22.00 18.5L24.00 18L27.00 18L60.50 1.25L62.00 1.5L62.50 3.5L63.00 5L63.00 16z"/>
+	</g>
+	<g id="Back Page" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M30.00 30L30.00 20L60.00 5L60.00 26.5z"/>
+	</g>
+	<g id="Middle Page" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.00 35L34.00 22L64.00 7L64.00 29z"/>
+	</g>
+	<g id="Front Page" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M38.00 38L38.00 24L68.00 9L68.00 38z"/>
+	</g>
+	<g id="Spine - Large Piece" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 33L42.00 86L41.00 88L40.00 89L37.00 90L36.00 90L20.00 82L20.00 20L21.00 22L22.50 23L26.00 25L34.00 29z"/>
+	</g>
+	<g id="Spine - Small Piece" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 33L36.00 30L38.50 29.5L39.50 29L41.00 28L42.00 26z"/>
+	</g>
+	<g id="Spine and Back Cover Outlines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 86L41.00 88L40.00 89L37.00 90L36.00 90L20.00 82L20.00 20L21.00 22L22.50 23L26.00 25L34.00 29L36.00 30L38.50 29.5L39.50 29L41.00 28L42.00 26"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M20.00 20L22.00 18.5L24.00 18L27.00 18L60.50 1.25L62.00 1.5L62.50 3.5L63.00 5L63.00 7.5"/>
+	</g>
+	<g id="Front Cover" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.00 86L42.00 26L76.50 8.5L78.00 9L79.00 12L79.00 63L79.00 65L78.00 67L76.50 69z"/>
+	</g>
+</g>
+</svg>

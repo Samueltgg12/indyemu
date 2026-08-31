@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Top of Base Platform" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M50.00 100L2.48 76.24L50.00 52.48L97.52 76.24z"/>
+	</g>
+	<g id="Top of Base Platform" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.00 90L2.48 66.24L50.00 42.48L97.52 66.24z"/>
+	</g>
+	<g id="Top of Host Box" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M67.60 21.96L41.07 7.59L53.23 1.51000000000001L79.75 15.88z"/>
+	</g>
+	<g id="Front of Host Box" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M67.60 21.96L79.75 15.88L79.75 57.88L67.60 63.95z"/>
+	</g>
+	<g id="Side of Host Box" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M67.60 21.96L67.60 63.95L41.07 50.14L41.07 7.59z"/>
+	</g>
+	<g id="Door Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M79.75 18.09L69.81 23.62"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M79.75 26.93L69.81 32.46"/>
+	</g>
+	<g id="Monitor Stand" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M35.77 72.46L26.49 67.71L26.49 65.17L28.58 64.17L53.34 56.66L53.34 58.76L56.21 60.2L56.10 61.96z"/>
+	</g>
+	<g id="Monitor Back" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M23.06 55.55L19.41 50.36L18.64 48.59L18.20 46.16L18.20 35.44L18.64 33.78L19.96 32.68L34.77 24.83L36.32 24.28L37.98 24.28L44.28 24.28z"/>
+	</g>
+	<g id="Monitor Shell" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M31.13 65.5L24.83 62.3L23.83 61.41L23.17 60.09L23.06 58.43L23.17 38.09L23.28 36.44L24.16 34.89L25.60 34L45.16 23.73L46.49 23.17L47.70 23.06L49.03 23.4L56.32 27.37L57.76 28.48L58.53 30.03L58.86 31.9L58.75 50.58L58.53 52.46L57.65 54.12L56.21 55.11L36.54 65.5L34.77 66.27L32.56 66.16z"/>
+	</g>
+	<g id="Screen" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M35.77 59.86L35.77 44.06L35.99 42.4L36.98 41.52L54.00 32.46L55.33 32.57L55.88 34.12L55.88 49.81L55.55 51.47L54.44 52.46L37.54 61.52L36.21 61.52z"/>
+	</g>
+	<g id="Keyboard" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.28 81.08L34.00 76.11L33.01 75.23L32.67 73.79L33.01 72.35L34.11 71.47L60.19 57.76L61.52 57.32L62.62 57.76L71.91 65.61L72.24 66.27L71.79 67.05L45.82 80.97L44.61 81.52L43.84 81.52z"/>
+	</g>
+	<g id="Keyboard Edge" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M35.99 73.35L44.50 80.42L44.72 81.08L44.17 81.41"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Icon Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M32.00 100L22.00 95L69.00 71.5L79.00 76.5z"/>
+	</g>
+	<g id="Icon Polygon 1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M25.00 88.4L25.00 74.5L34.00 71.2L34.00 83.9z"/>
+	</g>
+	<g id="Icon Polygon 2" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M25.00 74.5L25.00 24L42.00 15.5L48.00 20.5L37.00 67.6L36.40 69.1L35.50 70.5L34.00 71.2z"/>
+	</g>
+	<g id="Icon Polygon 3" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.00 52.5L65.00 56L63.00 56.8L61.80 56.7L61.00 55.8L50.00 19.5L48.00 20.5L42.00 15.5L72.00 0.5z"/>
+	</g>
+	<g id="Icon Polygon 4" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.00 52.5L72.00 64.9L65.00 68.4L65.00 56z"/>
+	</g>
+	<g id="Icon Polygon 5" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M65.00 68.4L34.00 83.9L34.00 75.5L65.00 60z"/>
+	</g>
+	<g id="Icon Polygon 6" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.00 70.5L44.00 66.5L42.90 66.6L42.20 66L42.20 64.8L43.70 58.9L55.00 53.25L56.50 57.9L56.40 59.6L55.50 60.8L54.00 61.5L54.00 65.5z"/>
+	</g>
+	<g id="Icon Polygon 7" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.00 53.6L49.00 35.4L53.60 49.3z"/>
+	</g>
+	<g id="Outline of Rectangle" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.00 64.9L25.00 88.4L25.00 24L72.00 0.5z"/>
+	</g>
+	<g id="Outline of Outside of A" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M34.00 75.5L34.00 71.5L35.50 70.5L36.40 69.1L37.00 67.6L48.00 20.5L50.00 19.5L61.00 55.8L61.80 56.7L63.00 56.8L65.00 56L65.00 60L54.00 65.5L54.00 61.5L55.50 60.8L56.40 59.6L56.50 57.9L55.00 53.25L43.70 58.9L42.20 64.8L42.20 66L42.90 66.6L44.00 66.5L44.00 70.5z"/>
+	</g>
+	<g id="Outline of Inside of A" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.00 53.6L49.00 35.4L53.60 49.3z"/>
+	</g>
+</g>
+</svg>

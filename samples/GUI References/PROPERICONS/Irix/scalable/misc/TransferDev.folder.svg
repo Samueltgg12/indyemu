@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Folder Back Polygon 1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.43 70.21L28.95 68.47L28.95 25.8L37.54 21.29L54.12 12.8L79.30 0.209999999999994L79.30 43.09L82.68 45.04z"/>
+	</g>
+	<g id="Folder Back Polygon 2 -- Tab on Top" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M37.54 21.29L38.98 17L52.69 9.12L54.12 12.8z"/>
+	</g>
+	<g id="Folder Back Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.43 70.21L28.95 68.47L28.95 25.8L37.54 21.29L38.98 17L38.98 17L52.69 9.12L54.12 12.8L79.30 0.209999999999994L79.30 43.09"/>
+	</g>
+	<g id="Folder Front Polygon" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.43 70.21L32.43 32.55L55.76 20.78L56.27 16.18L82.68 3.08L82.68 45.04z"/>
+	</g>
+	<g id="Folder Front Outline	" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.43 70.21L32.43 28.25L39.90 24.37L41.74 27.74L55.76 20.78L56.27 16.18L82.68 3.08L82.68 45.04z"/>
+	</g>
+</g>
+</svg>

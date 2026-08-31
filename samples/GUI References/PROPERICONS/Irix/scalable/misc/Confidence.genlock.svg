@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Back of Monitor" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.20 61.8L41.80 59.4L40.60 57.6L39.40 55.2L39.40 36.6L40.00 34.2L41.80 33L58.60 24.6L62.20 22.8L65.80 23.4L70.00 23.4L44.20 36.6z"/>
+	</g>
+	<g id="Front of Monitor" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 72L44.20 66.6L44.20 36.6L73.00 22.2L81.40 26.4L81.40 58.8z"/>
+	</g>
+	<g id="Monitor Front Outlines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 72L55.00 42L48.40 38.6"/>
+	</g>
+	<g id="Monitor Screen" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M61.84 60.72L58.96 61.32L57.76 60.12L57.76 57.72L57.76 53.16L57.88 45.36L58.48 42.36L60.64 40.92L68.80 36.96L72.40 35.16L74.92 33.96L76.36 34.08L77.20 36L77.20 43.8L77.20 48.36L77.20 51.72L76.36 53.04L74.92 54.24L72.40 55.2L68.80 57.36L61.96 60.72"/>
+	</g>
+	<g id="Genlock Cross" style="fill-rule:nonzero;clip-rule:nonzero;fill:#a8a8a8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.76 57.84L57.76 53.04L77.20 43.68L77.20 48.12z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:nonzero;clip-rule:nonzero;fill:#a8a8a8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.80 57.24L66.80 36.96L72.40 35.28L72.40 55.32z"/>
+	</g>
+	<g id="Genlock Cross Outlines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.76 57.84L68.80 52.32L68.80 57.24"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.80 36.96L68.80 47.76L57.76 53.04"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M77.20 43.68L72.40 46.08L72.40 35.28"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.40 55.32L72.40 50.52L77.20 48.12"/>
+	</g>
+	<g id="Line Under Screen" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M60.00 65L77.00 56.5"/>
+	</g>
+</g>
+</svg>

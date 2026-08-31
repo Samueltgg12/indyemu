@@ -1,0 +1,130 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M44.70 99.98L7.20 81.23L54.70 57.48L92.20 76.23z"/>
+	</g>
+	<g id="printer body" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M10.00 76.94L5.00 62.5L51.33 25.67L90.00 40L90.00 65L45.00 87.5z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.13 71.57L45.00 87.5"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M60.00 55L42.56 66.28"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M86.45 50.55L86.45 44.92L80.82 47.74L80.82 53.37z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:#989a70;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.28 58.86L74.82 38.3L50.42 31.41L22.06 58.97z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:#505450;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M74.98 38.4L49.95 30.62L52.36 34.72z"/>
+	</g>
+	<g id="Slot" style="fill-rule:none;clip-rule:nonzero;fill:#505450;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.06 58.97L18.66 57.18L53.28 27.79L55.35 34.98z"/>
+	</g>
+	<g id="Path_34" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M86.87 59.28L86.87 53.65L81.23 56.47L81.23 62.1z"/>
+	</g>
+	<g id="Path_36" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.00 35.82L67.19 41.98"/>
+	</g>
+	<g id="Path_37" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.78 42.11L60.05 45.71"/>
+	</g>
+	<g id="Path_38" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M31.50 51.77L50.00 51.97"/>
+	</g>
+	<g id="Path_36" style="fill-rule:none;clip-rule:nonzero;fill:#c0c498;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M45.00 80.88L45.00 87.5L10.00 80L10.00 76.94z"/>
+	</g>
+	<g id="Path_37" style="fill-rule:none;clip-rule:nonzero;fill:#c0c498;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M90.00 58.43L90.00 65L45.00 87.5L45.00 80.82z"/>
+	</g>
+	<g id="Path_35" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.88 88.67L90.00 75L80.00 55L50.00 70z"/>
+	</g>
+	<g id="Path_35" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M70.00 78.53L95.00 62.5L77.84 56.1L55.25 67.37z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.84 93.58L90.00 80L90.00 75L62.88 88.67z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.00 70L62.88 88.67L62.84 93.58L50.00 75z"/>
+	</g>
+	<g id="line hovering above priner" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M74.57 28.03L75.57 21.23L73.17 19.83L75.57 16.23L70.57 13.73L77.77 11.63L73.77 3.23"/>
+	</g>
+	<g id="crumpled Paper" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.35 34.98L23.40 58.01L21.43 53.95L18.87 48.74L16.01 43.6L13.81 40.37L45.90 18.73L50.18 20.49L51.56 23.13L52.50 25.89L53.42 28.14L54.36 31.7z"/>
+	</g>
+	<g id="crumpled Paper" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M13.81 40.37L9.65 37.35L45.90 18.73L50.18 20.49z"/>
+	</g>
+	<g id="crumpled Paper" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M9.65 37.35L8.30 32.83L46.47 14.7L45.90 18.73z"/>
+	</g>
+	<g id="crumpled Paper" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M8.35 32.8L11.35 28.3L47.75 10.5L46.52 14.67z"/>
+	</g>
+	<g id="crumpled Paper" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.75 10.5L11.30 28.33L13.30 20.33L53.30 0.329999999999998L51.10 6.93000000000001z"/>
+	</g>
+	<g id="crumpled Outline of Outside of A" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M25.40 45.61L22.54 40.26L24.58 39.29L27.94 44.21z"/>
+	</g>
+	<g id="crumpled black line on paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#f80000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.39 46.48L25.53 52.17"/>
+	</g>
+	<g id="crumpled black line on paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#00fcf8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M48.41 27.12L39.19 31.66"/>
+	</g>
+	<g id="crumpled black line on paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#f800f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M38.75 14.89L29.60 19.43"/>
+	</g>
+	<g id="crumpled black line on paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#f800f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.24 20.38L29.24 25.38"/>
+	</g>
+	<g id="crumpled black line on paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#00fcf8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.15 23.68L34.54 28.49"/>
+	</g>
+	<g id="crumpled Paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M55.35 34.98L23.40 58.01L21.43 53.95L18.87 48.74L16.01 43.6L13.81 40.37L9.65 37.35L8.30 32.83L11.30 28.33L13.30 20.33L53.30 0.329999999999998L51.10 6.93000000000001L47.70 10.53L46.47 14.7L45.90 18.73L50.18 20.49L51.56 23.13L52.50 25.89L53.42 28.14L54.36 31.7z"/>
+	</g>
+	<g id="crumpled Outline of Outside of A" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M17.03 33.94L17.85 28.06L22.85 25.56L23.83 28.31L24.63 30.85z"/>
+	</g>
+	<g id="crumpled Outline of Outside of A" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.51 40.32L20.83 37.75L16.99 33.9L24.59 30.81L30.16 33.68L32.90 35.23L29.83 36.74L24.58 39.29z"/>
+	</g>
+	<g id="crumpled Outline of Outside of A" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#0000f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M24.34 48.38L23.26 46.08L29.41 43.09L30.98 45.1z"/>
+	</g>
+	<g id="crumpled Outline of Outside of A" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.90 35.23L39.65 39.22L36.04 40.89L29.83 36.74z"/>
+	</g>
+	<g id="crumpled Outline of Outside of A" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.54 37.14L42.99 39.21L35.04 43.15L33.64 42.08z"/>
+	</g>
+	<g id="crumpled Outline of Inside of A" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.95 37.07L21.84 35.98L19.13 33.67L21.84 32.51L25.91 35.02z"/>
+	</g>
+	<g id="crumpled Outline of Inside of A" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M19.13 33.67L19.70 29L21.86 28.22L21.84 32.51z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M27.83 66.08L43.13 71.57"/>
+	</g>
+	<g id="Path_39" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M23.60 70.31L6.91 66.27"/>
+	</g>
+	<g id="Path_40" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M18.65 73.19L8.92 71.53"/>
+	</g>
+</g>
+</svg>

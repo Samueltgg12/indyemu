@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:none;clip-rule:nonzero;fill:#00007c;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M62.21 30.5L92.98 30.5L92.98 40.38L62.21 40.38z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M64.14 32.1L91.05 32.1L91.05 38.64L64.14 38.64z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#00007c;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M62.44 58.1L93.20 58.1L93.20 67.98L62.44 67.98z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M64.37 59.7L91.27 59.7L91.27 66.24L64.37 66.24z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M10.80 18.61L2.74 18.42L3.00 27.61L46.40 80.61L53.14 80.82L54.40 72.9z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M53.00 26.61L52.95 18.49L44.60 18.41L2.80 71.61L2.80 80.61L10.60 80.81z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;">
+		<path d="M9.21 20.51L4.80 20.41L4.94 25.43L47.92 78.09L51.60 78.21L51.74 73.61z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:nonzero;clip-rule:nonzero;fill:#0000f8;stroke:none;stroke-miterlimit:4;">
+		<path d="M51.03 25.24L51.00 20.81L46.44 20.76L4.80 72.89L4.80 77.81L9.06 77.91z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M2.60 18.21L2.60 27.01L20.40 49.21L2.60 71.81L2.60 80.7L10.60 80.7L28.20 58.61L46.60 80.81L53.40 80.81L54.20 72.7L35.40 49.41L53.20 26.41L53.20 18.21L45.40 18.21L27.80 40.01L10.60 18.21L2.80 18.21"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M5.00 21.01L4.50 25.13L23.60 49.52L4.60 72.79L4.60 78.01L9.02 78.01L28.03 54.85L47.94 78.41L51.80 78.41L51.80 73.53L32.11 49.63L51.20 25.26L51.20 20.61L46.78 20.61L27.80 44.3L9.04 20.13L5.20 20.81"/>
+	</g>
+</g>
+</svg>

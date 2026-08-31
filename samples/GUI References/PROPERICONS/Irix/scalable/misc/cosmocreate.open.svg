@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="lightning_bolt" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M54.07 32.93L54.78 25.15L23.80 40.3L20.00 45z"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#505450;stroke-miterlimit:4;">
+		<path d="M36.40 75.6L39.20 77.6L74.24 1.29000000000001L68.40 1.8L36.30 16.14z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M39.20 77.6L74.20 60.1L74.24 1.29000000000001L39.25 17.11z"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:#d0d2d0;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M39.23 26.6L74.24 10.7L74.24 1.29000000000001L39.24 18.79L39.24 18.79z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#7070c0;stroke:none;stroke-miterlimit:4;">
+		<path d="M65.05 14.88L71.29 12.04L71.45 5.79000000000001L65.11 8.48999999999999z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M43.00 32.6L71.66 20.78L71.48 16.14L43.09 28.46z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#a8a8a8;stroke:none;stroke-miterlimit:4;">
+		<path d="M43.45 64.69L47.89 63.12L47.89 33.32L43.45 35.09z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M42.09 42.08L64.05 31.69L64.29 28.58L42.33 38.97L42.33 38.97z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M41.65 55.69L63.61 45.3L63.81 41.6L41.85 51.99L41.85 51.99z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M41.25 48.69L63.21 38.3L63.45 35.19L41.49 45.58L41.49 45.58z"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#00007c;stroke:none;stroke-miterlimit:4;">
+		<path d="M41.69 62.68L63.65 52.29L63.85 48.59L41.89 58.98L41.89 58.98z"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#a8a8a8;stroke-miterlimit:4;">
+		<path d="M70.00 25L51.32 33.63"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#a8a8a8;stroke-miterlimit:4;">
+		<path d="M70.23 32.03L51.27 40.95"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#a8a8a8;stroke-miterlimit:4;">
+		<path d="M69.69 38.1L51.52 46.7"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#a8a8a8;stroke-miterlimit:4;">
+		<path d="M67.91 45.24L51.65 53.09"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#a8a8a8;stroke-miterlimit:4;">
+		<path d="M68.98 51.67L50.64 60.11"/>
+	</g>
+	<g id="document" style="fill-rule:nonzero;clip-rule:nonzero;fill:#a8a8a8;stroke:none;stroke-miterlimit:4;">
+		<path d="M74.24 4.53L74.24 1.29000000000001L39.25 17.11L39.25 20.24z"/>
+	</g>
+	<g id="document" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.20 77.6L74.20 60.1L74.24 1.29000000000001L39.25 17.11z"/>
+	</g>
+	<g id="lightning_bolt" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fc00;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M54.07 32.93L62.31 28.83L77.00 12.8L54.78 25.15z"/>
+	</g>
+	<g id="lightning_bolt" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fc00;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M62.31 28.83L50.89 46.91L67.54 32.69L77.00 12.8z"/>
+	</g>
+	<g id="lightning_bolt" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fc00;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M50.89 46.91L98.00 25.4L97.20 23L67.54 32.69z"/>
+	</g>
+	<g id="lightning_bolt" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M54.07 32.93L62.31 28.83L50.89 46.91L98.00 25.4L97.20 23L67.54 32.69L77.00 12.8L54.78 25.15"/>
+	</g>
+</g>
+</svg>

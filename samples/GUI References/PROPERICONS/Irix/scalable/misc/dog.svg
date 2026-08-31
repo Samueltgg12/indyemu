@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#f80000;stroke-miterlimit:4;">
+		<path d="M69.47 66.4L52.40 38.2L55.00 35L69.47 66.4z"/>
+	</g>
+	<g id="Left Engine" style="fill-rule:nonzero;clip-rule:nonzero;fill:#282a28;stroke:none;stroke-miterlimit:4;">
+		<path d="M10.95 35.53L9.71 34.91L8.94 33.67L8.55 32.19L8.70 30.56L9.71 28.85L11.42 28.31L20.27 32.19L17.71 33.43L15.45 34.44L13.82 34.91L12.04 35.45z"/>
+	</g>
+	<g id="Circle" style="fill-rule:none;clip-rule:nonzero;fill:#dc3838;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M10.95 35.53L9.71 34.91L8.94 33.67L8.55 32.19L8.70 30.56L9.71 28.85L11.42 28.31L12.97 29.55L13.51 30.79L13.51 32.19L13.05 34.13L12.27 34.98z"/>
+	</g>
+	<g id="Right Engine" style="fill-rule:nonzero;clip-rule:nonzero;fill:#282a28;stroke:none;stroke-miterlimit:4;">
+		<path d="M19.57 39.95L18.09 39.25L17.39 38.01L17.01 36.77L17.16 35.14L17.94 33.67L19.57 32.89L21.04 33.28L26.24 38.09L23.29 39.18L21.43 39.8z"/>
+	</g>
+	<g id="Circle" style="fill-rule:none;clip-rule:nonzero;fill:#dc3838;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M19.65 39.87L18.09 39.25L17.39 38.01L17.01 36.77L17.16 35.14L17.94 33.67L19.57 32.73L19.57 32.73L20.97 33.35L21.74 34.52L22.13 36.46L21.82 38.24L20.81 39.33z"/>
+	</g>
+	<g id="Right Tail" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M20.11 32.27L14.99 19.23L21.51 20.94L29.19 27.77z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M28.49 40.19L20.11 32.27L11.34 28.31L2.98 22.35L52.32 8.52L68.70 2.62L73.12 1.53L74.75 1.69L60.24 11.78L32.23 38.88L28.49 40.19z"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M28.49 40.19L32.61 26.14L60.24 11.78"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.83 22.11L57.16 6.77"/>
+	</g>
+	<g id="Cockpit" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M48.44 14.65L47.66 14.88L47.04 14.73L48.29 12.71L49.60 11.24L51.00 9.76000000000001L52.55 8.20999999999999L54.57 6.89L56.51 5.8L58.84 4.72L60.94 3.94L63.26 3.55L64.89 3.31999999999999L66.29 3.40000000000001L67.61 3.70999999999999L68.00 4.17L67.46 4.95z"/>
+	</g>
+	<g id="Left Tail" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M11.34 28.31L6.45 16.05L12.82 17.83L20.81 23.58z"/>
+	</g>
+	<g id="Left Tail" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M20.27 32.19L15.38 19.93L21.74 21.71L29.74 27.46z"/>
+	</g>
+	<g id="Left Engine" style="fill-rule:nonzero;clip-rule:nonzero;fill:#282a28;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M88.45 96.83L88.94 96.73L89.33 96.21L89.61 95.49L89.71 94.58L89.52 93.47L88.98 92.85L85.52 93.25L86.30 94.41L86.98 95.38L87.51 95.94L88.08 96.58z"/>
+	</g>
+	<g id="Circle" style="fill-rule:none;clip-rule:nonzero;fill:#dc3838;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M88.45 96.83L88.94 96.73L89.33 96.21L89.61 95.49L89.71 94.58L89.52 93.47L88.98 92.85L88.32 93.22L88.01 93.79L87.88 94.54L87.85 95.67L88.04 96.28z"/>
+	</g>
+	<g id="Right Engine" style="fill-rule:nonzero;clip-rule:nonzero;fill:#282a28;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M85.02 97.56L85.60 97.46L85.96 96.93L86.22 96.34L86.32 95.43L86.19 94.49L85.70 93.76L85.15 93.68L82.87 95.28L83.80 96.43L84.39 97.12z"/>
+	</g>
+	<g id="Circle" style="fill-rule:none;clip-rule:nonzero;fill:#dc3838;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M85.00 97.5L85.60 97.46L85.96 96.93L86.22 96.34L86.32 95.43L86.19 94.49L85.71 93.67L85.71 93.67L85.17 93.74L84.79 94.22L84.46 95.19L84.40 96.21L84.65 96.99z"/>
+	</g>
+	<g id="Right Tail" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M85.57 93.32L88.61 87.28L86.17 86.95L82.84 89.16z"/>
+	</g>
+	<g id="Path_17" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M81.89 95.97L85.57 93.32L89.01 92.87L93.33 93.31L92.50 91.26L76.63 74.37L71.49 68.06L70.05 66.63L69.47 66.4L73.55 74.61L80.71 94.56L81.89 95.97z"/>
+	</g>
+	<g id="Path_18" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M93.33 93.31L85.60 87.33L75.11 72.5"/>
+	</g>
+	<g id="Cockpit" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M77.39 78.41L77.64 78.69L77.87 78.72L77.63 77.4L77.31 76.35L76.97 75.29L76.58 74.16L76.00 73.06L75.43 72.1L74.72 71.07L74.07 70.25L73.29 69.6L72.75 69.16L72.25 68.94L71.76 68.85L71.58 69.03L71.70 69.55z"/>
+	</g>
+	<g id="Left Tail" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M89.01 92.87L91.89 87.2L89.50 86.95L86.16 88.51z"/>
+	</g>
+	<g id="Left Tail" style="fill-rule:none;clip-rule:nonzero;fill:#7c7e7c;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M85.52 93.25L88.41 87.58L86.02 87.33L82.68 88.89z"/>
+	</g>
+</g>
+</svg>

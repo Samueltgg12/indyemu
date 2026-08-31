@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Trajectory 11" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.26 44.72L60.72 38.99"/>
+	</g>
+	<g id="Icon Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M32.56 98.42L16.76 98.22L10.96 93.62L12.56 88.42L77.56 55.92L87.16 55.22L95.76 60.42L97.56 65.92z"/>
+	</g>
+	<g id="Capsule" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M96.76 35.82L98.76 41.02L98.76 48.02L96.36 54.02L92.00 58.7L32.56 88.42L26.36 90.22L20.36 89.62L14.36 85.82L10.96 81.02L9.16 74.82L9.76 67.42L12.56 61.62L16.56 57.42L22.42 53.56L75.99 26.62L82.56 26.02L88.16 27.62L93.16 30.82z"/>
+	</g>
+	<g id="Capsule Waistline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.56 43.42L47.76 43.3L52.96 44.62L57.96 48.02L61.96 53.22L63.76 59.82L63.16 67.22L59.56 73.02L54.14 77.24"/>
+	</g>
+	<g id="Right Tablet Bottom" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M58.52 57.99L51.92 53.95L52.16 61.02L59.16 65.65"/>
+	</g>
+	<g id="Right Tablet Face" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.52 61.18L78.94 50.55L81.50 45.44L79.91 40.19L75.97 38.27L72.03 37.52L67.72 38.64L64.16 41.83L52.13 53.52"/>
+	</g>
+	<g id="Right tablet Side" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M67.57 67.85L78.20 57.21L80.97 52.53L81.61 44.44"/>
+	</g>
+	<g id="Right Capsule Highlight" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M60.36 43.22L62.36 46.02L83.76 34.82L81.16 31.82L77.93 30.85L56.20 41.45z"/>
+	</g>
+	<g id="Left Tablet Face" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M28.09 75.31L23.91 74.36L20.86 71.89L19.72 67.89L21.81 64.09L25.24 62L42.89 58.91L53.20 68.46z"/>
+	</g>
+	<g id="Left Tablet Side" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M53.20 68.46L28.09 75.31L23.91 74.36L20.86 71.89L19.72 67.89L19.72 74.55L20.86 77.25L23.62 79.8L28.80 80.16L52.56 73.42z"/>
+	</g>
+	<g id="Left Capsule Highlight" style="fill-rule:nonzero;clip-rule:nonzero;fill:#f8fcf8;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M16.76 84.02L13.16 78.22L12.16 71.82L13.16 67.22L15.16 63.62L19.73 59.82L40.76 49.26L44.59 50.34L46.36 52.62L21.56 66.02L17.76 72.02L18.56 78.42L22.64 84.6L26.97 87.6L22.39 87.44z"/>
+	</g>
+</g>
+</svg>

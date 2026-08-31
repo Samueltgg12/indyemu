@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Icon Shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M37.10 100L14.00 88.45L59.10 65.9L82.20 77.45z"/>
+	</g>
+	<g id="Always Draw Bottom Sheet and Backs of Sheets" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M14.00 35.27L14.11 30.51L14.44 27.06L16.53 24.53L22.03 22.05L27.09 22.4L31.38 27.27z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M18.18 39.22L17.63 35.47L18.40 32.13L20.38 29.9L24.45 31.42L26.21 35.17z"/>
+	</g>
+	<g id="Large Part of Bottom Sheet" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M32.92 90.07L27.86 82.58L25.00 76.6L24.12 71.33L23.90 66.37L24.23 57.96L25.44 49.96L26.21 42.36L26.21 35.17L24.45 31.42L20.38 29.9L64.71 9.23999999999999L67.79 11.67L69.66 14.91L70.32 22.2L69.77 29.7L68.34 37.4L67.79 45.91L67.79 51.17L68.89 55.63L70.10 59.48L72.08 62.62L77.03 68.52z"/>
+	</g>
+</g>
+</svg>

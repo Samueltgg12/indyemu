@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="question top" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M90.00 72.5L95.00 72.5L93.48 75.29L90.32 75.45z"/>
+	</g>
+	<g id="question dot" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M88.14 93.78L90.02 92.87L91.32 93.85L91.32 95.66L90.34 97.03L88.53 97.81L87.10 96.77L87.03 95.01z"/>
+	</g>
+	<g id="question lower part" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M90.00 87.5L90.00 90L87.50 91.25L87.50 88.75z"/>
+	</g>
+	<g id="question top" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M82.52 81.24L85.22 79.89L85.00 82.5L82.50 83.75z"/>
+	</g>
+	<g id="question lower part" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M90.67 85.99L90.00 87.5L87.50 88.75L87.68 86.96L88.46 85.01L89.96 83.52z"/>
+	</g>
+	<g id="question top" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M82.52 81.24L83.27 77.42L86.25 77.55L85.22 79.89z"/>
+	</g>
+	<g id="question lower part" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M92.36 85.08L90.67 85.99L89.96 83.52L91.58 82.68z"/>
+	</g>
+	<g id="question top" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M83.27 77.42L85.47 74.69L90.00 72.5L90.32 75.45L86.25 77.55z"/>
+	</g>
+	<g id="question lower part" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M95.41 84.04L92.36 85.08L91.58 82.68L92.62 82.35L93.46 81.96L94.31 81.44z"/>
+	</g>
+	<g id="question lower part" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M97.55 79.43L96.64 82.42L95.41 84.04L94.31 81.44L94.63 79.95L95.02 78.07z"/>
+	</g>
+	<g id="question lower part" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M97.50 76.25L94.70 76.51L93.48 75.29L95.00 72.5z"/>
+	</g>
+	<g id="question lower part" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M97.50 76.25L97.55 79.43L95.02 78.07L94.70 76.51z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_9" style="fill-rule:nonzero;clip-rule:nonzero;fill:#d0d2d0;stroke:none;stroke-miterlimit:4;">
+		<path d="M43.22 57.49L53.90 68.4L59.30 74.68L79.91 74.68L85.50 67.6L94.70 59.8L100.31 45.68L100.50 21.8L92.30 9.59999999999999L79.19 0.829999999999998L59.26 0.599999999999994L43.46 11.22L36.82 25.69L36.52 45.04z"/>
+	</g>
+	<g id="Path_0" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M47.87 96.6L63.47 98L70.07 97.2L70.87 92L54.57 84.67L47.87 79.6L39.07 73.6L28.87 71L17.50 70.8L6.32 74.02L1.20 80.84L1.87 90.4L9.95 95.9L20.67 98.2L32.27 98.8z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:none;clip-rule:nonzero;fill:#282a28;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M70.02 71.41L76.98 71.41L79.51 74.62L76.76 77.84L79.74 81.05L76.76 84.49L79.28 87.69L75.84 90.45L72.86 90.45L69.66 95.27L65.99 90.45L62.54 90.45L59.79 87.93L62.77 84.03L59.33 81.28L62.08 77.38L59.79 74.62L62.31 71.41z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M69.68 12.52L76.69 12.61L86.00 18.75L92.32 30.16L92.32 45.78L86.70 55.61L79.85 62.28L76.98 71.41L62.31 71.41L60.02 61.93L52.12 53.86L47.17 43.84L47.38 30.34L52.30 19.63L61.95 12.43z"/>
+	</g>
+	<g id="Path_12" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#f8fcf8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M79.51 74.62L69.66 74.62"/>
+	</g>
+	<g id="Path_13" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#f8fcf8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M79.74 81.05L69.88 81.05"/>
+	</g>
+	<g id="Path_14" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#f8fcf8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M79.28 87.69L70.11 87.69"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M15.44 15.45L0.37 15.45L0.37 22.99L15.44 22.99L15.44 38.05L22.97 38.05L22.97 22.99L38.04 22.99L38.04 15.45L22.97 15.45L22.97 0.390000000000001L15.44 0.390000000000001z"/>
+	</g>
+</g>
+</svg>

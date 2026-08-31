@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Uses Generic Wsh Icon" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M36.70 77.8L36.70 23.2L80.86 1.48L80.86 55.78z"/>
+	</g>
+	<g id="Window fixture boxes across the top" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M40.30 30.2L40.30 26L43.62 24.2L43.52 28.28z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.02 26.6L47.02 22.52L70.06 11L70.06 15.2z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M73.66 13.4L73.66 8.95999999999999L77.26 6.92L77.26 11.84z"/>
+	</g>
+	<g id="Inside window border box" style="fill-rule:none;clip-rule:nonzero;fill:#00fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.08 70.53L42.08 34.1L76.08 17.1L76.08 53.42z"/>
+	</g>
+	<g id="Cloud" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.08 70.53L42.08 66.1L43.40 62.6L46.00 60.7L50.00 59.7L50.50 56.5L51.00 54.2L52.80 51.7L54.80 50.6L57.30 49.9L57.30 47.5L57.20 45.2L57.80 42.8L59.10 40.6L61.00 38.8L62.50 37.4L64.40 36.5L65.50 36.2L64.90 33.1L65.30 30.8L66.00 28.5L67.40 26.5L70.10 24.8L72.60 23.9L76.08 23.9L76.08 53.42z"/>
+	</g>
+	<g id="Cloud Accent Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.80 62.1L52.70 59.9L53.60 57.7L55.20 56L57.00 54.9L59.00 54.7L58.10 53L57.70 50.6"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M65.60 51.4L65.50 49.1L66.00 47L67.60 45.3L69.20 44.3L71.70 43.7"/>
+	</g>
+	<g id="Sky Lines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.08 52.8L52.00 47.84"/>
+	</g>
+	<g id="Path_9" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.08 48.4L50.60 44.14"/>
+	</g>
+	<g id="Path_10" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M42.08 43.6L56.30 36.49"/>
+	</g>
+</g>
+</svg>

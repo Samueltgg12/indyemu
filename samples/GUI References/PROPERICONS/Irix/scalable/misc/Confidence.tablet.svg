@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Cord" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M93.00 45.3L96.60 45.9L99.10 46.1L101.80 45.9L104.50 45L106.90 43.3L108.80 41.6L109.80 39.8L110.30 38.1L110.20 36.2L109.60 34.5L108.40 32.9L106.60 31.3L104.50 30.1L102.40 29.3L99.70 28.9L96.30 29.2L93.40 30.2L92.00 31.2L90.80 32.6L90.00 34.3L90.20 36.1L91.10 37.7L92.60 38.9L94.60 39.2L97.60 39L100.20 38L102.30 36.4L103.30 34.9L104.10 33L104.50 30.1L104.60 27.8L104.10 25.6L103.20 23L101.60 20.3L99.80 18L97.20 16.2L94.10 15L90.70 14.3L87.50 14.3L84.70 15L81.90 16.2L79.70 17.6L77.40 19.8L75.60 22.8L74.10 26.3"/>
+	</g>
+	<g id="Base" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.20 70.9L37.80 53L37.80 47.5z"/>
+	</g>
+	<g id="Tablet" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M51.20 75L36.70 45.6L36.60 44.7L36.70 43.8L37.20 42.9L37.80 42.5L83.40 28L84.30 27.8L85.00 28.1L85.50 28.6L100.10 58.3L100.70 60.5L100.70 61.3L100.40 61.9L99.70 62.4L55.70 76.6L54.60 77L53.70 76.9L52.50 76.6L51.80 76z"/>
+	</g>
+	<g id="Front Edge Line on Tablet" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M37.70 44.5L52.30 74.4L53.10 75.1L53.90 75.3L54.80 75.2L98.60 60.8"/>
+	</g>
+	<g id="Corner Edge Line on Tablet" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M100.10 58.3L100.20 59.1L99.90 59.9"/>
+	</g>
+	<g id="Lower Edge of Tablet Drawing Surface" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.70 51.9L57.50 67.5L86.00 58.4"/>
+	</g>
+	<g id="Upper Edge of Tablet Drawing Surface" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M47.00 46.4L80.30 35.6L87.80 50.7"/>
+	</g>
+	<g id="Left Signal Lamp" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M78.80 32.4L78.30 32.5L78.10 32.1L78.10 31.6L78.40 31.2L78.90 31.3L79.20 31.7z"/>
+	</g>
+	<g id="Middle Signal Lamp" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M81.40 31.4L81.10 31.4L80.70 31.1L80.80 30.6L81.10 30.4L81.50 30.4L81.80 30.8z"/>
+	</g>
+	<g id="Right Signal Lamp" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M83.80 30.6L83.50 30.6L83.20 30.4L83.10 30.1L83.40 29.7L83.90 29.7L84.20 30.1L84.10 30.4z"/>
+	</g>
+	<g id="Stylus" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M67.90 45.5L67.70 45.3L67.60 43.7L67.70 43.3L67.80 42.8L71.80 30.6L71.60 30.3L73.10 25.9L74.30 25.8L75.10 26.6L73.80 30.7L73.40 30.9L69.40 43.3L69.30 43.9L68.90 44.5L68.10 45.5z"/>
+	</g>
+</g>
+</svg>

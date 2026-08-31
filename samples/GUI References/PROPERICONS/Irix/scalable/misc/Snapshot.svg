@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Photo" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M68.40 93.4L68.10 90.3L67.60 87.7L66.50 84.4L65.30 81.7L63.90 79.3L62.00 76.9L59.50 74.8L49.20 69.5L78.50 54.85L88.70 59.95L90.60 61L92.20 62.7L93.70 64.6L95.00 66.7L96.10 69.2L96.90 71.8L97.20 73.3L97.50 75.9L97.70 78.75z"/>
+	</g>
+	<g id="Photo Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.80 57.3L84.10 62.95L86.40 64.7L88.30 66.5L89.90 69.4L91.00 72.2L91.50 75.8L73.00 85.05L72.50 83.1L71.40 81L70.70 79.1"/>
+	</g>
+	<g id="Camera Body" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.90 72.3L41.40 73.1L39.20 73.3L37.20 73.1L35.00 72.3L32.30 70.5L32.30 30.1L32.80 28.4L34.00 27.2L35.40 26.4L49.40 19.4L57.30 15.45L72.80 7.7L76.60 6.3L79.10 6L81.90 5.90000000000001L84.30 6.5L85.50 7.90000000000001L86.20 9.5L86.20 47.3L85.70 49.1L84.70 50.7L83.20 52.65z"/>
+	</g>
+	<g id="Back Eyepiece" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.40 19.4L49.40 9.7L57.40 5.7L57.40 7.90000000000001L51.40 10.9L51.40 18.4z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.40 7.90000000000001L57.40 15.45L55.40 16.45L55.40 8.90000000000001z"/>
+	</g>
+	<g id="Eyepiece Outline" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.40 19.4L49.40 9.7L57.40 5.7L57.40 15.45L55.40 16.45L55.40 8.90000000000001L51.40 10.9L51.40 18.4"/>
+	</g>
+	<g id="Front Eyepiece" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.20 24.8L59.20 16.6L67.20 12.6L67.20 20.9L65.20 21.9L65.20 15.9L61.20 17.9L61.20 23.7"/>
+	</g>
+	<g id="Camera Body Outlines" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M86.20 9.5L85.00 11L83.80 12.3L82.50 13.5L44.20 32.65L39.90 33.6L37.50 33.4L35.20 33L33.30 32L32.30 30.1"/>
+	</g>
+	<g id="Film Advance on Left" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.00 28.5L43.50 29.7L41.70 30.7L40.00 31.2L38.30 31.3L36.40 30.8L35.60 30L35.80 29L37.40 27.8L39.50 27.1L41.40 27L43.40 27.6"/>
+	</g>
+	<g id="Film Advance on Right" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M82.50 8.90000000000001L82.40 9.8L81.30 11.2L78.90 11.9L76.50 12L74.50 11.2L74.30 10.6L74.50 9.8L75.80 8.59999999999999L78.20 7.7L80.20 7.7L82.00 8.3z"/>
+	</g>
+	<g id="Line on Body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.90 72.3L43.90 64"/>
+	</g>
+	<g id="Bellows " style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.20 54.6L70.50 54.1L68.70 54.6L67.30 55.4L66.50 57L65.50 58.6L64.20 59.2L62.80 58.6L61.70 57.6L60.30 57.2L59.10 58.4L57.70 59.8L56.20 60.7L54.70 61L53.70 60.6L51.40 59.6L49.80 59.2L48.30 59.8L47.00 60.7L47.00 38.7L79.40 22.5L78.50 24.5L78.30 25.7L79.30 26.5L80.70 26.8L82.00 27.5L81.80 29.1L81.20 30.1L80.10 31.2L79.50 32.3L80.30 33L81.50 33.1L82.40 33.7L81.90 35.2L80.80 36L80.60 37.1L81.50 38.6L82.20 39.8L72.10 44.85z"/>
+	</g>
+	<g id="Outline on top of Bellows" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.10 44.85L71.30 43.4L70.30 42.4L68.80 42.2L66.80 43.2L65.10 43.6L63.80 43L62.90 42.2L62.20 40.8L61.30 39.8L60.30 39.5L59.00 40.2L57.30 41.1L56.20 41.2L55.30 41.2L54.30 40.4L53.10 39L51.60 38.2L49.70 38.3L48.50 38.6L47.00 38.7"/>
+	</g>
+	<g id="Path_13" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M51.50 59.7L51.50 46.4"/>
+	</g>
+	<g id="Path_14" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M56.30 60.5L56.30 41.2"/>
+	</g>
+	<g id="Path_15" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M60.50 53.3L60.50 39.8"/>
+	</g>
+	<g id="Path_16" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M64.30 59.1L64.30 49.9"/>
+	</g>
+	<g id="Path_17" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M82.00 27.55L68.10 34.5"/>
+	</g>
+	<g id="Path_18" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M64.30 42.8L74.50 37.7"/>
+	</g>
+	<g id="Lens" style="fill-rule:none;clip-rule:nonzero;fill:#505450;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M73.15 44.45L75.25 42.05L79.30 40.4L83.50 40.4L86.20 43.25L86.95 47.15L85.45 51.35L83.65 53.9L80.80 56.3L77.50 57.8L73.75 57.95L70.75 56L69.55 52.55L70.00 49.55L71.20 46.7z"/>
+	</g>
+	<g id="Lens" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M74.10 44.3L75.50 42.7L78.20 41.6L81.00 41.6L82.80 43.5L83.30 46.1L82.30 48.9L81.10 50.6L79.20 52.2L77.00 53.2L74.50 53.3L72.50 52L71.70 49.7L72.00 47.7L72.80 45.8z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Path_0" style="fill-rule:none;clip-rule:nonzero;fill:#d0d254;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M82.10 34.54L85.01 40.74L33.94 81.41L15.59 16.16z"/>
+	</g>
+	<g id="Path_1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#c09a44;stroke:none;stroke-miterlimit:4;">
+		<path d="M59.33 50.02L35.38 82.65L16.14 18.44z"/>
+	</g>
+	<g id="Path_2" style="fill-rule:none;clip-rule:nonzero;fill:#d0d254;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M26.24 29.34L43.33 22.32L18.22 1.41L3.48 6.31999999999999z"/>
+	</g>
+	<g id="Path_3" style="fill-rule:none;clip-rule:nonzero;fill:#b46238;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M46.26 24.64L43.33 22.32L41.50 23.31z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:nonzero;clip-rule:nonzero;fill:#6c7044;stroke:none;stroke-miterlimit:4;">
+		<path d="M46.03 69.11L33.94 81.41L18.15 25.16z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:#c09a44;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M26.24 29.34L23.36 44.51L1.15 20.03L3.48 6.31999999999999z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M35.01 69.74L33.94 81.41L40.31 86.92L52.18 85.65L67.67 76.11L79.98 62.96L86.35 49.81L86.98 38.99L82.10 34.54L68.74 34.75L56.21 40.05L41.58 54.05z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:none;clip-rule:nonzero;fill:#f8fc00;stroke:#000000;stroke-miterlimit:4;">
+		<path d="M99.02 97.6L69.16 80.52L75.73 75.4L46.99 48.87L49.38 46.59L78.38 73.12L84.44 68.2z"/>
+	</g>
+	<g id="Path_8" style="fill-rule:nonzero;clip-rule:nonzero;fill:#dcb638;stroke:none;stroke-miterlimit:4;">
+		<path d="M82.10 34.54L68.74 34.75L56.21 40.05L69.67 38.66L76.87 40.56L80.09 47.75L79.98 62.96L86.35 49.81L86.98 38.99z"/>
+	</g>
+</g>
+</svg>

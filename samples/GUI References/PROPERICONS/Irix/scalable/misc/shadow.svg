@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Left Engine" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M17.10 64.6L15.50 63.8L14.50 62.2L14.00 60.3L14.20 58.2L15.50 56L17.70 55.3L29.10 60.3L25.80 61.9L22.90 63.2L20.80 63.8L18.50 64.5z"/>
+	</g>
+	<g id="Circle" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M17.10 64.6L15.50 63.8L14.50 62.2L14.00 60.3L14.20 58.2L15.50 56L17.70 55.3L19.70 56.9L20.40 58.5L20.40 60.3L19.80 62.8L18.80 63.9z"/>
+	</g>
+	<g id="Right Engine" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M28.20 70.3L26.30 69.4L25.40 67.8L24.90 66.2L25.10 64.1L26.10 62.2L28.20 61.2L30.10 61.7L36.80 67.9L33.00 69.3L30.60 70.1z"/>
+	</g>
+	<g id="Circle" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M28.30 70.2L26.30 69.4L25.40 67.8L24.90 66.2L25.10 64.1L26.10 62.2L28.20 61L28.20 61L30.00 61.8L31.00 63.3L31.50 65.8L31.10 68.1L29.80 69.5z"/>
+	</g>
+	<g id="Main Part" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.70 70.6L28.90 60.3L26.90 59.5L20.70 56.6L17.60 55.3L2.80 51.1L11.60 43.5L70.20 29.9L71.80 28.8L73.40 27.8L75.90 26.5L78.80 25L81.50 24.1L84.30 23.4L86.50 23.2L87.10 23.3L91.50 22.2L95.20 21.2L97.20 20.8L99.30 21L100.00 22L92.90 25.9L80.60 34L52.30 66.2z"/>
+	</g>
+	<g id="Right Wing" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.30 71.8L47.80 50.7L80.60 34L52.20 66L50.80 67.7L48.20 69.9L46.10 71.3z"/>
+	</g>
+	<g id="Right Wing Outline" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M44.30 71.8L47.80 50.7L80.60 34L52.20 66L50.80 67.7L48.20 69.9L46.10 71.3z"/>
+	</g>
+	<g id="Left Wing" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M0.00 48L1.40 46.7L3.50 45.8L7.20 44.6L70.40 29.8L68.60 31.5L39.40 45.9z"/>
+	</g>
+	<g id="Left Wing Outline" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M39.40 45.9L0.00 48L1.40 46.7L3.50 45.8L7.20 44.6L70.40 29.8L68.60 31.5z"/>
+	</g>
+	<g id="Left Tail" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M17.60 55.3L11.30 39.5L19.50 41.8L29.80 49.2z"/>
+	</g>
+	<g id="Right Tail" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M28.90 60.4L22.30 43.6L30.70 45.8L40.60 54.6z"/>
+	</g>
+	<g id="Cockpit" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M65.40 37.7L64.40 38L63.60 37.8L65.20 35.2L66.90 33.3L68.70 31.4L70.70 29.4L73.30 27.7L75.80 26.3L78.80 24.9L81.50 23.9L84.50 23.4L86.60 23.1L88.40 23.2L90.10 23.6L90.60 24.2L89.90 25.2z"/>
+	</g>
+	<g id="Black Nose" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M92.90 25.9L93.60 25.2L93.90 24.2L93.30 23.2L92.80 22.6L91.70 22.2L95.20 21.2L97.20 20.8L99.30 21L100.00 22z"/>
+	</g>
+</g>
+</svg>

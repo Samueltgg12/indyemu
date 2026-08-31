@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Trajectory 2" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M84.50 42.07L84.50 50.47L80.30 52.57L80.24 44.2z"/>
+	</g>
+	<g id="Trajectory 3" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M71.20 40.32L76.10 37.87L84.50 42.07L79.60 44.52z"/>
+	</g>
+	<g id="Trajectory 4" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M63.48 63.76L63.48 67.26L59.98 69.01L49.48 63.76L56.48 60.26z"/>
+	</g>
+	<g id="Trajectory 5" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M60.00 55.02L81.00 44.52L81.00 55.02L77.50 56.77L77.50 60.27L81.00 58.52L81.00 62.02L60.00 72.52L60.00 69.02L63.50 67.27L63.50 63.77L60.00 65.52z"/>
+	</g>
+	<g id="Trajectory 6" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.98 55.03L49.48 49.78L70.48 39.28L80.98 44.53z"/>
+	</g>
+	<g id="Trajectory 7" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M49.50 49.75L49.50 60.25L60.00 65.5L60.00 55z"/>
+	</g>
+	<g id="Trajectory 8" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.98 72.51L49.48 67.26L49.48 63.76L59.98 69.01z"/>
+	</g>
+	<g id="Trajectory 9" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M80.98 58.51L77.48 60.26L77.48 56.76z"/>
+	</g>
+	<g id="Trajectory 10" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M59.30 56.05L59.30 58.15L58.60 59.9L57.20 61.3L55.90 61.87L54.40 62L51.60 62L49.50 61.65L47.40 61.3L44.60 59.9L43.90 58.85z"/>
+	</g>
+	<g id="Trajectory 11" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M43.91 57.45L45.31 55.35L46.71 53.95L48.81 52.2L50.21 51.5L59.31 56.05L57.91 56.75L54.41 57.8L51.61 58.5L47.41 59.2L44.61 59.2L43.91 58.85z"/>
+	</g>
+</g>
+</svg>

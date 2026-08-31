@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="plotter shadow" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M40.00 100L2.48 81.34L59.49 52.58L97.50 71.25z"/>
+	</g>
+	<g id="plotter body" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M5.00 72.5L2.00 69.4L2.20 65.2L55.00 27.5L90.00 45L92.20 48.8L88.40 53.4z"/>
+	</g>
+	<g id="plotter body" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M8.33 78.39L5.03 72.49L88.43 53.39L91.63 56.79L90.03 59.99L39.12 89.33z"/>
+	</g>
+	<g id="plotter body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M8.30 78.4L5.00 72.5L2.00 69.4L2.20 65.2L55.00 27.5L90.00 45L92.20 48.8L88.40 53.4L91.60 56.8L90.00 60L39.09 89.34z"/>
+	</g>
+	<g id="edge line on plotter body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M10.00 70L39.00 77.4L39.08 89.23"/>
+	</g>
+	<g id="edge line on plotter body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M72.60 64.6L88.49 53.38"/>
+	</g>
+	<g id="edge line on plotter body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M4.86 72.62L30.77 80.02"/>
+	</g>
+	<g id="line hovering above plotter" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M22.85 37.98L24.89 31.3L22.11 28.24L27.67 20.36L18.40 18.6L28.60 11.37L15.99 5.43000000000001"/>
+	</g>
+	<g id="edge line on plotter body" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M56.40 70L89.89 45.88"/>
+	</g>
+	<g id="crumpled paper" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:none;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M7.20 49.6L31.53 49.52L39.40 71.8z"/>
+	</g>
+	<g id="blue line on paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#0000f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M46.76 56.55L42.96 61.72L33.02 61.94L37.72 54.25L22.64 52.34"/>
+	</g>
+	<g id="crumpled paper" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M6.40 49.6L30.73 49.52L56.68 33.52L82.15 45.14L38.60 71.8z"/>
+	</g>
+	<g id="bar top" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M38.05 29.39L69.33 53.04L74.69 51.49L43.42 27.83z"/>
+	</g>
+	<g id="bar side" style="fill-rule:none;clip-rule:nonzero;fill:#a8a8a8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M38.05 29.39L69.33 53.04L68.42 57.96L37.16 34.42z"/>
+	</g>
+	<g id="bar end" style="fill-rule:none;clip-rule:nonzero;fill:#505450;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M68.42 57.96L69.33 53.04L74.69 51.49L73.79 56.4z"/>
+	</g>
+	<g id="pen" style="fill-rule:none;clip-rule:nonzero;fill:#00fcf8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M78.65 25.95L54.29 50.38L48.44 53.14L50.08 47.52L74.79 22.74z"/>
+	</g>
+	<g id="line on pen" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M53.96 50.53L52.21 50.08L50.79 48.83L50.14 47.61"/>
+	</g>
+	<g id="pen top" style="fill-rule:none;clip-rule:nonzero;fill:#0000f8;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M77.37 21.88L77.37 21.88L78.72 23.16L79.56 24.78L78.52 26.09L76.64 25.64L75.47 24.47L74.72 22.79L75.86 21.61z"/>
+	</g>
+</g>
+</svg>

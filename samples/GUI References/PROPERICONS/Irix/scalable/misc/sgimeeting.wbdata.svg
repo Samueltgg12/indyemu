@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="world" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#007e00;stroke-miterlimit:4;">
+		<path d="M54.45 30.76L49.51 35.24"/>
+	</g>
+	<g id="galaxy" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#dcb638;stroke-miterlimit:4;">
+		<path d="M41.85 51.99L41.85 51.99"/>
+	</g>
+	<g id="Path_16" style="fill-rule:none;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M30.00 35L25.00 42.5L25.00 77.5L30.00 80L75.00 57.5L80.00 50L80.00 15L75.00 12.5z"/>
+	</g>
+	<g id="Path_17" style="fill-rule:none;clip-rule:nonzero;fill:#f8fcf8;stroke:#f80000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M35.00 37.5L73.00 18.4L72.60 53L35.00 72.5z"/>
+	</g>
+	<g id="Path_4" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#00fc00;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M52.00 55.8L52.00 43L42.60 48.6L42.60 60.6z"/>
+	</g>
+	<g id="Path_5" style="fill-rule:none;clip-rule:nonzero;fill:#f80000;stroke:#f80000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M63.60 39.6L65.80 38.8L67.80 36.8L68.80 32.4L67.60 30.2L65.80 29.6L63.60 30.4L61.80 31.8L61.00 34.2L61.40 38z"/>
+	</g>
+	<g id="Path_6" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#0000f8;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M57.40 42.8L57.80 44.6L59.60 47.2L62.00 46.6L65.00 47.5L65.80 49.4L67.60 51.2"/>
+	</g>
+	<g id="Path_7" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M31.60 94L83.00 67.8L75.00 63.6L23.80 89z"/>
+	</g>
+</g>
+</svg>

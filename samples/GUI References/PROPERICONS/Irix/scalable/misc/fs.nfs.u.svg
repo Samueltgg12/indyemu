@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+	"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<svg width="50pt" height="50pt" viewBox="0 0 50 50" xml:space="preserve">
+<g transform="scale(0.5)">
+	<g id="Front Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;">
+		<path d="M8.85 83.21L8.21 81.94L8.46 80.66L8.85 79.39L28.73 66.51L30.03 67.86L30.00 70L13.94 80.99L12.67 81.68z"/>
+	</g>
+	<g id="Front Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;">
+		<path d="M13.63 86.24L10.12 84.48L8.85 83.21L8.21 81.94L8.46 80.66L12.67 81.68L13.94 81.94L17.12 83.54L18.40 85.76z"/>
+	</g>
+	<g id="Front Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;">
+		<path d="M14.55 87.91L13.63 86.24L18.40 85.76L19.03 88.3z"/>
+	</g>
+	<g id="Front Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;">
+		<path d="M13.63 90.13L14.55 87.91L19.03 88.3L18.40 90.85z"/>
+	</g>
+	<g id="Front Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#505450;stroke:none;stroke-miterlimit:4;">
+		<path d="M6.60 98.8L4.14 97.72L4.45 95.42L13.63 90.13L18.40 90.85L17.76 92.45z"/>
+	</g>
+	<g id="Front Network Cable" style="fill-rule:none;clip-rule:nonzero;fill:none;stroke:#000000;stroke-miterlimit:4;fill-opacity:100%;">
+		<path d="M6.60 98.8L4.14 97.72L4.45 95.42L13.63 90.13L14.55 87.91L13.63 86.24L10.12 84.48L8.85 83.21L8.21 81.94L8.46 80.66L8.85 79.39L28.73 66.51L30.03 67.86L30.00 70L13.94 80.99L12.67 81.68L13.94 81.94L17.12 83.54L18.40 85.76L19.03 88.3L18.40 90.85L17.76 92.45z"/>
+	</g>
+	<g id="Back Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M84.89 6.77L83.32 8.72L93.46 2.42L94.89 3.52L95.00 5.59999999999999L90.82 6.95L88.50 8.01000000000001z"/>
+	</g>
+	<g id="Back Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M85.79 23.73L88.91 18.09L90.14 17.24L94.97 18.53L94.00 20z"/>
+	</g>
+	<g id="Back Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M90.14 17.24L88.91 16.18L85.31 13.8L84.00 11.55L88.31 11.45L94.00 14.9L94.64 15.54L95.28 16.81L94.97 18.53z"/>
+	</g>
+	<g id="Back Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M85.31 13.8L84.00 11.55L84.03 9.41L87.64 9.63L88.31 11.45z"/>
+	</g>
+	<g id="Back Network Cable" style="fill-rule:nonzero;clip-rule:nonzero;fill:#000000;stroke:none;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M84.03 9.41L84.89 6.77L88.50 8.01000000000001L87.64 9.63z"/>
+	</g>
+	<g id="Back Network Cable" style="fill-rule:none;clip-rule:nonzero;fill:#000000;stroke:#000000;stroke-miterlimit:4;fill-opacity:75%;">
+		<path d="M80.20 27.6L80.20 22.8L88.91 18.09L90.14 17.24L88.91 16.18L85.31 13.8L84.00 11.55L84.03 9.41L84.89 6.77L87.00 5.04000000000001L93.46 2.42L94.89 3.52L95.00 5.59999999999999L90.82 6.95L88.50 8.01000000000001L87.64 9.63L88.31 11.45L94.00 14.9L94.64 15.54L95.28 16.81L94.97 18.53L94.00 20z"/>
+	</g>
+</g>
+</svg>
