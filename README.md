@@ -4,7 +4,7 @@
 
 IndyEmu is a C++ SGI Indy emulator project focused on the MIPS R4400-era platform, the SGI Indy PROM path, and the staged hardware model needed to reach a real workstation boot flow.
 
-This project is intentionally open and contributor-friendly. If SGI / IRIS developers, emulator researchers, or people with historical hardware knowledge find the repo, they are welcome to contribute fixes, diagnostics, device models, and improvements.
+This project is intentionally open and contributor-friendly. If SGI / IRIX developers, emulator researchers, or people with historical hardware knowledge find the repo, they are welcome to contribute fixes, diagnostics, device models, and improvements.
 
 ## Project goals
 
