@@ -30,7 +30,15 @@ void Hal2Audio::reset() {
     relay_control_ = 0;
 }
 
-u32 Hal2Audio::read32(u32 offset) const {
+bool Hal2Audio::contains(u32 address) const {
+    return address >= kBase && address < (kBase + kSize);
+}
+
+u32 Hal2Audio::read32(u32 address) const {
+    if (!contains(address)) {
+        return 0;
+    }
+    const u32 offset = address - kBase;
     switch (offset) {
         case kIsrOffset:
             return isr_;
@@ -51,7 +59,11 @@ u32 Hal2Audio::read32(u32 offset) const {
     }
 }
 
-void Hal2Audio::write32(u32 offset, u32 value) {
+void Hal2Audio::write32(u32 address, u32 value) {
+    if (!contains(address)) {
+        return;
+    }
+    const u32 offset = address - kBase;
     switch (offset) {
         case kIsrOffset:
             isr_ = value;

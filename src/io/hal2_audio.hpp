@@ -12,6 +12,7 @@ class Hal2Audio : public IODevice {
 public:
     // Physical register offsets
     static constexpr u32 kBase = 0x1FBD8000u;  // Indy HAL2 base
+    static constexpr u32 kSize = 0x10000u;     // 64KB register + DMA FIFO space
     static constexpr u32 kIsrOffset = 0x10u;   // Interrupt/global control
     static constexpr u32 kRevOffset = 0x20u;   // Chip revision (read-only)
     static constexpr u32 kIarOffset = 0x30u;   // Indirect address register
@@ -46,8 +47,9 @@ public:
     Hal2Audio();
 
     void reset();
-    u32 read32(u32 offset) const;
-    void write32(u32 offset, u32 value);
+    bool contains(u32 address) const override;
+    u32 read32(u32 address) const override;
+    void write32(u32 address, u32 value) override;
 
     bool enabled() const { return enabled_; }
     void setEnabled(bool enabled) { enabled_ = enabled; }
