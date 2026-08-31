@@ -40,6 +40,7 @@ public slots:
             system_->run(1000);
             QThread::msleep(1); // Yield to avoid 100% CPU
         }
+        emit finished();
     }
 
 signals:
@@ -111,7 +112,17 @@ int main(int argc, char** argv) {
 
     emu_thread->start();
 
-    return app.exec();
+    const int ret = app.exec();
+
+    // Proper shutdown: stop the worker and wait for the emulation thread to
+    // fully finish BEFORE `system` (owned here) is destroyed. Otherwise the
+    // thread can still be calling into IndySystem (e.g. the interrupt
+    // controller) after it has been freed, causing a pure-virtual call.
+    worker->stop();
+    emu_thread->quit();
+    emu_thread->wait();
+
+    return ret;
 }
 
 #include "main.moc"
