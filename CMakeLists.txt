@@ -9,6 +9,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_AUTOMOC ON)
 
+# Fetch toml++ for TOML configuration parsing
+include(FetchContent)
+FetchContent_Declare(
+    tomlplusplus
+    GIT_REPOSITORY https://github.com/marzer/tomlplusplus.git
+    GIT_TAG v3.4.0
+)
+FetchContent_MakeAvailable(tomlplusplus)
+
 add_executable(indyemu
     src/main.cpp
     src/core/memory.cpp
@@ -31,6 +40,7 @@ add_executable(indyemu
 )
 
 target_include_directories(indyemu PRIVATE src)
+target_link_libraries(indyemu PRIVATE tomlplusplus)
 
 add_executable(memory_endianness_test
     tests/memory_endianness_test.cpp
