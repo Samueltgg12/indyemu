@@ -30,6 +30,12 @@ u32 MipsCpu::getReg(u32 index) const {
 }
 
 bool MipsCpu::step() {
+    static u64 step_count = 0;
+    step_count++;
+    if (step_count % 100000 == 0) {
+        std::cerr << "Step: " << step_count << ", PC=0x" << std::hex << regs_.pc << std::dec << std::endl;
+    }
+
     const u32 current_pc = regs_.pc;
     const u32 instr = fetchInstruction();
     regs_.pc = regs_.next_pc;
@@ -132,6 +138,21 @@ void MipsCpu::executeInstruction(u32 instr, u32 current_pc) {
         default:
             illegalInstruction(instr);
             break;
+    }
+
+    // Check for TLB exceptions after instruction execution
+    u32 vaddr;
+    bool is_store;
+    Memory::TLBExceptionType type;
+    if (memory_.checkAndClearTLBException(vaddr, is_store, type)) {
+        // Handle TLB exception - for now just print and continue
+        // In a real implementation, this would trigger an exception
+        std::cerr << "TLB Exception: vaddr=0x" << std::hex << vaddr
+                  << ", type=" << static_cast<int>(type)
+                  << ", is_store=" << is_store << std::dec << std::endl;
+
+        // Set the BadVAddr register (CP0 register 8)
+        regs_.cop0[8] = vaddr;
     }
 }
 
@@ -534,20 +555,46 @@ void MipsCpu::handleCop0Type(u32 instr, u32 current_pc) {
                 }
             }
             break;
-        case 0x10: // COP0 special control ops (RFE/ERET-style stubs)
-            if (sel == 0x02u) {
-                // RFE:
-                // The early Indy PROM uses a simplified flow; leave the status bits as-is.
-                break;
-            }
-            if (sel == 0x00u) {
-                break;
-            }
-            if (sel != 0u) {
-                // Some COP0 special cases use sel; treat them as register moves for now.
-                setReg(rt, regs_.cop0[rd]);
-            } else {
-                illegalInstruction(instr);
+        case 0x10: // COP0 special control ops
+            switch (sel) {
+                case 0x00u: // MFC0/MTC0 (already handled above)
+                case 0x01u: // TLBR - Read TLB entry
+                    memory_.tlb_read(rd);
+                    break;
+                case 0x02u: // TLBWI - Write TLB entry indexed
+                    memory_.tlb_write(rd);
+                    break;
+                case 0x03u: // RESERVED
+                    break;
+                case 0x04u: // RESERVED
+                    break;
+                case 0x05u: // RESERVED
+                    break;
+                case 0x06u: // TLBWR - Write TLB entry random
+                    memory_.tlb_write(regs_.cop0[1] & 0x3F); // Use Random register
+                    break;
+                case 0x07u: // RESERVED
+                    break;
+                case 0x08u: // TLBP - Probe TLB for matching entry
+                    memory_.tlb_probe(getReg(rt));
+                    break;
+                default:
+                    // Handle other COP0 instructions
+                    if (sel == 0x02u) {
+                        // ERET:
+                        // The early Indy PROM uses a simplified flow; leave the status bits as-is.
+                        break;
+                    }
+                    if (sel == 0x00u) {
+                        break;
+                    }
+                    if (sel != 0u) {
+                        // Some COP0 special cases use sel; treat them as register moves for now.
+                        setReg(rt, regs_.cop0[rd]);
+                    } else {
+                        illegalInstruction(instr);
+                    }
+                    break;
             }
             break;
         default:

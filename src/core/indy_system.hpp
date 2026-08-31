@@ -8,7 +8,8 @@
 #include "gfx/xl_graphics.hpp"
 #include "io/hal2_audio.hpp"
 #include "io/ioc2.hpp"
-#include "io/register_map.hpp"
+#include "system/gio64_bus.hpp"
+#include "system/rex3.hpp"
 #include "system/rtc.hpp"
 
 namespace indyemu {
@@ -34,12 +35,11 @@ private:
     MachineConfig config_;
     Memory memory_;
     MipsCpu cpu_;
-    GraphicsController graphics_;
-    RegisterMap registers_;
-    XLGraphics xl_graphics_;
+    GIO64Bus io_bus_;
     Hal2Audio hal2_audio_;
     Ioc2Controller ioc2_;
     RealTimeClock rtc_;
+    std::unique_ptr<Rex3> rex3_;
 };
 
 }  // namespace indyemu

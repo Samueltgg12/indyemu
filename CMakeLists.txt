@@ -19,7 +19,6 @@ add_executable(indyemu
     src/core/indy_hardware.cpp
     src/core/indy_system.cpp
     src/gfx/xl_graphics.cpp
-    src/io/register_map.cpp
     src/io/hal2_audio.cpp
     src/io/ioc2.cpp
     src/io/serial.cpp
@@ -27,6 +26,8 @@ add_executable(indyemu
     src/system/rtc.cpp
     src/system/timer.cpp
     src/system/interrupt_controller.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(indyemu PRIVATE src)
@@ -35,6 +36,8 @@ add_executable(memory_endianness_test
     tests/memory_endianness_test.cpp
     src/core/memory.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(memory_endianness_test PRIVATE src)
@@ -44,6 +47,8 @@ add_executable(cpu_jtype_test
     src/core/memory.cpp
     src/core/cpu/mips_cpu.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(cpu_jtype_test PRIVATE src)
@@ -53,6 +58,8 @@ add_executable(cpu_branch_test
     src/core/memory.cpp
     src/core/cpu/mips_cpu.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(cpu_branch_test PRIVATE src)
@@ -62,6 +69,8 @@ add_executable(mips_iii_branch_likely_test
     src/core/memory.cpp
     src/core/cpu/mips_cpu.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(mips_iii_branch_likely_test PRIVATE src)
@@ -71,6 +80,8 @@ add_executable(cpu_mul_test
     src/core/memory.cpp
     src/core/cpu/mips_cpu.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(cpu_mul_test PRIVATE src)
@@ -79,6 +90,8 @@ add_executable(register_io_map_test
     tests/register_io_map_test.cpp
     src/core/memory.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(register_io_map_test PRIVATE src)
@@ -87,6 +100,8 @@ add_executable(memory_map_test
     tests/memory_map_test.cpp
     src/core/memory.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(memory_map_test PRIVATE src)
@@ -102,6 +117,8 @@ add_executable(cpu_cop1_test
     src/core/memory.cpp
     src/core/cpu/mips_cpu.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(cpu_cop1_test PRIVATE src)
@@ -111,6 +128,8 @@ add_executable(cop0_test
     src/core/memory.cpp
     src/core/cpu/mips_cpu.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(cop0_test PRIVATE src)
@@ -120,6 +139,8 @@ add_executable(cpu_r4400_test
     src/core/memory.cpp
     src/core/cpu/mips_cpu.cpp
     src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(cpu_r4400_test PRIVATE src)
@@ -141,6 +162,8 @@ add_executable(prom_reset_vector_test
     src/system/rtc.cpp
     src/system/timer.cpp
     src/system/interrupt_controller.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
 )
 
 target_include_directories(prom_reset_vector_test PRIVATE src)

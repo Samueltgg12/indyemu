@@ -17,7 +17,7 @@ using i16 = std::int16_t;
 using i32 = std::int32_t;
 using i64 = std::int64_t;
 
-constexpr u32 kPromBase = 0x1FC00000u;
+constexpr u32 kPromBase = 0x3FC00000u;
 constexpr u32 kRamBase = 0x80000000u;
 constexpr u32 kIoBase = 0x1F000000u;
 

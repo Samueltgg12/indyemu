@@ -9,12 +9,12 @@ IndySystem::IndySystem(const MachineConfig& config)
     : config_(config),
       memory_(),
       cpu_(memory_),
-      graphics_(GraphicsConfig{config_.framebuffer_width, config_.framebuffer_height, config_.bits_per_pixel, 0x1F000000u}),
-      registers_(),
-      xl_graphics_(),
       hal2_audio_(),
       ioc2_(),
-      rtc_(true, false) {
+      rtc_(true, false),
+      rex3_(std::make_unique<Rex3>()) {
+    // Add the Rex3 to the IO bus at the GIO64 slot 0 base address (0x1F000000) with size 16MB
+    memory_.addIoDevice(rex3_.get(), 0x1F000000u, 0x01000000u);
     reset();
 }
 
@@ -31,6 +31,9 @@ void IndySystem::run(std::size_t steps) {
     for (std::size_t i = 0; i < steps; ++i) {
         if (!cpu_.step()) {
             break;
+        }
+        if (i % 1000 == 0) {
+            std::cerr << "Step: " << i << ", PC: 0x" << std::hex << cpu_.registers().pc << std::dec << std::endl;
         }
     }
 }
