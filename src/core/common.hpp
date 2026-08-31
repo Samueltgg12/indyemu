@@ -1,3 +1,4 @@
+// src/core/common.hpp
 #pragma once
 
 #include <array>

@@ -9,6 +9,7 @@
 #include <QApplication>
 #include <QStyle>
 #include <QDir>
+#include <QLineEdit>
 
 namespace indyemu {
 

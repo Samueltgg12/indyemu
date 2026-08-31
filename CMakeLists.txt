@@ -267,7 +267,7 @@ add_test(NAME memory_map_test COMMAND memory_map_test)
 add_test(NAME cpu_cop1_test COMMAND cpu_cop1_test)
 add_test(NAME cop0_test COMMAND cop0_test)
 
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
+find_package(Qt5 COMPONENTS Widgets Multimedia REQUIRED)
 
 add_executable(indyemu_gui
     src/gui/main.cpp
@@ -298,4 +298,4 @@ add_executable(indyemu_gui
 )
 
 target_include_directories(indyemu_gui PRIVATE src)
-target_link_libraries(indyemu_gui PRIVATE Qt5::Widgets tomlplusplus)
+target_link_libraries(indyemu_gui PRIVATE Qt5::Widgets Qt5::Multimedia tomlplusplus)
