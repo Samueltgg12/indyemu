@@ -36,6 +36,14 @@ bool MipsCpu::step() {
         std::cerr << "Step: " << step_count << ", PC=0x" << std::hex << regs_.pc << std::dec << std::endl;
     }
 
+    // Update Cause register IP bits from the interrupt controller before checking
+    updateCauseIPBits();
+
+    // Check for pending interrupts before executing the next instruction
+    if (checkInterrupts()) {
+        return true;
+    }
+
     const u32 current_pc = regs_.pc;
     const u32 instr = fetchInstruction();
     regs_.pc = regs_.next_pc;
@@ -63,6 +71,67 @@ void MipsCpu::dumpState() const {
 
 void MipsCpu::illegalInstruction(u32 instr) const {
     std::cerr << "Illegal instruction at PC 0x" << std::hex << regs_.pc << ": 0x" << instr << "\n";
+}
+
+void MipsCpu::updateCauseIPBits() {
+    // Clear the IP bits in the Cause register
+    regs_.cop0[kCp0Cause] &= ~kCauseIP;
+
+    // Query the interrupt controller for pending interrupt lines
+    if (interrupt_controller_) {
+        const u32 pending = interrupt_controller_->pendingInterruptLines();
+        // Map pending lines (bit N = IP bit N) into the Cause register IP field (bits 8-15)
+        regs_.cop0[kCp0Cause] |= (pending & 0xFFu) << kCauseIPShift;
+    }
+}
+
+bool MipsCpu::checkInterrupts() {
+    const u32 status = regs_.cop0[kCp0Status];
+    const u32 cause = regs_.cop0[kCp0Cause];
+
+    // Interrupts are only taken when:
+    //  - IE (Status bit 0) is set
+    //  - EXL (Status bit 1) is clear (not already in an exception)
+    //  - ERL (Status bit 2) is clear (not in error level)
+    //  - At least one pending IP bit is enabled by the IM field
+    if ((status & kStatusIE) == 0) {
+        return false;
+    }
+    if ((status & (kStatusEXL | kStatusERL)) != 0) {
+        return false;
+    }
+
+    const u32 pending = (cause & kCauseIP) >> kCauseIPShift;
+    const u32 enabled = (status & kStatusIM) >> kStatusIMShift;
+    if ((pending & enabled) == 0) {
+        return false;
+    }
+
+    // Take the interrupt exception. EPC is the current PC (no delay slot for interrupts
+    // taken at instruction boundary).
+    takeException(kExcInt, regs_.pc, false);
+    return true;
+}
+
+void MipsCpu::takeException(u32 exc_code, u32 epc, bool in_delay_slot) {
+    // Set the exception code in the Cause register
+    regs_.cop0[kCp0Cause] &= ~kCauseExcCode;
+    regs_.cop0[kCp0Cause] |= (exc_code << kCauseExcCodeShift);
+
+    // Set EPC. If in a delay slot, EPC points to the branch instruction and BD bit is set.
+    regs_.cop0[kCp0EPC] = epc;
+    if (in_delay_slot) {
+        regs_.cop0[kCp0Cause] |= 0x80000000u;  // BD bit
+    } else {
+        regs_.cop0[kCp0Cause] &= ~0x80000000u;
+    }
+
+    // Set EXL bit to prevent nested exceptions
+    regs_.cop0[kCp0Status] |= kStatusEXL;
+
+    // Jump to the general exception vector
+    regs_.pc = kExceptionBase;
+    regs_.next_pc = kExceptionBase + 4;
 }
 
 void MipsCpu::executeInstruction(u32 instr, u32 current_pc) {

@@ -13,6 +13,8 @@ IndySystem::IndySystem(const MachineConfig& config)
       ioc2_(),
       rtc_(true, false),
       rex3_(std::make_unique<Rex3>()) {
+    // Route IOC2 interrupts to the CPU
+    cpu_.setInterruptController(&ioc2_);
     // Add the Rex3 to the IO bus at the GIO64 slot 0 base address (0x1F000000) with size 16MB
     memory_.addIoDevice(rex3_.get(), 0x1F000000u, 0x01000000u);
     reset();

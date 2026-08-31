@@ -1,6 +1,7 @@
 #pragma once
 
 #include "core/common.hpp"
+#include "core/cpu/mips_cpu.hpp"
 
 #include <array>
 #include <cstdint>
@@ -9,7 +10,7 @@ namespace indyemu {
 
 // IOC2 Interrupt Controller (INT3)
 // Located at HPC3 PBUS channel 6 @ 0x1FBD9800
-class Ioc2Controller {
+class Ioc2Controller : public InterruptController {
 public:
     static constexpr u32 kBase = 0x1FBD9800u;  // HPC3 PBUS channel 6
     
@@ -78,6 +79,9 @@ public:
     // Query interrupt state
     u8 isEnabled(InterruptLine line) const;
     bool hasPendingInterrupt(InterruptLine line) const;
+
+    // InterruptController interface
+    u32 pendingInterruptLines() const override;
     
 private:
     // Interrupt status and mask registers

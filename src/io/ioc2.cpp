@@ -144,4 +144,17 @@ bool Ioc2Controller::hasPendingInterrupt(InterruptLine line) const {
     return isEnabled(line) != 0;
 }
 
+u32 Ioc2Controller::pendingInterruptLines() const {
+    u32 lines = 0;
+    // IP2 is driven by LOCAL0 (and MAP_INT0 via L0 bit 7)
+    if (hasPendingInterrupt(InterruptLine::kIP2)) {
+        lines |= (1u << static_cast<u32>(InterruptLine::kIP2));
+    }
+    // IP3 is driven by LOCAL1 (and MAP_INT1 via L1 bit 3)
+    if (hasPendingInterrupt(InterruptLine::kIP3)) {
+        lines |= (1u << static_cast<u32>(InterruptLine::kIP3));
+    }
+    return lines;
+}
+
 }  // namespace indyemu
