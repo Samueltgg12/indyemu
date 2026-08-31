@@ -21,7 +21,7 @@ public:
         kIo,
     };
 
-    static constexpr std::size_t kRamSize = 64 * 1024 * 1024;
+    static constexpr std::size_t kDefaultRamSize = 64 * 1024 * 1024;
     static constexpr std::size_t kPromSize = 2 * 1024 * 1024;
     static constexpr std::size_t kTLBEntries = 64;  // Typical for MIPS R4000
 
