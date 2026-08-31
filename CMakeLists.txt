@@ -272,7 +272,29 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 add_executable(indyemu_gui
     src/gui/main.cpp
     src/gui/main_window.cpp
+    src/gui/framebuffer_display.cpp
+    src/core/memory.cpp
+    src/core/framebuffer.cpp
+    src/core/graphics.cpp
+    src/core/audio.cpp
+    src/core/cpu/mips_cpu.cpp
+    src/core/indy_hardware.cpp
+    src/core/indy_system.cpp
+    src/gfx/xl_graphics.cpp
+    src/io/ds1386_rtc.cpp
+    src/io/eeprom_93c56.cpp
+    src/io/hal2_audio.cpp
+    src/io/ioc2.cpp
+    src/io/serial.cpp
+    src/io/system_controller.cpp
+    src/system/rtc.cpp
+    src/system/timer.cpp
+    src/system/interrupt_controller.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
+    src/system/memory_controller.cpp
+    src/system/vino.cpp
 )
 
 target_include_directories(indyemu_gui PRIVATE src)
-target_link_libraries(indyemu_gui PRIVATE Qt5::Widgets)
+target_link_libraries(indyemu_gui PRIVATE Qt5::Widgets tomlplusplus)

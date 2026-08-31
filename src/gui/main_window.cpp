@@ -1,6 +1,8 @@
 #include "gui/main_window.hpp"
 
 #include "config/indy_config.hpp"
+#include "gui/framebuffer_display.hpp"
+#include "system/rex3.hpp"
 
 #include <QGroupBox>
 #include <QHBoxLayout>
@@ -205,28 +207,28 @@ void MainWindow::setupDisplayTab() {
     auto* displayBox = new QGroupBox("Graphics / framebuffer", page);
     auto* displayLayout = new QVBoxLayout(displayBox);
 
-    auto* frame = new QLabel("24-bit XL framebuffer placeholder");
-    frame->setMinimumHeight(220);
-    frame->setAlignment(Qt::AlignCenter);
-    frame->setStyleSheet(
-        "background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, "
-        "stop:0 #7fa0da, stop:0.4 #4f78bf, stop:1 #2f4f92); "
-        "border: 1px solid #3d4a68; color: #edf6ff; font-weight: 600;"
-    );
-    displayLayout->addWidget(frame);
+    // Live view of the emulated REX3 framebuffer.
+    display_ = new indyemu::FramebufferDisplay(displayBox);
+    displayLayout->addWidget(display_);
 
     auto* text = new QTextEdit(displayBox);
     text->setReadOnly(true);
     text->setPlainText(
-        "Planned graphics path:\n"
-        "- 24-bit XL framebuffer emulation\n"
-        "- early PROM startup screen alignment\n"
+        "Graphics path:\n"
+        "- 24-bit XL framebuffer emulation (REX3 / Newport)\n"
+        "- live display of the emulated framebuffer\n"
         "- color LUT / display control\n"
         "- later IRIX desktop rendering\n");
     displayLayout->addWidget(text);
 
     layout->addWidget(displayBox);
     tabs_->addTab(page, "Display");
+}
+
+void MainWindow::setRex3(indyemu::Rex3* rex3) {
+    if (display_) {
+        display_->setRex3(rex3);
+    }
 }
 
 void MainWindow::setupNetworkTab() {

@@ -125,6 +125,12 @@ private:
     // Internal state
     bool enabled_ = true;
     bool go_pending_ = false; // Tracks if GO command is pending
+
+public:
+    // Access to framebuffer data for display
+    const uint32_t* framebufferData() const { return framebuffer_.data(); }
+    uint32_t framebufferWidth() const { return kFramebufferWidth; }
+    uint32_t framebufferHeight() const { return kFramebufferHeight; }
 };
 
 } // namespace indyemu

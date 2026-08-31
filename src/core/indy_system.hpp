@@ -34,6 +34,8 @@ public:
     const Memory& memory() const { return memory_; }
     MipsCpu& cpu() { return cpu_; }
     const MipsCpu& cpu() const { return cpu_; }
+    Rex3* rex3() { return rex3_.get(); }
+    const Rex3* rex3() const { return rex3_.get(); }
 
 private:
     MachineConfig config_;
