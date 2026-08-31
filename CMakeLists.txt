@@ -272,6 +272,7 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 add_executable(indyemu_gui
     src/gui/main.cpp
     src/gui/main_window.cpp
+    src/gui/launcher_window.cpp
     src/gui/framebuffer_display.cpp
     src/core/memory.cpp
     src/core/framebuffer.cpp
