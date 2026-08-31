@@ -28,6 +28,8 @@ add_executable(indyemu
     src/core/indy_hardware.cpp
     src/core/indy_system.cpp
     src/gfx/xl_graphics.cpp
+    src/io/ds1386_rtc.cpp
+    src/io/eeprom_93c56.cpp
     src/io/hal2_audio.cpp
     src/io/ioc2.cpp
     src/io/serial.cpp
@@ -167,6 +169,8 @@ add_executable(prom_reset_vector_test
     src/core/graphics.cpp
     src/gfx/xl_graphics.cpp
     src/io/register_map.cpp
+    src/io/ds1386_rtc.cpp
+    src/io/eeprom_93c56.cpp
     src/io/hal2_audio.cpp
     src/io/ioc2.cpp
     src/io/serial.cpp
@@ -192,6 +196,8 @@ add_executable(vino_test
     src/core/graphics.cpp
     src/gfx/xl_graphics.cpp
     src/io/register_map.cpp
+    src/io/ds1386_rtc.cpp
+    src/io/eeprom_93c56.cpp
     src/io/hal2_audio.cpp
     src/io/ioc2.cpp
     src/io/serial.cpp
@@ -207,9 +213,38 @@ add_executable(vino_test
 
 target_include_directories(vino_test PRIVATE src)
 
+add_executable(eeprom_93c56_test
+    tests/eeprom_93c56_test.cpp
+    src/io/eeprom_93c56.cpp
+    src/system/memory_controller.cpp
+    src/system/gio64_bus.cpp
+)
+
+target_include_directories(eeprom_93c56_test PRIVATE src)
+
+add_executable(memory_controller_test
+    tests/memory_controller_test.cpp
+    src/io/eeprom_93c56.cpp
+    src/system/memory_controller.cpp
+    src/system/gio64_bus.cpp
+)
+
+target_include_directories(memory_controller_test PRIVATE src)
+
+add_executable(ds1386_rtc_test
+    tests/ds1386_rtc_test.cpp
+    src/io/ds1386_rtc.cpp
+    src/system/gio64_bus.cpp
+)
+
+target_include_directories(ds1386_rtc_test PRIVATE src)
+
 add_test(NAME cpu_r4400_test COMMAND cpu_r4400_test)
 add_test(NAME prom_reset_vector_test COMMAND prom_reset_vector_test)
 add_test(NAME vino_test COMMAND vino_test)
+add_test(NAME eeprom_93c56_test COMMAND eeprom_93c56_test)
+add_test(NAME memory_controller_test COMMAND memory_controller_test)
+add_test(NAME ds1386_rtc_test COMMAND ds1386_rtc_test)
 
 add_executable(hardware_shell_test
     tests/hardware_shell_test.cpp

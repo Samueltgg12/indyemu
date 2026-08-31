@@ -6,6 +6,8 @@
 #include "core/indy_hardware.hpp"
 #include "core/memory.hpp"
 #include "gfx/xl_graphics.hpp"
+#include "io/ds1386_rtc.hpp"
+#include "io/eeprom_93c56.hpp"
 #include "io/hal2_audio.hpp"
 #include "io/ioc2.hpp"
 #include "system/gio64_bus.hpp"
@@ -41,7 +43,9 @@ private:
     Hal2Audio hal2_audio_;
     Ioc2Controller ioc2_;
     RealTimeClock rtc_;
+    Ds1386Rtc ds1386_;
     MemoryController memory_controller_;
+    Eeprom93c56 eeprom_;
     Vino vino_;
     std::unique_ptr<Rex3> rex3_;
 };

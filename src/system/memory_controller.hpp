@@ -8,6 +8,8 @@
 
 namespace indyemu {
 
+class Eeprom93c56;
+
 // Memory controller (MC) chip. Handles the CPU/GIO memory control registers
 // at 0x1FA00000. See hardware-docs/mc.md section 5.
 class MemoryController : public IODevice {
@@ -64,9 +66,38 @@ public:
 
     void reset();
 
+    // Attach the CPU configuration EEPROM (93C56) driven via the EEROM
+    // register. See hardware-docs/mc.md section 5.6.
+    void attachEeprom(Eeprom93c56* eeprom) { eeprom_ = eeprom; }
+
+    // Program MEMCFG0/1 to describe `ramBytes` of contiguous RAM at
+    // physical address 0. See hardware-docs/mc.md section 5.12.
+    void configureMemory(uint32_t ramBytes);
+
+    // Advance the refresh counter and watchdog timer by `cycles` CPU cycles.
+    void tick(uint32_t cycles);
+
+    // True once the enabled watchdog timer has rolled over (machine reset).
+    bool watchdogExpired() const { return watchdogExpired_; }
+    void clearWatchdogExpired() { watchdogExpired_ = false; }
+
 private:
+    // EEROM register bits (hardware-docs/mc.md section 5.6).
+    static constexpr uint32_t kEepromCs  = 1u << 1;  // chip select, active high
+    static constexpr uint32_t kEepromSck = 1u << 2;  // serial clock
+    static constexpr uint32_t kEepromSo  = 1u << 3;  // data to EEPROM (DI)
+    static constexpr uint32_t kEepromSi  = 1u << 4;  // data from EEPROM (DO)
+
     // Storage for read/write registers. Indexed by (offset / 4).
     std::array<uint32_t, kSize / 4u> regs_;
+    Eeprom93c56* eeprom_ = nullptr;
+
+    // Refresh counter: counts down at CPU frequency, reloads from CTRLD.
+    // See hardware-docs/mc.md sections 5.7/5.8.
+    uint32_t refreshCounter_ = 0;
+    // Watchdog: 20-bit counter of refresh bursts (section 5.3).
+    uint32_t watchdogCounter_ = 0;
+    bool watchdogExpired_ = false;
 };
 
 } // namespace indyemu

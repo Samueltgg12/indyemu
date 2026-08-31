@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+#include "io/eeprom_93c56.hpp"
+
 namespace indyemu {
 
 MemoryController::MemoryController() {
@@ -16,7 +18,69 @@ void MemoryController::reset() {
     regs_[CTRLD / 4u] = 0x00000C35u;
     // RPSS_DIVIDER: DIV=4, INC=1 (50MHz processor).
     regs_[RPSS_DIVIDER / 4u] = 0x00000104u;
+    refreshCounter_ = regs_[CTRLD / 4u] & 0xFFFFu;
+    watchdogCounter_ = 0;
+    watchdogExpired_ = false;
     std::cout << "[mc] Memory controller reset\n";
+}
+
+void MemoryController::configureMemory(uint32_t ramBytes) {
+    // SIMM geometries supported by the MC (hardware-docs/mc.md section 5.12).
+    // A bank is four identical SIMMs; capacity below is per bank.
+    struct Simm { uint32_t bankBytes; uint32_t msize; uint32_t subbanks; };
+    static constexpr Simm kSimms[] = {
+        {128u * 1024 * 1024, 0x1F, 1},  // 8M x 36, 2 subbanks
+        { 64u * 1024 * 1024, 0x0F, 0},  // 4M x 36
+        { 32u * 1024 * 1024, 0x07, 1},  // 2M x 36, 2 subbanks
+        { 16u * 1024 * 1024, 0x03, 0},  // 1M x 36
+        {  8u * 1024 * 1024, 0x01, 1},  // 512K x 36, 2 subbanks
+        {  4u * 1024 * 1024, 0x00, 0},  // 256K x 36
+    };
+
+    uint32_t memcfg[2] = {0u, 0u};
+    uint32_t remaining = ramBytes;
+    uint32_t base = 0;  // in units compared against address bits 29:22
+    for (uint32_t bank = 0; bank < 4 && remaining > 0; ++bank) {
+        for (const Simm& simm : kSimms) {
+            if (simm.bankBytes <= remaining) {
+                // Base field holds address bits 29:22 of the bank start.
+                const uint32_t baseField = (base >> 22) & 0xFFu;
+                uint32_t field = baseField | (simm.msize << 8) |
+                                 (1u << 13) | (simm.subbanks << 14);
+                // Banks 0/2 occupy the high half, banks 1/3 the low half.
+                if ((bank & 1u) == 0) {
+                    field <<= 16;
+                }
+                memcfg[bank / 2] |= field;
+                base += simm.bankBytes;
+                remaining -= simm.bankBytes;
+                break;
+            }
+        }
+    }
+    regs_[MEMCFG0 / 4u] = memcfg[0];
+    regs_[MEMCFG1 / 4u] = memcfg[1];
+}
+
+void MemoryController::tick(uint32_t cycles) {
+    // Refresh counter counts down at CPU frequency and reloads from CTRLD.
+    while (cycles >= refreshCounter_) {
+        cycles -= refreshCounter_;
+        refreshCounter_ = regs_[CTRLD / 4u] & 0xFFFFu;
+        if (refreshCounter_ == 0) {
+            refreshCounter_ = 1;  // avoid a zero-length reload loop
+        }
+        // A refresh burst occurred: the 20-bit watchdog counts these when
+        // enabled via the DOG bit (CPUCTRL0 bit 8). See mc.md section 5.3.
+        if (regs_[CPUCTRL0 / 4u] & (1u << 8)) {
+            watchdogCounter_ = (watchdogCounter_ + 1) & 0xFFFFFu;
+            if (watchdogCounter_ == 0) {
+                watchdogExpired_ = true;
+            }
+        }
+    }
+    refreshCounter_ -= cycles;
+    regs_[REF_CTR / 4u] = refreshCounter_ & 0xFFFFu;
 }
 
 bool MemoryController::contains(uint32_t address) const {
@@ -32,7 +96,18 @@ uint32_t MemoryController::read32(uint32_t address) const {
     if (index >= regs_.size()) {
         return 0u;
     }
-    return regs_[index];
+    uint32_t value = regs_[index];
+    if (offset == DOGC) {
+        // DOGC reads back the live 20-bit watchdog counter.
+        value = watchdogCounter_ & 0xFFFFFu;
+    } else if (offset == EEROM) {
+        // SI bit reflects the EEPROM DO pin; it cannot be written.
+        value &= ~kEepromSi;
+        if (eeprom_ != nullptr && eeprom_->dataOut()) {
+            value |= kEepromSi;
+        }
+    }
+    return value;
 }
 
 void MemoryController::write32(uint32_t address, uint32_t value) {
@@ -44,6 +119,9 @@ void MemoryController::write32(uint32_t address, uint32_t value) {
     if (index >= regs_.size()) {
         return;
     }
+
+    // Writing any MC register resets the watchdog counter (mc.md section 5.3).
+    watchdogCounter_ = 0;
 
     // Read-only registers ignore writes.
     switch (static_cast<Register>(offset)) {
@@ -58,6 +136,17 @@ void MemoryController::write32(uint32_t address, uint32_t value) {
             return;
         default:
             break;
+    }
+
+    if (offset == EEROM) {
+        // Drive the EEPROM pins from the CS/SCK/SO bits. The SI bit is
+        // read-only and never stored.
+        if (eeprom_ != nullptr) {
+            eeprom_->setDataIn((value & kEepromSo) != 0);
+            eeprom_->setChipSelect((value & kEepromCs) != 0);
+            eeprom_->setClock((value & kEepromSck) != 0);
+        }
+        value &= ~kEepromSi;
     }
 
     regs_[index] = value;
