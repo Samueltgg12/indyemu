@@ -12,7 +12,7 @@ class Hal2Audio : public IODevice {
 public:
     // Physical register offsets
     static constexpr u32 kBase = 0x1FBD8000u;  // Indy HAL2 base
-    static constexpr u32 kSize = 0x10000u;     // 64KB register + DMA FIFO space
+    static constexpr u32 kSize = 0x1000u;      // 4KB register space (HPC3 PBUS channel)
     static constexpr u32 kIsrOffset = 0x10u;   // Interrupt/global control
     static constexpr u32 kRevOffset = 0x20u;   // Chip revision (read-only)
     static constexpr u32 kIarOffset = 0x30u;   // Indirect address register

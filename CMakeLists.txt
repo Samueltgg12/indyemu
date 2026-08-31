@@ -37,6 +37,7 @@ add_executable(indyemu
     src/system/interrupt_controller.cpp
     src/system/gio64_bus.cpp
     src/system/rex3.cpp
+    src/system/memory_controller.cpp
 )
 
 target_include_directories(indyemu PRIVATE src)
@@ -174,6 +175,7 @@ add_executable(prom_reset_vector_test
     src/system/interrupt_controller.cpp
     src/system/gio64_bus.cpp
     src/system/rex3.cpp
+    src/system/memory_controller.cpp
 )
 
 target_include_directories(prom_reset_vector_test PRIVATE src)

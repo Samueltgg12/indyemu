@@ -19,11 +19,19 @@ void Ioc2Controller::reset() {
     ip3_active_ = false;
 }
 
-u32 Ioc2Controller::read32(u32 offset) const {
+bool Ioc2Controller::contains(u32 address) const {
+    return address >= kBase && address < (kBase + kSize);
+}
+
+u32 Ioc2Controller::read32(u32 address) const {
+    if (!contains(address)) {
+        return 0;
+    }
+    const u32 offset = address - kBase;
     // All IOC2 registers are 8-bit, but we return them as part of a 32-bit word
     // MIPS is big-endian, so byte offset 0 is bits 24-31
     u8 value = 0;
-    
+
     switch (offset) {
         case kL0StatOffset:
             value = l0_stat_;
@@ -57,10 +65,14 @@ u32 Ioc2Controller::read32(u32 offset) const {
     return static_cast<u32>(value) << 24;
 }
 
-void Ioc2Controller::write32(u32 offset, u32 value) {
+void Ioc2Controller::write32(u32 address, u32 value) {
+    if (!contains(address)) {
+        return;
+    }
+    const u32 offset = address - kBase;
     // Extract the 8-bit value from the appropriate byte
     u8 byte_val = static_cast<u8>((value >> 24) & 0xFFu);
-    
+
     switch (offset) {
         case kL0StatOffset:
             // Status registers are read-only, writing has no effect

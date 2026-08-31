@@ -2,6 +2,7 @@
 
 #include "core/common.hpp"
 #include "core/cpu/mips_cpu.hpp"
+#include "system/gio64_bus.hpp"
 
 #include <array>
 #include <cstdint>
@@ -10,9 +11,10 @@ namespace indyemu {
 
 // IOC2 Interrupt Controller (INT3)
 // Located at HPC3 PBUS channel 6 @ 0x1FBD9800
-class Ioc2Controller : public InterruptController {
+class Ioc2Controller : public InterruptController, public IODevice {
 public:
     static constexpr u32 kBase = 0x1FBD9800u;  // HPC3 PBUS channel 6
+    static constexpr u32 kSize = 0x100u;       // Register block size
     
     // Register offsets
     static constexpr u32 kL0StatOffset = 0x00u;   // Local 0 Status (ISR)
@@ -65,8 +67,11 @@ public:
     Ioc2Controller();
 
     void reset();
-    u32 read32(u32 offset) const;
-    void write32(u32 offset, u32 value);
+
+    // IODevice interface (bus passes full physical address)
+    bool contains(u32 address) const override;
+    u32 read32(u32 address) const override;
+    void write32(u32 address, u32 value) override;
     
     // Interrupt API
     void assertInterrupt(Local0Interrupt int_bit);

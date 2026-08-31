@@ -22,6 +22,14 @@ u32 Memory::translateAddress(u32 address) const {
     // kseg2: 0xC0000000-0xDFFFFFFF -> TLB mapped (kernel/supervisor mode)
     // kseg3: 0xE0000000-0xFFFFFFFF -> TLB mapped (kernel mode)
 
+    // The GIO64 IO window is a fixed physical region; never TLB-translate it.
+    // Exception: 0x1FC00000-0x1FDFFFFF is the kuseg PROM alias, which must
+    // still go through the TLB to reach the PROM at physical 0x3FC00000.
+    if (isIoPhysicalAddress(address) &&
+        !(address >= 0x1FC00000u && address < 0x1FC00000u + kPromSize)) {
+        return address;
+    }
+
     if (address < 0x80000000u) {
         // kuseg or user mode - use TLB translation
         bool found, invalid;
@@ -173,6 +181,17 @@ void Memory::reset() {
 }
 
 Memory::Region Memory::regionForAddress(u32 address) const {
+    // Classify well-known fixed regions by their (possibly virtual) address
+    // first: kseg1 PROM alias, kseg0 RAM base, and the GIO64 IO window.
+    if (address >= 0xBFC00000u && address < 0xBFC00000u + kPromSize) {
+        return Region::kProm;
+    }
+    if (address >= kIoBase && address < (kIoBase + 0x01000000u)) {
+        return Region::kIo;
+    }
+    if (address >= kRamBase && address < (kRamBase + ram_size_)) {
+        return Region::kRam;
+    }
     const u32 translated = translateAddress(address);
     if (isPromAddress(translated)) {
         return Region::kProm;
@@ -216,6 +235,13 @@ bool Memory::isPromAddress(u32 address) const {
 }
 
 bool Memory::isRamAddress(u32 address) const {
+    // Physical RAM lives at 0x00000000..ram_size (kseg0/kseg1 direct-mapped
+    // addresses translate here via & 0x1FFFFFFF). Also accept the kseg0
+    // virtual base form (0x80000000+) for callers that pass untranslated
+    // addresses.
+    if (address < ram_size_) {
+        return true;
+    }
     return address >= kRamBase && address < (kRamBase + ram_size_);
 }
 
@@ -230,7 +256,7 @@ u8 Memory::read8(u32 address) const {
         return prom_[offset % kPromSize];
     }
     if (isRamAddress(paddr)) {
-        const u32 offset = paddr - kRamBase;
+        const u32 offset = (paddr >= kRamBase) ? (paddr - kRamBase) : paddr;
         return ram_[offset % ram_size_];
     }
     if (isIoPhysicalAddress(paddr)) {
@@ -285,7 +311,7 @@ u32 Memory::read32(u32 address) const {
 void Memory::write8(u32 address, u8 value) {
     const u32 paddr = translateAddress(address);
     if (isRamAddress(paddr)) {
-        const u32 offset = paddr - kRamBase;
+        const u32 offset = (paddr >= kRamBase) ? (paddr - kRamBase) : paddr;
         ram_[offset % ram_size_] = value;
         return;
     }
@@ -309,8 +335,8 @@ void Memory::write16(u32 address, u16 value) {
         io_bus_.write32(aligned, (io_bus_.read32(aligned) & 0x0000FFFFu) | (static_cast<u32>(value) << 8u));
         return;
     }
-    write8(paddr, static_cast<u8>(value & 0xFFu));
-    write8(paddr + 1, static_cast<u8>((value >> 8) & 0xFFu));
+    write8(address, static_cast<u8>(value & 0xFFu));
+    write8(address + 1, static_cast<u8>((value >> 8) & 0xFFu));
 }
 
 void Memory::write32(u32 address, u32 value) {
@@ -319,10 +345,10 @@ void Memory::write32(u32 address, u32 value) {
         io_bus_.write32(paddr, value);
         return;
     }
-    write8(paddr, static_cast<u8>((value >> 24) & 0xFFu));
-    write8(paddr + 1, static_cast<u8>((value >> 16) & 0xFFu));
-    write8(paddr + 2, static_cast<u8>((value >> 8) & 0xFFu));
-    write8(paddr + 3, static_cast<u8>(value & 0xFFu));
+    write8(address, static_cast<u8>((value >> 24) & 0xFFu));
+    write8(address + 1, static_cast<u8>((value >> 16) & 0xFFu));
+    write8(address + 2, static_cast<u8>((value >> 8) & 0xFFu));
+    write8(address + 3, static_cast<u8>(value & 0xFFu));
 }
 
 void Memory::dumpRange(u32 start, std::size_t length) const {

@@ -27,8 +27,9 @@ uint32_t GIO64Bus::read32(uint32_t address) const {
             return entry.device->read32(address);
         }
     }
-    // If no device found, return 0 (or maybe throw?)
-    return 0u;
+    // Fallback: return last written value for unclaimed addresses, else 0.
+    const auto it = fallback_regs_.find(address);
+    return (it != fallback_regs_.end()) ? it->second : 0u;
 }
 
 void GIO64Bus::write32(uint32_t address, uint32_t value) {
@@ -38,7 +39,8 @@ void GIO64Bus::write32(uint32_t address, uint32_t value) {
             return;
         }
     }
-    // If no device found, silently ignore (or maybe throw?)
+    // Fallback: store value for unclaimed addresses.
+    fallback_regs_[address] = value;
 }
 
 std::string GIO64Bus::descriptionFor(uint32_t address) const {

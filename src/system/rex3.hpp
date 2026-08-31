@@ -11,7 +11,7 @@ namespace indyemu {
 class Rex3 : public IODevice {
 public:
     static constexpr uint32_t kBase = 0x1F000000u;
-    static constexpr uint32_t kSize = 0x01000000u; // 16MB range
+    static constexpr uint32_t kSize = 0x00400000u; // GIO64 slot 0: 4MB range
 
     // Register offsets
     enum Register : uint32_t {

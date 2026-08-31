@@ -9,6 +9,7 @@
 #include "io/hal2_audio.hpp"
 #include "io/ioc2.hpp"
 #include "system/gio64_bus.hpp"
+#include "system/memory_controller.hpp"
 #include "system/rex3.hpp"
 #include "system/rtc.hpp"
 
@@ -39,6 +40,7 @@ private:
     Hal2Audio hal2_audio_;
     Ioc2Controller ioc2_;
     RealTimeClock rtc_;
+    MemoryController memory_controller_;
     std::unique_ptr<Rex3> rex3_;
 };
 

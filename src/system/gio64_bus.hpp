@@ -5,6 +5,7 @@
 #include <vector>
 #include <memory>
 #include <string>
+#include <unordered_map>
 
 namespace indyemu {
 
@@ -37,6 +38,10 @@ private:
     };
 
     std::vector<DeviceEntry> devices_;
+    // Fallback storage for IO addresses not claimed by any registered device.
+    // Keeps the bus permissive for unimplemented registers (reads return last
+    // written value, or 0 if never written).
+    mutable std::unordered_map<uint32_t, uint32_t> fallback_regs_;
 };
 
 } // namespace indyemu
