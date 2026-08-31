@@ -33,7 +33,7 @@ public:
         u32 page_mask;  // PageMask
     };
 
-    Memory();
+    explicit Memory(std::size_t ram_size = kDefaultRamSize);
     ~Memory() = default;
 
     bool loadProm(const std::string& path);
@@ -68,6 +68,7 @@ public:
     void addIoDevice(IODevice* device, uint32_t base_addr, uint32_t size);
 
 private:
+    std::size_t ram_size_;
     std::unique_ptr<u8[]> ram_;
     std::unique_ptr<u8[]> prom_;
     GIO64Bus io_bus_;
