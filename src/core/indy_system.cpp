@@ -7,7 +7,7 @@ IndySystem::IndySystem() : IndySystem(MachineConfig{}) {
 
 IndySystem::IndySystem(const MachineConfig& config)
     : config_(config),
-      memory_(),
+      memory_(config.ram_bytes),
       cpu_(memory_),
       hal2_audio_(),
       ioc2_(),

@@ -7,7 +7,10 @@
 
 namespace indyemu {
 
-Memory::Memory() : ram_(new u8[kRamSize]{}), prom_(new u8[kPromSize]{}) {
+Memory::Memory(std::size_t ram_size) 
+    : ram_size_(ram_size), 
+      ram_(new u8[ram_size]{}), 
+      prom_(new u8[kPromSize]{}) {
     reset();
 }
 
@@ -78,7 +81,7 @@ u32 Memory::translateAddress(u32 address) const {
 
 void Memory::reset() {
     if (ram_) {
-        std::fill_n(ram_.get(), kRamSize, 0);
+        std::fill_n(ram_.get(), ram_size_, 0);
     }
     if (prom_) {
         std::fill_n(prom_.get(), kPromSize, 0);
@@ -120,11 +123,10 @@ void Memory::reset() {
         this->tlb_write(tlb_index_);
     };
 
-    // Map RAM region (64MB) in kuseg: virtual 0x00000000-0x03FFFFFF -> physical 0x00000000-0x03FFFFFF
-    // Using 4MB pages, we need 16 TLB entries (64MB / 4MB = 16)
+    // Map RAM region in kuseg: virtual 0x00000000-0x[ram_size) -> physical 0x00000000-0x[ram_size)
+    // Using 4MB pages, we need ram_size / 4MB TLB entries
     const u32 ram_base = 0x00000000u;
-    const u32 ram_size = kRamSize; // 64MB
-    const u32 num_ram_entries = ram_size / 0x400000u; // 16
+    const u32 num_ram_entries = ram_size_ / 0x400000u;
     for (u32 i = 0; i < num_ram_entries; ++i) {
         u32 vaddr = ram_base + i * 0x400000u;
         u32 paddr = vaddr; // Identity mapping for RAM
@@ -214,7 +216,7 @@ bool Memory::isPromAddress(u32 address) const {
 }
 
 bool Memory::isRamAddress(u32 address) const {
-    return address >= kRamBase && address < (kRamBase + kRamSize);
+    return address >= kRamBase && address < (kRamBase + ram_size_);
 }
 
 bool Memory::isIoPhysicalAddress(u32 paddr) const {
@@ -229,7 +231,7 @@ u8 Memory::read8(u32 address) const {
     }
     if (isRamAddress(paddr)) {
         const u32 offset = paddr - kRamBase;
-        return ram_[offset % kRamSize];
+        return ram_[offset % ram_size_];
     }
     if (isIoPhysicalAddress(paddr)) {
         const u32 aligned = paddr & ~3u;
@@ -284,7 +286,7 @@ void Memory::write8(u32 address, u8 value) {
     const u32 paddr = translateAddress(address);
     if (isRamAddress(paddr)) {
         const u32 offset = paddr - kRamBase;
-        ram_[offset % kRamSize] = value;
+        ram_[offset % ram_size_] = value;
         return;
     }
     if (isIoPhysicalAddress(paddr)) {

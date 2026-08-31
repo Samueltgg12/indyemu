@@ -1,10 +1,18 @@
 #pragma once
 
 #include <array>
+#include <cstdint>
+#include <cstdio>
 #include <filesystem>
 #include <fstream>
+#include <iostream>
 #include <string>
 #include <system_error>
+
+#include <toml++/toml.hpp>
+
+#include "core/common.hpp"
+#include "core/indy_hardware.hpp"
 
 namespace indyemu {
 
@@ -133,6 +141,98 @@ inline bool writeDefaultProfile(const std::string& profile_name = "default") {
     }
 
     return true;
+}
+
+inline bool loadConfigFromToml(const std::string& path, MachineConfig& config) {
+    try {
+        auto toml_file = toml::parse_file(path);
+
+        // Parse [machine] section
+        if (auto machine = toml_file["machine"]; machine) {
+            if (auto ram_bytes = machine["ram_bytes"]; ram_bytes) {
+                config.ram_bytes = static_cast<u32>(ram_bytes.as_integer()->get());
+            }
+            if (auto prom_size = machine["prom_size_bytes"]; prom_size) {
+                config.prom_size_bytes = static_cast<u32>(prom_size.as_integer()->get());
+            }
+            if (auto graphics = machine["graphics_model"]; graphics) {
+                config.graphics_model = graphics.as_string()->get();
+            }
+            if (auto sound = machine["sound_model"]; sound) {
+                config.sound_model = sound.as_string()->get();
+            }
+            if (auto cpu = machine["cpu_model"]; cpu) {
+                config.cpu_model = cpu.as_string()->get();
+            }
+            if (auto boot = machine["boot_device"]; boot) {
+                config.boot_device = boot.as_string()->get();
+            }
+        }
+
+        // Parse [graphics] section
+        if (auto graphics = toml_file["graphics"]; graphics) {
+            if (auto width = graphics["width"]; width) {
+                config.framebuffer_width = static_cast<u32>(width.as_integer()->get());
+            }
+            if (auto height = graphics["height"]; height) {
+                config.framebuffer_height = static_cast<u32>(height.as_integer()->get());
+            }
+            if (auto bpp = graphics["bits_per_pixel"]; bpp) {
+                config.bits_per_pixel = static_cast<u32>(bpp.as_integer()->get());
+            }
+        }
+
+        // Parse [network] section
+        if (auto network = toml_file["network"]; network) {
+            if (auto mac = network["mac"]; mac) {
+                std::string mac_str = mac.as_string()->get();
+                // Parse MAC address in format "08:00:69:12:34:56"
+                int parts[6];
+                if (std::sscanf(mac_str.c_str(), "%02x:%02x:%02x:%02x:%02x:%02x",
+                               &parts[0], &parts[1], &parts[2],
+                               &parts[3], &parts[4], &parts[5]) == 6) {
+                    for (int i = 0; i < 6; ++i) {
+                        config.ethernet_mac[i] = static_cast<u8>(parts[i]);
+                    }
+                }
+            }
+            if (auto enabled = network["enabled"]; enabled) {
+                config.has_network = enabled.as_boolean()->get();
+            }
+        }
+
+        // Parse [storage] section
+        if (auto storage = toml_file["storage"]; storage) {
+            if (auto has_scsi = storage["has_scsi"]; has_scsi) {
+                config.has_scsi = has_scsi.as_boolean()->get();
+            }
+            if (auto has_efs = storage["has_efs"]; has_efs) {
+                config.has_efs = has_efs.as_boolean()->get();
+            }
+        }
+
+        // Parse [audio] section
+        if (auto audio = toml_file["audio"]; audio) {
+            if (auto enabled = audio["enabled"]; enabled) {
+                config.has_sound = enabled.as_boolean()->get();
+            }
+        }
+
+        // Parse [prom] section
+        if (auto prom = toml_file["prom"]; prom) {
+            if (auto enabled = prom["enabled"]; enabled) {
+                config.has_prom = enabled.as_boolean()->get();
+            }
+        }
+
+        return true;
+    } catch (const toml::parse_error& err) {
+        std::cerr << "Failed to parse TOML config at " << path << ": " << err.what() << "\n";
+        return false;
+    } catch (const std::exception& err) {
+        std::cerr << "Error loading config from " << path << ": " << err.what() << "\n";
+        return false;
+    }
 }
 
 }  // namespace indyemu

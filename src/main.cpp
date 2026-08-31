@@ -45,9 +45,13 @@ int main(int argc, char** argv) {
     indyemu::writeDefaultProfile("default");
 
     indyemu::MachineConfig config;
-    config.ram_bytes = 128u * 1024u * 1024u;
-    config.boot_device = "PROM";
-    config.prom_size_bytes = 512u * 1024u;
+    // Load from TOML config file
+    const auto config_path = indyemu::defaultProfilePath("default");
+    if (std::filesystem::exists(config_path)) {
+        if (!indyemu::loadConfigFromToml(config_path.string(), config)) {
+            std::cerr << "Warning: Failed to load config from " << config_path << ", using defaults\n";
+        }
+    }
 
     indyemu::IndySystem system(config);
     system.setTraceEnabled(trace);
