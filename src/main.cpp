@@ -36,8 +36,15 @@ int main(int argc, char** argv) {
             trace = true;
         } else if (arg == "--steps" && i + 1 < argc) {
             steps = static_cast<std::size_t>(std::stoul(argv[++i]));
-        } else if (i == 1 && arg != "--trace" && arg != "--steps") {
+        } else if (arg == "--steps") {
+            std::cerr << "Warning: --steps requires a value\n";
+        } else if (arg.rfind("--", 0) == 0) {
+            std::cerr << "Warning: unknown option '" << arg << "'\n";
+        } else if (prom_path.empty()) {
+            // Any non-flag argument is the PROM image path, regardless of position.
             prom_path = arg;
+        } else {
+            std::cerr << "Warning: ignoring extra argument '" << arg << "'\n";
         }
     }
 

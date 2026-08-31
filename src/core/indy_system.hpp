@@ -12,6 +12,7 @@
 #include "system/memory_controller.hpp"
 #include "system/rex3.hpp"
 #include "system/rtc.hpp"
+#include "system/vino.hpp"
 
 namespace indyemu {
 
@@ -41,6 +42,7 @@ private:
     Ioc2Controller ioc2_;
     RealTimeClock rtc_;
     MemoryController memory_controller_;
+    Vino vino_;
     std::unique_ptr<Rex3> rex3_;
 };
 

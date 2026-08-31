@@ -21,6 +21,11 @@ constexpr u32 kPromBase = 0x3FC00000u;
 constexpr u32 kRamBase = 0x80000000u;
 constexpr u32 kIoBase = 0x1F000000u;
 
+// EISA I/O space (low physical region). On the Indy this holds the VINO
+// video-input ASIC at 0x00080000-0x0009FFFF (see MAME indy_indigo2.cpp).
+constexpr u32 kEisaIoBase = 0x00080000u;
+constexpr u32 kEisaIoSize = 0x00020000u; // 128KB (0x00080000-0x0009FFFF)
+
 inline u32 signExtend16(u32 value) {
     return static_cast<u32>(static_cast<i32>(static_cast<i16>(value & 0xFFFFu)));
 }

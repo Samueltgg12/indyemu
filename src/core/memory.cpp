@@ -239,6 +239,10 @@ bool Memory::isRamAddress(u32 address) const {
     // addresses translate here via & 0x1FFFFFFF). Also accept the kseg0
     // virtual base form (0x80000000+) for callers that pass untranslated
     // addresses.
+    // The low EISA I/O region (VINO) is carved out of the RAM alias space.
+    if (address >= kEisaIoBase && address < (kEisaIoBase + kEisaIoSize)) {
+        return false;
+    }
     if (address < ram_size_) {
         return true;
     }
@@ -246,6 +250,10 @@ bool Memory::isRamAddress(u32 address) const {
 }
 
 bool Memory::isIoPhysicalAddress(u32 paddr) const {
+    // GIO64 window plus the low EISA I/O region (VINO).
+    if (paddr >= kEisaIoBase && paddr < (kEisaIoBase + kEisaIoSize)) {
+        return true;
+    }
     return paddr >= kIoBase && paddr < (kIoBase + 0x01000000u);
 }
 

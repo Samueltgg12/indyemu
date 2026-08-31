@@ -38,6 +38,7 @@ add_executable(indyemu
     src/system/gio64_bus.cpp
     src/system/rex3.cpp
     src/system/memory_controller.cpp
+    src/system/vino.cpp
 )
 
 target_include_directories(indyemu PRIVATE src)
@@ -176,12 +177,39 @@ add_executable(prom_reset_vector_test
     src/system/gio64_bus.cpp
     src/system/rex3.cpp
     src/system/memory_controller.cpp
+    src/system/vino.cpp
 )
 
 target_include_directories(prom_reset_vector_test PRIVATE src)
 
+add_executable(vino_test
+    tests/vino_test.cpp
+    src/core/memory.cpp
+    src/core/cpu/mips_cpu.cpp
+    src/core/indy_system.cpp
+    src/core/audio.cpp
+    src/core/framebuffer.cpp
+    src/core/graphics.cpp
+    src/gfx/xl_graphics.cpp
+    src/io/register_map.cpp
+    src/io/hal2_audio.cpp
+    src/io/ioc2.cpp
+    src/io/serial.cpp
+    src/io/system_controller.cpp
+    src/system/rtc.cpp
+    src/system/timer.cpp
+    src/system/interrupt_controller.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
+    src/system/memory_controller.cpp
+    src/system/vino.cpp
+)
+
+target_include_directories(vino_test PRIVATE src)
+
 add_test(NAME cpu_r4400_test COMMAND cpu_r4400_test)
 add_test(NAME prom_reset_vector_test COMMAND prom_reset_vector_test)
+add_test(NAME vino_test COMMAND vino_test)
 
 add_executable(hardware_shell_test
     tests/hardware_shell_test.cpp

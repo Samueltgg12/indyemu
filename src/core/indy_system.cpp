@@ -22,6 +22,8 @@ IndySystem::IndySystem(const MachineConfig& config)
     memory_.addIoDevice(&ioc2_, Ioc2Controller::kBase, Ioc2Controller::kSize);
     // Register the memory controller (MC) at 0x1FA00000
     memory_.addIoDevice(&memory_controller_, MemoryController::kBase, MemoryController::kSize);
+    // Register the VINO video input ASIC in the low EISA I/O space (0x00080000)
+    memory_.addIoDevice(&vino_, Vino::kBase, Vino::kSize);
     reset();
 }
 
