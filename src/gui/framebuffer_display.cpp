@@ -1,3 +1,4 @@
+// src/gui/framebuffer_display.cpp
 #include "framebuffer_display.hpp"
 #include "system/rex3.hpp"
 #include <QPainter>

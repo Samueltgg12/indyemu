@@ -1,3 +1,4 @@
+// src/gui/main_window.cpp
 #include "gui/main_window.hpp"
 
 #include "config/indy_config.hpp"
