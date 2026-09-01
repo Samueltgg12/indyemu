@@ -12,9 +12,9 @@
     {
       "path": "/home/samuel/untitledctest/indyemu/.vscode/settings.json",
       "pinnedBy": "auto:editor",
-      "pinnedAt": 1788277096343,
+      "pinnedAt": 1788278221574,
       "auto": "recent-edit",
-      "expiresAt": 1788280696343
+      "expiresAt": 1788281821574
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/src/system/gio64_bus.cpp",
@@ -60,27 +60,25 @@
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/CLAUDE.md",
-      "pinnedBy": "auto:editor",
+      "pinnedBy": "auto:spec",
       "note": "Claude Code instructions",
-      "pinnedAt": 1788277152055,
+      "pinnedAt": 1788278229201,
       "auto": "spec",
-      "role": "spec",
-      "expiresAt": 1788280752055
+      "role": "spec"
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/AGENTS.md",
-      "pinnedBy": "auto:editor",
+      "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788277122909,
+      "pinnedAt": 1788278229201,
       "auto": "spec",
-      "role": "spec",
-      "expiresAt": 1788280722909
+      "role": "spec"
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/README.md",
       "pinnedBy": "auto:spec",
       "note": "Project README",
-      "pinnedAt": 1788277105053,
+      "pinnedAt": 1788278229201,
       "auto": "spec",
       "role": "spec"
     },
@@ -93,5 +91,5 @@
     }
   ],
   "skills": [],
-  "updatedAt": 1788277152055
+  "updatedAt": 1788278229201
 }
