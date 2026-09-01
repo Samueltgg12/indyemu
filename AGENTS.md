@@ -186,7 +186,7 @@ The bus passes the **full physical address**; the device subtracts its own base.
 - New behavior is covered by a test where practical
 - Code follows the conventions in §4 (types, namespace, device pattern)
 
-<!-- AICB:BEGIN {"version":1,"target":"AGENTS.md","generatedAt":"2026-09-01T16:48:56.233Z","hash":"sha256:1a0bda4339f04d958626d5dcacc42d8e25126f1b3ba0e0e8d9b5bfab9f00f7af"} -->
+<!-- AICB:BEGIN {"version":1,"target":"AGENTS.md","generatedAt":"2026-09-01T17:13:57.164Z","hash":"sha256:5af8d4a5304611bf9407019fb433f667848453bf92f0607977dd4a45946ec20a"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -207,6 +207,10 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 - `src/core/graphics.hpp` _(auto:recent-edit)_
 - `src/core/framebuffer.hpp` _(auto:recent-edit)_
 - `hardware-docs/rex3.md` _(auto:dwell)_
+- `src/system/cmap.hpp` _(auto:recent-edit)_
+- `src/system/cmap.cpp` _(auto:recent-edit)_
+- `iris-milestones/README.txt` _(auto:recent-edit)_
+- `hardware-docs/README.txt` _(auto:recent-edit)_
 
 ## How to use this handoff
 1. Read every file under "Spec / context files" before acting.
