@@ -9,3 +9,4 @@ Makefile
 *.exe
 .vscode/
 .DS_Store
+.copilot-specs-cache/

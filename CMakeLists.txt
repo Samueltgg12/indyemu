@@ -41,6 +41,8 @@ add_executable(indyemu
     src/system/rex3.cpp
     src/system/memory_controller.cpp
     src/system/vino.cpp
+    src/system/cmap.cpp
+    src/system/bt445_ramdac.cpp
 )
 
 target_include_directories(indyemu PRIVATE src)
@@ -182,6 +184,8 @@ add_executable(prom_reset_vector_test
     src/system/rex3.cpp
     src/system/memory_controller.cpp
     src/system/vino.cpp
+    src/system/cmap.cpp
+    src/system/bt445_ramdac.cpp
 )
 
 target_include_directories(prom_reset_vector_test PRIVATE src)
@@ -209,6 +213,8 @@ add_executable(vino_test
     src/system/rex3.cpp
     src/system/memory_controller.cpp
     src/system/vino.cpp
+    src/system/cmap.cpp
+    src/system/bt445_ramdac.cpp
 )
 
 target_include_directories(vino_test PRIVATE src)
@@ -295,6 +301,8 @@ add_executable(indyemu_gui
     src/system/rex3.cpp
     src/system/memory_controller.cpp
     src/system/vino.cpp
+    src/system/cmap.cpp
+    src/system/bt445_ramdac.cpp
 )
 
 target_include_directories(indyemu_gui PRIVATE src)

@@ -3,17 +3,10 @@
   "thoughts": [],
   "pinnedFiles": [
     {
-      "path": "/home/samuel/untitledctest/indyemu/.vscode/settings.json",
-      "pinnedBy": "auto:editor",
-      "pinnedAt": 1788279423879,
-      "auto": "recent-edit",
-      "expiresAt": 1788283023879
-    },
-    {
       "path": "/home/samuel/untitledctest/indyemu/CLAUDE.md",
       "pinnedBy": "auto:spec",
       "note": "Claude Code instructions",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862758,
       "auto": "spec",
       "role": "spec"
     },
@@ -21,7 +14,7 @@
       "path": "/home/samuel/untitledctest/indyemu/AGENTS.md",
       "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862758,
       "auto": "spec",
       "role": "spec"
     },
@@ -29,7 +22,7 @@
       "path": "/home/samuel/untitledctest/indyemu/README.md",
       "pinnedBy": "auto:spec",
       "note": "Project README",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862759,
       "auto": "spec",
       "role": "spec"
     },
@@ -37,7 +30,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.agent/AGENTS.md",
       "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions (.agent)",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862758,
       "auto": "spec",
       "role": "spec"
     },
@@ -45,7 +38,7 @@
       "path": "/home/samuel/untitledctest/indyemu/GEMINI.md",
       "pinnedBy": "auto:spec",
       "note": "Gemini instructions",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862758,
       "auto": "spec",
       "role": "spec"
     },
@@ -53,7 +46,7 @@
       "path": "/home/samuel/untitledctest/indyemu/AGENT.md",
       "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862759,
       "auto": "spec",
       "role": "spec"
     },
@@ -61,7 +54,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.cursorrules",
       "pinnedBy": "auto:spec",
       "note": "Cursor rules",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862759,
       "auto": "spec",
       "role": "spec"
     },
@@ -69,7 +62,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.windsurfrules",
       "pinnedBy": "auto:spec",
       "note": "Windsurf rules",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862759,
       "auto": "spec",
       "role": "spec"
     },
@@ -77,60 +70,25 @@
       "path": "/home/samuel/untitledctest/indyemu/.github/copilot-instructions.md",
       "pinnedBy": "auto:spec",
       "note": "GitHub Copilot instructions (.github)",
-      "pinnedAt": 1788282840347,
+      "pinnedAt": 1788291862759,
       "auto": "spec",
       "role": "spec"
     },
     {
-      "path": "/home/samuel/untitledctest/indyemu/src/core/graphics.hpp",
-      "pinnedBy": "auto:editor",
-      "pinnedAt": 1788280970170,
-      "auto": "recent-edit",
-      "expiresAt": 1788284570170
-    },
-    {
-      "path": "/home/samuel/untitledctest/indyemu/src/core/framebuffer.hpp",
-      "pinnedBy": "auto:editor",
-      "pinnedAt": 1788280975953,
-      "auto": "recent-edit",
-      "expiresAt": 1788284575953
-    },
-    {
-      "path": "/home/samuel/untitledctest/indyemu/hardware-docs/rex3.md",
-      "pinnedBy": "auto:editor",
-      "pinnedAt": 1788281334716,
-      "auto": "dwell",
-      "expiresAt": 1788284934716
-    },
-    {
-      "path": "/home/samuel/untitledctest/indyemu/src/system/cmap.hpp",
-      "pinnedBy": "auto:editor",
-      "pinnedAt": 1788282523313,
-      "auto": "recent-edit",
-      "expiresAt": 1788286123313
-    },
-    {
       "path": "/home/samuel/untitledctest/indyemu/src/system/cmap.cpp",
       "pinnedBy": "auto:editor",
-      "pinnedAt": 1788282591978,
+      "pinnedAt": 1788291401435,
       "auto": "recent-edit",
-      "expiresAt": 1788286191978
+      "expiresAt": 1788295001435
     },
     {
-      "path": "/home/samuel/untitledctest/indyemu/iris-milestones/README.txt",
+      "path": "/home/samuel/untitledctest/indyemu/hardware-docs/MD00087 2.50 V2 MIPS64 Instruction Set.md",
       "pinnedBy": "auto:editor",
-      "pinnedAt": 1788282818276,
-      "auto": "recent-edit",
-      "expiresAt": 1788286418276
-    },
-    {
-      "path": "/home/samuel/untitledctest/indyemu/hardware-docs/README.txt",
-      "pinnedBy": "auto:editor",
-      "pinnedAt": 1788282835627,
-      "auto": "recent-edit",
-      "expiresAt": 1788286435627
+      "pinnedAt": 1788290204813,
+      "auto": "dwell",
+      "expiresAt": 1788293804813
     }
   ],
   "skills": [],
-  "updatedAt": 1788282840347
+  "updatedAt": 1788291862759
 }

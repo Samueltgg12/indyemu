@@ -1,4 +1,4 @@
-<!-- AICB:BEGIN {"version":1,"target":".github/copilot-instructions.md","generatedAt":"2026-09-01T17:13:57.181Z","hash":"sha256:5af8d4a5304611bf9407019fb433f667848453bf92f0607977dd4a45946ec20a"} -->
+<!-- AICB:BEGIN {"version":1,"target":".github/copilot-instructions.md","generatedAt":"2026-09-01T19:44:19.408Z","hash":"sha256:3773499d9b8abf737deda634ecf90ab44fa60af8f85d760a9b88ced4287a205f"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -15,14 +15,8 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 - `.github/copilot-instructions.md` _(spec)_ — GitHub Copilot instructions (.github)
 
 ## Working files (current focus)
-- `.vscode/settings.json` _(auto:recent-edit)_
-- `src/core/graphics.hpp` _(auto:recent-edit)_
-- `src/core/framebuffer.hpp` _(auto:recent-edit)_
-- `hardware-docs/rex3.md` _(auto:dwell)_
-- `src/system/cmap.hpp` _(auto:recent-edit)_
 - `src/system/cmap.cpp` _(auto:recent-edit)_
-- `iris-milestones/README.txt` _(auto:recent-edit)_
-- `hardware-docs/README.txt` _(auto:recent-edit)_
+- `hardware-docs/MD00087 2.50 V2 MIPS64 Instruction Set.md` _(auto:dwell)_
 
 ## How to use this handoff
 1. Read every file under "Spec / context files" before acting.
