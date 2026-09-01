@@ -1,4 +1,4 @@
-<!-- AICB:BEGIN {"version":1,"target":"AGENT.md","generatedAt":"2026-09-01T16:37:02.955Z","hash":"sha256:13cd806a787605ebb9a5ed63d990f76cd2f6ff81e70985bdff170fdee372d3d4"} -->
+<!-- AICB:BEGIN {"version":1,"target":"AGENT.md","generatedAt":"2026-09-01T16:48:56.235Z","hash":"sha256:1a0bda4339f04d958626d5dcacc42d8e25126f1b3ba0e0e8d9b5bfab9f00f7af"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -16,6 +16,9 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 
 ## Working files (current focus)
 - `.vscode/settings.json` _(auto:recent-edit)_
+- `src/core/graphics.hpp` _(auto:recent-edit)_
+- `src/core/framebuffer.hpp` _(auto:recent-edit)_
+- `hardware-docs/rex3.md` _(auto:dwell)_
 
 ## How to use this handoff
 1. Read every file under "Spec / context files" before acting.
