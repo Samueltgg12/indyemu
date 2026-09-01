@@ -68,11 +68,12 @@
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/AGENTS.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788278229201,
+      "pinnedAt": 1788278710023,
       "auto": "spec",
-      "role": "spec"
+      "role": "spec",
+      "expiresAt": 1788282310023
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/README.md",
@@ -91,5 +92,5 @@
     }
   ],
   "skills": [],
-  "updatedAt": 1788278229201
+  "updatedAt": 1788278710023
 }
