@@ -186,7 +186,7 @@ The bus passes the **full physical address**; the device subtracts its own base.
 - New behavior is covered by a test where practical
 - Code follows the conventions in §4 (types, namespace, device pattern)
 
-<!-- AICB:BEGIN {"version":1,"target":"AGENTS.md","generatedAt":"2026-09-01T20:14:58.297Z","hash":"sha256:6cf0ed8d4e4370ebff42936f9571518323740e05ee1a1982d8de904fb673d3c1"} -->
+<!-- AICB:BEGIN {"version":1,"target":"AGENTS.md","generatedAt":"2026-09-01T20:37:20.332Z","hash":"sha256:13cd806a787605ebb9a5ed63d990f76cd2f6ff81e70985bdff170fdee372d3d4"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -203,8 +203,6 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 - `.github/copilot-instructions.md` _(spec)_ — GitHub Copilot instructions (.github)
 
 ## Working files (current focus)
-- `src/system/cmap.cpp` _(auto:recent-edit)_
-- `hardware-docs/MD00087 2.50 V2 MIPS64 Instruction Set.md` _(auto:dwell)_
 - `.vscode/settings.json` _(auto:recent-edit)_
 
 ## How to use this handoff
