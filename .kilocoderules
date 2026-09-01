@@ -1,4 +1,4 @@
-<!-- AICB:BEGIN {"version":1,"target":".kilocoderules","generatedAt":"2026-09-01T16:17:42.081Z","hash":"sha256:afac093504bba54505eede325194157209dd96ab4b929c1a0dcda38dbac0ed98"} -->
+<!-- AICB:BEGIN {"version":1,"target":".kilocoderules","generatedAt":"2026-09-01T16:28:02.800Z","hash":"sha256:3e5b5e8ccbcfd438e27eac7d19b0404841cb45cb5a06587610d57a907c09938d"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -15,14 +15,7 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 - `.github/copilot-instructions.md` _(spec)_ — GitHub Copilot instructions (.github)
 
 ## Working files (current focus)
-- `.context/_config.json` _(auto:recent-edit)_
 - `.vscode/settings.json` _(auto:recent-edit)_
-- `src/system/gio64_bus.cpp` _(auto:recent-edit)_
-- `src/core/framebuffer.cpp` _(auto:recent-edit)_
-- `src/system/bt445_ramdac.cpp` _(auto:recent-edit)_
-- `src/system/bt445_ramdac.hpp` _(auto:recent-edit)_
-- `hardware-docs/DQ8003_SeeqTechnology-scanned.md` _(auto:recent-edit)_
-- `hardware-docs/am33c93a-scanned.md` _(auto:recent-edit)_
 - `src/system/rex3.hpp` _(auto:recent-edit)_
 
 ## How to use this handoff
