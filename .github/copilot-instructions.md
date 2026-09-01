@@ -1,4 +1,4 @@
-<!-- AICB:BEGIN {"version":1,"target":".github/copilot-instructions.md","generatedAt":"2026-09-01T19:44:19.408Z","hash":"sha256:3773499d9b8abf737deda634ecf90ab44fa60af8f85d760a9b88ced4287a205f"} -->
+<!-- AICB:BEGIN {"version":1,"target":".github/copilot-instructions.md","generatedAt":"2026-09-01T20:14:59.907Z","hash":"sha256:6cf0ed8d4e4370ebff42936f9571518323740e05ee1a1982d8de904fb673d3c1"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -17,6 +17,7 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 ## Working files (current focus)
 - `src/system/cmap.cpp` _(auto:recent-edit)_
 - `hardware-docs/MD00087 2.50 V2 MIPS64 Instruction Set.md` _(auto:dwell)_
+- `.vscode/settings.json` _(auto:recent-edit)_
 
 ## How to use this handoff
 1. Read every file under "Spec / context files" before acting.
