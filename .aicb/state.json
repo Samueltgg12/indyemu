@@ -81,8 +81,15 @@
       "pinnedAt": 1788276437815,
       "auto": "spec",
       "role": "spec"
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/src/system/rex3.hpp",
+      "pinnedBy": "auto:editor",
+      "pinnedAt": 1788276979999,
+      "auto": "recent-edit",
+      "expiresAt": 1788280579999
     }
   ],
   "skills": [],
-  "updatedAt": 1788276437815
+  "updatedAt": 1788276979999
 }
