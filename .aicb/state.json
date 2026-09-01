@@ -77,11 +77,12 @@
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/README.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Project README",
-      "pinnedAt": 1788279465346,
+      "pinnedAt": 1788279599451,
       "auto": "spec",
-      "role": "spec"
+      "role": "spec",
+      "expiresAt": 1788283199451
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/src/system/rex3.hpp",
@@ -92,18 +93,20 @@
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/.agent/AGENTS.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Multi-agent instructions (.agent)",
-      "pinnedAt": 1788279465346,
+      "pinnedAt": 1788279616304,
       "auto": "spec",
+      "expiresAt": 1788283216304,
       "role": "spec"
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/GEMINI.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Gemini instructions",
-      "pinnedAt": 1788279465346,
+      "pinnedAt": 1788279596372,
       "auto": "spec",
+      "expiresAt": 1788283196372,
       "role": "spec"
     },
     {
@@ -117,10 +120,11 @@
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/.cursorrules",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Cursor rules",
-      "pinnedAt": 1788279465346,
+      "pinnedAt": 1788279607402,
       "auto": "spec",
+      "expiresAt": 1788283207402,
       "role": "spec"
     },
     {
@@ -141,5 +145,5 @@
     }
   ],
   "skills": [],
-  "updatedAt": 1788279482471
+  "updatedAt": 1788279616304
 }
