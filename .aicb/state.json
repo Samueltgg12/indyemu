@@ -68,11 +68,12 @@
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/AGENTS.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788279465346,
+      "pinnedAt": 1788279479275,
       "auto": "spec",
-      "role": "spec"
+      "role": "spec",
+      "expiresAt": 1788283079275
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/README.md",
@@ -107,10 +108,11 @@
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/AGENT.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788279465346,
+      "pinnedAt": 1788279482471,
       "auto": "spec",
+      "expiresAt": 1788283082471,
       "role": "spec"
     },
     {
@@ -139,5 +141,5 @@
     }
   ],
   "skills": [],
-  "updatedAt": 1788279465346
+  "updatedAt": 1788279482471
 }
