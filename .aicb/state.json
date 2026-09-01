@@ -13,38 +13,32 @@
       "path": "/home/samuel/untitledctest/indyemu/CLAUDE.md",
       "pinnedBy": "auto:spec",
       "note": "Claude Code instructions",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625777,
       "auto": "spec",
       "role": "spec"
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/AGENTS.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280678783,
       "auto": "spec",
-      "role": "spec"
+      "role": "spec",
+      "expiresAt": 1788284278783
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/README.md",
       "pinnedBy": "auto:spec",
       "note": "Project README",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625778,
       "auto": "spec",
       "role": "spec"
-    },
-    {
-      "path": "/home/samuel/untitledctest/indyemu/src/system/rex3.hpp",
-      "pinnedBy": "auto:editor",
-      "pinnedAt": 1788276979999,
-      "auto": "recent-edit",
-      "expiresAt": 1788280579999
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/.agent/AGENTS.md",
       "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions (.agent)",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625777,
       "auto": "spec",
       "role": "spec"
     },
@@ -52,7 +46,7 @@
       "path": "/home/samuel/untitledctest/indyemu/GEMINI.md",
       "pinnedBy": "auto:spec",
       "note": "Gemini instructions",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625777,
       "auto": "spec",
       "role": "spec"
     },
@@ -60,7 +54,7 @@
       "path": "/home/samuel/untitledctest/indyemu/AGENT.md",
       "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625777,
       "auto": "spec",
       "role": "spec"
     },
@@ -68,7 +62,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.cursorrules",
       "pinnedBy": "auto:spec",
       "note": "Cursor rules",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625777,
       "auto": "spec",
       "role": "spec"
     },
@@ -76,7 +70,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.windsurfrules",
       "pinnedBy": "auto:spec",
       "note": "Windsurf rules",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625777,
       "auto": "spec",
       "role": "spec"
     },
@@ -84,11 +78,11 @@
       "path": "/home/samuel/untitledctest/indyemu/.github/copilot-instructions.md",
       "pinnedBy": "auto:spec",
       "note": "GitHub Copilot instructions (.github)",
-      "pinnedAt": 1788280085032,
+      "pinnedAt": 1788280625777,
       "auto": "spec",
       "role": "spec"
     }
   ],
   "skills": [],
-  "updatedAt": 1788280085032
+  "updatedAt": 1788280678783
 }

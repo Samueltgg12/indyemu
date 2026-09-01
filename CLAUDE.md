@@ -89,7 +89,7 @@ A change is **done** when: it builds cleanly, tests pass, behavior matches the h
 
 When in doubt about hardware behavior, the docs and the MAME reference win over intuition.
 
-<!-- AICB:BEGIN {"version":1,"target":"CLAUDE.md","generatedAt":"2026-09-01T16:28:02.793Z","hash":"sha256:3e5b5e8ccbcfd438e27eac7d19b0404841cb45cb5a06587610d57a907c09938d"} -->
+<!-- AICB:BEGIN {"version":1,"target":"CLAUDE.md","generatedAt":"2026-09-01T16:37:02.952Z","hash":"sha256:13cd806a787605ebb9a5ed63d990f76cd2f6ff81e70985bdff170fdee372d3d4"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -107,7 +107,6 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 
 ## Working files (current focus)
 - `.vscode/settings.json` _(auto:recent-edit)_
-- `src/system/rex3.hpp` _(auto:recent-edit)_
 
 ## How to use this handoff
 1. Read every file under "Spec / context files" before acting.
