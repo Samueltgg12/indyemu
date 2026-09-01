@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "thoughts": [],
+  "pinnedFiles": [
+    {
+      "path": "/home/samuel/untitledctest/indyemu/.context/_config.json",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435785,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/.vscode/settings.json",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435786,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/src/system/gio64_bus.cpp",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435786,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/src/core/framebuffer.cpp",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435786,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/src/system/bt445_ramdac.cpp",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435786,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/src/system/bt445_ramdac.hpp",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435786,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/hardware-docs/DQ8003_SeeqTechnology-scanned.md",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435786,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/hardware-docs/am33c93a-scanned.md",
+      "pinnedBy": "auto:backfill",
+      "pinnedAt": 1788276435786,
+      "auto": "recent-edit",
+      "expiresAt": 1788280035785
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/CLAUDE.md",
+      "pinnedBy": "auto:spec",
+      "note": "Claude Code instructions",
+      "pinnedAt": 1788276437815,
+      "auto": "spec",
+      "role": "spec"
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/AGENTS.md",
+      "pinnedBy": "auto:spec",
+      "note": "Multi-agent instructions",
+      "pinnedAt": 1788276437815,
+      "auto": "spec",
+      "role": "spec"
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/README.md",
+      "pinnedBy": "auto:spec",
+      "note": "Project README",
+      "pinnedAt": 1788276437815,
+      "auto": "spec",
+      "role": "spec"
+    }
+  ],
+  "skills": [],
+  "updatedAt": 1788276437815
+}
