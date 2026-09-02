@@ -32,23 +32,23 @@ int main() {
   // dsub $4, $1, $2           -> 0xFFFFFFFF7FFFFFFC
   appendWord(prom, 0x0022202Eu);
   // dsll $5, $1, 4            -> 0xFFFFFFF800000000
-  appendWord(prom, 0x000128C0u);
+  appendWord(prom, 0x00012938u);
   // dsrl $6, $1, 4            -> 0x0FFFFFFFF8000000
-  appendWord(prom, 0x000130C2u);
+  appendWord(prom, 0x0001313Au);
   // dsra $7, $1, 4            -> 0xFFFFFFFFF8000000
-  appendWord(prom, 0x000138C3u);
+  appendWord(prom, 0x0001393Bu);
   // dsllv $8, $1, $2          -> 0xFFFFFFF800000000
   appendWord(prom, 0x00414014u);
   // dsrlv $9, $1, $2          -> 0x0FFFFFFFF8000000
   appendWord(prom, 0x00414816u);
   // dsrav $10, $1, $2         -> 0xFFFFFFFFF8000000
   appendWord(prom, 0x00415017u);
-  // dsll32 $11, $1, 4         -> 0x8000000000000000
-  appendWord(prom, 0x000158C4u);
+  // dsll32 $11, $1, 4         -> 0x0000000000000000 (0xFFFFFFFF80000000 << 36)
+  appendWord(prom, 0x0001593Cu);
   // dsrl32 $12, $1, 4         -> 0x0FFFFFFF
-  appendWord(prom, 0x000160C6u);
+  appendWord(prom, 0x0001613Eu);
   // dsra32 $13, $1, 4         -> 0xFFFFFFFFFFFFFFFF
-  appendWord(prom, 0x000168C7u);
+  appendWord(prom, 0x0001693Fu);
 
   {
     std::ofstream out(prom_path, std::ios::binary);
