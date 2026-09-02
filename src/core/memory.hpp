@@ -45,10 +45,12 @@ public:
   u8 read8(u32 address) const;
   u16 read16(u32 address) const;
   u32 read32(u32 address) const;
+  u64 read64(u32 address) const;
 
   void write8(u32 address, u8 value);
   void write16(u32 address, u16 value);
   void write32(u32 address, u32 value);
+  void write64(u32 address, u64 value);
 
   void dumpRange(u32 start, std::size_t length) const;
 
