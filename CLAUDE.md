@@ -89,7 +89,7 @@ A change is **done** when: it builds cleanly, tests pass, behavior matches the h
 
 When in doubt about hardware behavior, the docs and the MAME reference win over intuition.
 
-<!-- AICB:BEGIN {"version":1,"target":"CLAUDE.md","generatedAt":"2026-09-02T00:01:08.652Z","hash":"sha256:297dfab90b1efbd8bd53d3ea8028c13ff234ddc7816dfafb1ee0c6f33ae32375"} -->
+<!-- AICB:BEGIN {"version":1,"target":"CLAUDE.md","generatedAt":"2026-09-02T00:34:33.919Z","hash":"sha256:1d5a551ce408706a2b6c79f04c0acf25f8e4b7f6221f26f83277391f7582d9c8"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -107,7 +107,6 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 
 ## Working files (current focus)
 - `src/core/cpu/mips_cpu.cpp` _(auto:recent-edit)_
-- `src/core/memory.hpp` _(auto:recent-edit)_
 - `tests/cpu_64bit_test.cpp` _(auto:recent-edit)_
 - `CMakeLists.txt` _(auto:recent-edit)_
 

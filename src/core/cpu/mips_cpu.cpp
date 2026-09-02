@@ -579,8 +579,8 @@ void MipsCpu::handleIType(u32 instr, u64 current_pc) {
   case 0x0E: // xori
     setReg(rt, getReg(rs) ^ imm);
     break;
-  case 0x0F: // lui
-    setReg(rt, imm << 16);
+  case 0x0F: // lui (MIPS III: sign-extend the 32-bit result to 64 bits)
+    setReg(rt, static_cast<u64>(static_cast<i32>(imm << 16)));
     break;
   case 0x20: // lb
     setReg(rt, static_cast<u32>(static_cast<i32>(static_cast<i8>(
