@@ -1,4 +1,4 @@
-<!-- AICB:BEGIN {"version":1,"target":"GEMINI.md","generatedAt":"2026-09-02T00:34:33.925Z","hash":"sha256:1d5a551ce408706a2b6c79f04c0acf25f8e4b7f6221f26f83277391f7582d9c8"} -->
+<!-- AICB:BEGIN {"version":1,"target":"GEMINI.md","generatedAt":"2026-09-02T01:33:34.093Z","hash":"sha256:f8d025ad106b156b621a7929bdb234ce1479cafa41a0c47b366ef591331bd062"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -15,9 +15,7 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 - `.github/copilot-instructions.md` _(spec)_ — GitHub Copilot instructions (.github)
 
 ## Working files (current focus)
-- `src/core/cpu/mips_cpu.cpp` _(auto:recent-edit)_
 - `tests/cpu_64bit_test.cpp` _(auto:recent-edit)_
-- `CMakeLists.txt` _(auto:recent-edit)_
 
 ## How to use this handoff
 1. Read every file under "Spec / context files" before acting.

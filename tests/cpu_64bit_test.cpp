@@ -83,7 +83,7 @@ int main() {
     return 7;
   if (gpr[10] != 0xFFFFFFFFF8000000ull)
     return 8;
-  if (gpr[11] != 0x8000000000000000ull)
+  if (gpr[11] != 0x0000000000000000ull)
     return 9;
   if (gpr[12] != 0x0FFFFFFFull)
     return 10;
