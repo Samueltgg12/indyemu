@@ -102,6 +102,17 @@ add_executable(cpu_mul_test
 
 target_include_directories(cpu_mul_test PRIVATE src)
 
+add_executable(cpu_64bit_test
+    tests/cpu_64bit_test.cpp
+    src/core/memory.cpp
+    src/core/cpu/mips_cpu.cpp
+    src/io/register_map.cpp
+    src/system/gio64_bus.cpp
+    src/system/rex3.cpp
+)
+
+target_include_directories(cpu_64bit_test PRIVATE src)
+
 add_executable(register_io_map_test
     tests/register_io_map_test.cpp
     src/core/memory.cpp
@@ -268,6 +279,7 @@ add_test(NAME cpu_jtype_test COMMAND cpu_jtype_test)
 add_test(NAME cpu_branch_test COMMAND cpu_branch_test)
 add_test(NAME mips_iii_branch_likely_test COMMAND mips_iii_branch_likely_test)
 add_test(NAME cpu_mul_test COMMAND cpu_mul_test)
+add_test(NAME cpu_64bit_test COMMAND cpu_64bit_test)
 add_test(NAME register_io_map_test COMMAND register_io_map_test)
 add_test(NAME memory_map_test COMMAND memory_map_test)
 add_test(NAME cpu_cop1_test COMMAND cpu_cop1_test)

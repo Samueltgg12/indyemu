@@ -89,7 +89,7 @@ A change is **done** when: it builds cleanly, tests pass, behavior matches the h
 
 When in doubt about hardware behavior, the docs and the MAME reference win over intuition.
 
-<!-- AICB:BEGIN {"version":1,"target":"CLAUDE.md","generatedAt":"2026-09-01T20:37:20.305Z","hash":"sha256:13cd806a787605ebb9a5ed63d990f76cd2f6ff81e70985bdff170fdee372d3d4"} -->
+<!-- AICB:BEGIN {"version":1,"target":"CLAUDE.md","generatedAt":"2026-09-02T00:01:08.652Z","hash":"sha256:297dfab90b1efbd8bd53d3ea8028c13ff234ddc7816dfafb1ee0c6f33ae32375"} -->
 # AI Context Bridge — Handoff
 
 Workspace: `/home/samuel/untitledctest/indyemu`
@@ -106,7 +106,10 @@ Workspace: `/home/samuel/untitledctest/indyemu`
 - `.github/copilot-instructions.md` _(spec)_ — GitHub Copilot instructions (.github)
 
 ## Working files (current focus)
-- `.vscode/settings.json` _(auto:recent-edit)_
+- `src/core/cpu/mips_cpu.cpp` _(auto:recent-edit)_
+- `src/core/memory.hpp` _(auto:recent-edit)_
+- `tests/cpu_64bit_test.cpp` _(auto:recent-edit)_
+- `CMakeLists.txt` _(auto:recent-edit)_
 
 ## How to use this handoff
 1. Read every file under "Spec / context files" before acting.
