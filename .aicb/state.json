@@ -6,23 +6,24 @@
       "path": "/home/samuel/untitledctest/indyemu/CLAUDE.md",
       "pinnedBy": "auto:spec",
       "note": "Claude Code instructions",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/AGENTS.md",
-      "pinnedBy": "auto:spec",
+      "pinnedBy": "auto:editor",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788317531232,
       "auto": "spec",
-      "role": "spec"
+      "role": "spec",
+      "expiresAt": 1788321131232
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/README.md",
       "pinnedBy": "auto:spec",
       "note": "Project README",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
@@ -30,7 +31,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.agent/AGENTS.md",
       "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions (.agent)",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
@@ -38,7 +39,7 @@
       "path": "/home/samuel/untitledctest/indyemu/GEMINI.md",
       "pinnedBy": "auto:spec",
       "note": "Gemini instructions",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
@@ -46,7 +47,7 @@
       "path": "/home/samuel/untitledctest/indyemu/AGENT.md",
       "pinnedBy": "auto:spec",
       "note": "Multi-agent instructions",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
@@ -54,7 +55,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.cursorrules",
       "pinnedBy": "auto:spec",
       "note": "Cursor rules",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
@@ -62,7 +63,7 @@
       "path": "/home/samuel/untitledctest/indyemu/.windsurfrules",
       "pinnedBy": "auto:spec",
       "note": "Windsurf rules",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
@@ -70,25 +71,32 @@
       "path": "/home/samuel/untitledctest/indyemu/.github/copilot-instructions.md",
       "pinnedBy": "auto:spec",
       "note": "GitHub Copilot instructions (.github)",
-      "pinnedAt": 1788316096750,
+      "pinnedAt": 1788316981196,
       "auto": "spec",
       "role": "spec"
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/src/core/memory.hpp",
       "pinnedBy": "auto:editor",
-      "pinnedAt": 1788316052977,
+      "pinnedAt": 1788319224563,
       "auto": "recent-edit",
-      "expiresAt": 1788319652977
+      "expiresAt": 1788322824563
     },
     {
       "path": "/home/samuel/untitledctest/indyemu/src/core/memory.cpp",
       "pinnedBy": "auto:editor",
-      "pinnedAt": 1788316159443,
+      "pinnedAt": 1788319184423,
       "auto": "recent-edit",
-      "expiresAt": 1788319759443
+      "expiresAt": 1788322784423
+    },
+    {
+      "path": "/home/samuel/untitledctest/indyemu/src/core/cpu/mips_cpu.cpp",
+      "pinnedBy": "auto:editor",
+      "pinnedAt": 1788319275247,
+      "auto": "recent-edit",
+      "expiresAt": 1788322875247
     }
   ],
   "skills": [],
-  "updatedAt": 1788316159443
+  "updatedAt": 1788319275247
 }

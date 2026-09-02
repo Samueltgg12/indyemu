@@ -343,16 +343,17 @@ u64 Memory::read64(u32 address) const {
                     static_cast<u64>(read8(address + 7));
   return value;
 }
-return;
-}
-if (isIoPhysicalAddress(paddr)) {
-  const u32 aligned = paddr & ~3u;
-  const u32 shift = (paddr & 3u) * 8u;
-  const u32 mask = 0xFFu << shift;
-  const u32 current = io_bus_.read32(aligned);
-  io_bus_.write32(aligned,
-                  (current & ~mask) | (static_cast<u32>(value) << shift));
-}
+
+void Memory::write8(u32 address, u8 value) {
+  const u32 paddr = translateAddress(address);
+  if (isIoPhysicalAddress(paddr)) {
+    const u32 aligned = paddr & ~3u;
+    const u32 shift = (paddr & 3u) * 8u;
+    const u32 mask = 0xFFu << shift;
+    const u32 current = io_bus_.read32(aligned);
+    io_bus_.write32(aligned,
+                    (current & ~mask) | (static_cast<u32>(value) << shift));
+  }
 }
 
 void Memory::write16(u32 address, u16 value) {
@@ -401,15 +402,17 @@ void Memory::write64(u32 address, u64 value) {
   write8(address + 6, static_cast<u8>((value >> 8) & 0xFFu));
   write8(address + 7, static_cast<u8>(value & 0xFFu));
 }
-for (std::size_t i = 0; i < length; ++i) {
-  if ((i % 16) == 0) {
-    std::cout << "\n0x" << std::setw(8) << std::hex
-              << (start + static_cast<u32>(i)) << ": ";
+
+void Memory::dumpRange(u32 start, std::size_t length) const {
+  for (std::size_t i = 0; i < length; ++i) {
+    if ((i % 16) == 0) {
+      std::cout << "\n0x" << std::setw(8) << std::hex
+                << (start + static_cast<u32>(i)) << ": ";
+    }
+    std::cout << std::setw(2) << std::hex
+              << static_cast<int>(read8(start + static_cast<u32>(i))) << ' ';
   }
-  std::cout << std::setw(2) << std::hex
-            << static_cast<int>(read8(start + static_cast<u32>(i))) << ' ';
-}
-std::cout << std::dec << "\n";
+  std::cout << std::dec << "\n";
 }
 
 // TLB operations

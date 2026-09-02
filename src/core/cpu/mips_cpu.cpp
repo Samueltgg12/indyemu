@@ -218,6 +218,10 @@ void MipsCpu::executeInstruction(u32 instr, u64 current_pc) {
   case 0x0D:
   case 0x0E:
   case 0x0F:
+  case 0x18: // daddi
+  case 0x19: // daddiu
+  case 0x1A: // ldl
+  case 0x1B: // ldr
   case 0x20:
   case 0x21:
   case 0x23:
@@ -245,6 +249,7 @@ void MipsCpu::executeInstruction(u32 instr, u64 current_pc) {
   case 0x39:
   case 0x3A:
   case 0x3B:
+  case 0x3F: // sd
     handleIType(instr, current_pc);
     break;
   case 0x10:
@@ -564,6 +569,12 @@ void MipsCpu::handleIType(u32 instr, u64 current_pc) {
   case 0x09: // addiu
     setReg(rt, getReg(rs) + static_cast<u32>(simm));
     break;
+  case 0x18: // daddi (MIPS III): 64-bit add with sign-extended immediate
+    setReg(rt, getReg(rs) + static_cast<u64>(simm));
+    break;
+  case 0x19: // daddiu (MIPS III): 64-bit add with sign-extended immediate
+    setReg(rt, getReg(rs) + static_cast<u64>(simm));
+    break;
   case 0x0A: // slti
     setReg(rt, (static_cast<i32>(getReg(rs)) < simm) ? 1u : 0u);
     break;
@@ -616,6 +627,24 @@ void MipsCpu::handleIType(u32 instr, u64 current_pc) {
     setReg(rt, (getReg(rt) & (0xFFFFFFFFu << (32u - shift))) |
                    (word >> (24u - shift)));
   } break;
+  case 0x1A: // ldl (MIPS III): load doubleword left (unaligned)
+  {
+    const u32 addr = getReg(rs) + static_cast<u32>(simm);
+    const u32 aligned = addr & ~7u;
+    const u64 value = memory_.read64(aligned);
+    const u32 shift = (addr & 7u) * 8u;
+    const u64 mask = 0xFFFFFFFFFFFFFFFFull >> shift;
+    setReg(rt, (getReg(rt) & ~mask) | (value << shift));
+  } break;
+  case 0x1B: // ldr (MIPS III): load doubleword right (unaligned)
+  {
+    const u32 addr = getReg(rs) + static_cast<u32>(simm);
+    const u32 aligned = addr & ~7u;
+    const u64 value = memory_.read64(aligned);
+    const u32 shift = (addr & 7u) * 8u;
+    setReg(rt, (getReg(rt) & (0xFFFFFFFFFFFFFFFFull << (64u - shift))) |
+                   (value >> (56u - shift)));
+  } break;
   case 0x28: // sb
     memory_.write8(getReg(rs) + static_cast<u32>(simm),
                    static_cast<u8>(getReg(rt) & 0xFFu));
@@ -645,6 +674,25 @@ void MipsCpu::handleIType(u32 instr, u64 current_pc) {
     memory_.write32(aligned, (word & (0xFFFFFFFFu >> (32u - shift))) |
                                  ((getReg(rt) << (24u - shift)) & 0xFFFFFFFFu));
   } break;
+  case 0x2C: // sdl (MIPS III): store doubleword left (unaligned)
+  {
+    const u32 addr = getReg(rs) + static_cast<u32>(simm);
+    const u32 aligned = addr & ~7u;
+    const u64 value = memory_.read64(aligned);
+    const u32 shift = (addr & 7u) * 8u;
+    memory_.write64(aligned, (value & (0xFFFFFFFFFFFFFFFFull << (shift + 8u))) |
+                                 ((getReg(rt) >> (56u - shift)) & 0xFFull));
+  } break;
+  case 0x2D: // sdr (MIPS III): store doubleword right (unaligned)
+  {
+    const u32 addr = getReg(rs) + static_cast<u32>(simm);
+    const u32 aligned = addr & ~7u;
+    const u64 value = memory_.read64(aligned);
+    const u32 shift = (addr & 7u) * 8u;
+    memory_.write64(
+        aligned, (value & (0xFFFFFFFFFFFFFFFFull >> (64u - shift))) |
+                     ((getReg(rt) << (56u - shift)) & 0xFFFFFFFFFFFFFFFFull));
+  } break;
   case 0x2F: // cache / pref: no-op in early PROM boot and warm startup paths
     break;
   case 0x30: // ll
@@ -662,11 +710,15 @@ void MipsCpu::handleIType(u32 instr, u64 current_pc) {
     break;
   case 0x36: // swc1 / no-op stub
     break;
-  case 0x37: // swc2 / no-op stub
+  case 0x37: // ld (MIPS III): load doubleword
+    setReg(rt, memory_.read64(getReg(rs) + static_cast<u32>(simm)));
     break;
   case 0x38: // sc
     memory_.write32(getReg(rs) + static_cast<u32>(simm), getReg(rt));
     setReg(rt, 1u);
+    break;
+  case 0x3F: // sd (MIPS III): store doubleword
+    memory_.write64(getReg(rs) + static_cast<u32>(simm), getReg(rt));
     break;
   default:
     illegalInstruction(instr);
